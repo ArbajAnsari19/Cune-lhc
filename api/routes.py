@@ -20,6 +20,7 @@ from services.analyze import (
 from services.doc_classification import classify_verification_documents
 from services.user_kyc import generate_user_kyc
 from services.structured_summary import run_structured_summary_prompt, consolidate_structured_summaries
+from services.chat import answer_query
 from models.schemas import LifeSummary, PropertyCasualtySummary
 from config.settings import (
     NANONETS_API_KEY,
@@ -39,7 +40,8 @@ async def root():
         "endpoints": {
             "extraction": ["/extract"],
             "analysis": ["/analysis"],
-            "kyc": ["/get_kyc"]
+            "kyc": ["/get_kyc"],
+            "chat": ["/chat"]
         }
     }
 
@@ -119,24 +121,46 @@ async def extract_pdfs(
         shutil.rmtree(temp_dir, ignore_errors=True)
 
 @router.post("/get_kyc")
-async def get_kyc():
-    """Run document classification over outputs and then build user_kyc.json."""
+async def get_kyc(
+    submission_id: Optional[str] = Query(None, description="Optional submission ID for organizing files per submission")
+):
+    """
+    Run document classification over outputs and then build user_kyc.json.
+    
+    If submission_id is provided:
+    - Reads JSON files from outputs/{submission_id}/
+    - Moves classified files to verification_documents/{submission_id}/
+    - Generates user_kyc.json in verification_documents/{submission_id}/
+    
+    If submission_id is not provided (backward compatible):
+    - Reads JSON files from outputs/
+    - Moves classified files to verification_documents/
+    - Generates user_kyc.json in verification_documents/
+    """
     classification_status = "success"
     kyc_status = "success"
-    verification_dir = os.path.abspath(os.path.join(OUTPUT_DIR, os.pardir, "verification_documents"))
+    
+    # Determine verification directory based on submission_id
+    base_root = os.path.abspath(os.path.join(OUTPUT_DIR, os.pardir))
+    if submission_id:
+        verification_dir = os.path.join(base_root, "verification_documents", submission_id)
+    else:
+        verification_dir = os.path.join(base_root, "verification_documents")
+    
     kyc_file = os.path.join(verification_dir, "user_kyc.json")
 
     try:
-        classify_verification_documents()
+        classify_verification_documents(submission_id=submission_id)
     except Exception as e:
         classification_status = f"error: {str(e)}"
 
     try:
-        generate_user_kyc()
+        generate_user_kyc(submission_id=submission_id)
     except Exception as e:
         kyc_status = f"error: {str(e)}"
 
     return JSONResponse(content={
+        "submission_id": submission_id,
         "classification": classification_status,
         "kyc": kyc_status,
         "verification_dir": verification_dir,
@@ -396,3 +420,50 @@ async def structured_summary(
             "errors": errors + [{"source_file": "CONSOLIDATION", "error": str(e)}],
             "timestamp": datetime.now().isoformat()
         }, status_code=200)
+
+
+@router.post("/chat")
+async def chat_with_documents(
+    query: str = Query(..., description="The question to ask about the documents"),
+    submission_id: str = Query(..., description="Submission ID to identify which documents to query"),
+    insurance_type: Literal["life", "property_casualty"] = Query("property_casualty", description="Type of insurance analysis"),
+    top_k: int = Query(6, ge=1, le=20, description="Number of relevant chunks to retrieve"),
+    temperature: float = Query(0.2, ge=0.0, le=2.0, description="Temperature for response generation")
+):
+    """
+    Chat with documents using RAG (Retrieval-Augmented Generation)
+    
+    This endpoint allows you to ask questions about extracted documents for a specific submission.
+    It automatically initializes embeddings when JSON files are available in outputs/{submission_id}/.
+    
+    Args:
+        query: The question to ask about the documents
+        submission_id: Submission ID to identify which documents to query (must match the submission_id used in /extract)
+        insurance_type: Type of insurance analysis ('life' or 'property_casualty')
+        top_k: Number of relevant chunks to retrieve (1-20)
+        temperature: Temperature for response generation (0.0-2.0)
+    
+    Returns:
+        JSON response with the answer
+    """
+    try:
+        answer = await answer_query(
+            submission_id=submission_id,
+            query=query,
+            insurance_type=insurance_type,
+            top_k=top_k,
+            temperature=temperature
+        )
+        
+        return JSONResponse(content={
+            "submission_id": submission_id,
+            "query": query,
+            "answer": answer,
+            "insurance_type": insurance_type,
+            "timestamp": datetime.now().isoformat()
+        }, status_code=200)
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error processing chat query: {str(e)}"
+        )

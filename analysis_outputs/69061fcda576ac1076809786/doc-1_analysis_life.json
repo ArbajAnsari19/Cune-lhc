@@ -1,0 +1,51 @@
+{
+  "source_file": "doc-1.json",
+  "analysis_timestamp": "2025-11-04T18:44:53.097393",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document is an Aadhaar card issued by the Unique Identification Authority of India (Government of India) for Masoob Alam. This is a national identity document containing personal identification information including name, date of birth, gender, address, and unique identification numbers (Aadhaar number and virtual ID). For life insurance underwriting purposes, this document provides basic demographic information about the applicant, confirming their identity, age (21 years old based on DOB of 18/12/2001), gender (male), and residential address in Ranchi, Jharkhand. This document serves as primary identification verification but does not contain any medical, financial, or lifestyle information directly relevant to risk assessment.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (21 years old) may indicate limited credit or insurance history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Document provides identity verification only, with no health or lifestyle information for proper risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nWhile the Aadhaar card provides basic identity verification, it is insufficient for life insurance underwriting. The following additional documents are required:\n\n1. **Medical information**: Request a completed health questionnaire and medical examination results\n2. **Income verification**: Request salary slips, tax returns, or bank statements to verify income and determine appropriate coverage amount\n3. **Lifestyle information**: Request details about occupation, hobbies, smoking/alcohol habits, and other risk factors\n4. **Family medical history**: Request information about family history of hereditary conditions\n5. **Beneficiary information**: Request details about intended beneficiaries and their relationship to the applicant\n\nThe application cannot proceed without this additional information as the current document only confirms basic identity details.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about pre-existing conditions, current medications, or recent medical treatments"
+      },
+      {
+        "item_description": "Occupation details and income verification",
+        "notes": "No information about applicant's occupation, workplace hazards, or income level to assess appropriate coverage amount"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, dangerous hobbies, or other lifestyle risk factors"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about family history of hereditary conditions that could affect mortality risk"
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiary information",
+        "notes": "No details about desired coverage amount, term length, or intended beneficiaries"
+      }
+    ],
+    "confidence_score": 0.9
+  }
+}

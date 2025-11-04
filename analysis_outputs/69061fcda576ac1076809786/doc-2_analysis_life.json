@@ -1,0 +1,73 @@
+{
+  "source_file": "doc-2.json",
+  "analysis_timestamp": "2025-11-04T18:45:14.237156",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a life insurance application form for MASOOB ALAM, a 23-year-old single male (DOB: 18/12/2001). The applicant is employed as an Engineer with a reported gross monthly income of ₹180,000. He has designated his father, AFTAB ALAM, as the nominee/beneficiary. The application indicates the applicant is in good health, does not consume tobacco or alcohol (though there's a note about stopping tobacco in 2024), and has no reported medical conditions except a mention of 'Thyroid' in the details section. The insurance period is set from 20/09/2025 to 21/10/2026, with an individual sum insured option under Plan A. The applicant has selected cheque as the preferred payment mode and phone as the preferred contact mode.",
+    "identified_risks": [
+      {
+        "risk_description": "Potential thyroid condition mentioned in health details",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Inconsistency regarding tobacco use - states 'No' for tobacco consumption but indicates stopping in 2024",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "High monthly income (₹180,000) without verification documentation",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Tobacco use inconsistency",
+        "details": "Applicant indicates 'No' for tobacco consumption but lists '2024' as the year they stopped using tobacco",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Thyroid condition disclosure inconsistency",
+        "details": "Applicant answers 'No' to all disease/illness questions but mentions 'Thyroid' in the details section for questions 3a/3b",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "The document mentions a thyroid condition without specific timeline details. There's also an inconsistency regarding tobacco use, with the applicant indicating they stopped using tobacco in 2024 despite answering 'No' to tobacco consumption.",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request Additional Information**\n\n1. **Medical Information**: Request clarification and medical records regarding the thyroid condition mentioned in the application. The severity, treatment history, and current status should be documented.\n\n2. **Tobacco Use Clarification**: Obtain clarification on the tobacco use history, as there is an inconsistency between stating no tobacco use while also indicating cessation in 2024.\n\n3. **Income Verification**: Request documentation to verify the stated monthly income of ₹180,000, such as tax returns, additional pay stubs, or employer verification, to ensure the coverage amount is appropriate for the applicant's financial situation.\n\n4. **Coverage Amount Justification**: The application does not specify the benefit amount/sum insured. This information is critical for assessing the appropriateness of coverage relative to the applicant's income and needs.\n\nOnce these items are addressed, the application can be reconsidered. The applicant appears to be a young professional with generally good health aside from the potential thyroid condition, which may require standard or slightly rated coverage depending on the specifics of the condition.",
+    "missing_information": [
+      {
+        "item_description": "Specific details about thyroid condition",
+        "notes": "Need diagnosis date, severity, treatment plan, and current status"
+      },
+      {
+        "item_description": "Clarification on tobacco use history",
+        "notes": "Resolve inconsistency between 'No' tobacco use answer and indication of stopping in 2024"
+      },
+      {
+        "item_description": "Income verification documentation",
+        "notes": "Request pay stubs, tax returns, or employer verification to confirm the stated monthly income of ₹180,000"
+      },
+      {
+        "item_description": "Benefit amount/sum insured",
+        "notes": "The application does not specify the requested coverage amount"
+      },
+      {
+        "item_description": "Payment details",
+        "notes": "Cheque/payment information is incomplete in the application"
+      }
+    ],
+    "confidence_score": 0.8
+  }
+}

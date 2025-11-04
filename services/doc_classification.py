@@ -4,7 +4,7 @@ import shutil
 from config.settings import OUTPUT_DIR
 
 
-def classify_verification_documents(base_dir: str = OUTPUT_DIR, target_dir: str | None = None) -> None:
+def classify_verification_documents(base_dir: str = OUTPUT_DIR, target_dir: str | None = None, submission_id: str | None = None) -> None:
     """
     Robustly classify JSON files in `base_dir` and move them into `verification_documents`
     (sibling of outputs) using fixed names:
@@ -12,11 +12,18 @@ def classify_verification_documents(base_dir: str = OUTPUT_DIR, target_dir: str 
 
     Behavior:
     - `target_dir` defaults to sibling of OUTPUT_DIR if not provided
+    - If `submission_id` is provided, uses `outputs/{submission_id}/` as base_dir and `verification_documents/{submission_id}/` as target_dir
     - Silent operation (no prints) and no return value
     - Gracefully skips invalid/unsupported files
     """
 
-    if target_dir is None:
+    # Handle submission_id: use submission-specific directories
+    if submission_id:
+        base_dir = os.path.join(OUTPUT_DIR, submission_id)
+        if target_dir is None:
+            base_root = os.path.abspath(os.path.join(OUTPUT_DIR, os.pardir))
+            target_dir = os.path.join(base_root, "verification_documents", submission_id)
+    elif target_dir is None:
         base_root = os.path.abspath(os.path.join(base_dir, os.pardir))
         target_dir = os.path.join(base_root, "verification_documents")
 
@@ -195,6 +202,10 @@ def classify_verification_documents(base_dir: str = OUTPUT_DIR, target_dir: str 
             return best_type
         return None
 
+    # Check if base_dir exists
+    if not os.path.exists(base_dir):
+        return
+    
     # iterate files silently
     for file_name in os.listdir(base_dir):
         if not file_name.lower().endswith(".json"):

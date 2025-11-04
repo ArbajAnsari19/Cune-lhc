@@ -22,6 +22,7 @@ AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
 MAX_WORKERS = 10
 OUTPUT_DIR = "outputs"
 ANALYSIS_OUTPUT_DIR = "analysis_outputs"
+CHROMA_STORE_PATH = "./chroma_store"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(ANALYSIS_OUTPUT_DIR, exist_ok=True)
 

@@ -107,7 +107,7 @@ def _extract_father_from_aadhaar_address(records: List[Dict[str, Any]]):
     return _first_from_records(records, _KEY_VARIANTS["aadhaar_father"])
 
 
-def generate_user_kyc(base_dir: str | None = None) -> None:
+def generate_user_kyc(base_dir: str | None = None, submission_id: str | None = None) -> None:
     """
     Consolidate KYC fields from documents in verification_documents into user_kyc.json.
 
@@ -119,10 +119,17 @@ def generate_user_kyc(base_dir: str | None = None) -> None:
       DL No.: Driving Licence only
       DOB: Passport > Aadhaar > Voter > PAN > DL
       Address: Aadhaar > Voter > PAN > DL > Passport
+    
+    Args:
+        base_dir: Directory containing verification documents (aadhaar.json, pan.json, etc.)
+        submission_id: Optional submission ID to use submission-specific directory
     """
     if base_dir is None:
         base_root = os.path.abspath(os.path.join(OUTPUT_DIR, os.pardir))
-        base_dir = os.path.join(base_root, "verification_documents")
+        if submission_id:
+            base_dir = os.path.join(base_root, "verification_documents", submission_id)
+        else:
+            base_dir = os.path.join(base_root, "verification_documents")
 
     os.makedirs(base_dir, exist_ok=True)
 
