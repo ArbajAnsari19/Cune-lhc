@@ -1,0 +1,59 @@
+{
+  "source_file": "doc-1.json",
+  "analysis_timestamp": "2025-11-04T21:42:50.866852",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document appears to be an Aadhaar card (India's national identity document) for Masoob Alam, a 22-year-old male born on December 18, 2001. The extracted data includes personal identification information such as name, gender, date of birth, Aadhaar number, and virtual ID. The document also contains address information for what appears to be a relative named Aftab Alam residing in Ranchi, Jharkhand. This is not a salary slip or invoice but rather an identity verification document that provides basic demographic information relevant for life insurance underwriting, including age and gender which are primary factors in determining life insurance premiums and eligibility.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (22 years old) may indicate limited insurance history and financial stability",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Potential identity verification concerns due to two different names appearing in the document (Masoob Alam and Aftab Alam)",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Multiple individuals listed on identification document",
+        "details": "The document contains information for two individuals: Masoob Alam (appears to be the primary cardholder) and Aftab Alam (appears with address details). This raises questions about whose life is being insured and the relationship between these individuals.",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\n1. **Clarify Identity**: Determine which individual (Masoob Alam or Aftab Alam) is the actual insurance applicant and their relationship to each other. If Aftab Alam is a beneficiary or guardian, this should be clearly documented.\n\n2. **Obtain Medical Information**: No health information is present in this document. Request a completed health questionnaire and medical records if required based on coverage amount.\n\n3. **Verify Financial Information**: Request income verification documents (salary slips, tax returns) to assess premium payment capacity and justify coverage amount, especially given the applicant's young age (22).\n\n4. **Beneficiary Information**: Request clear documentation of intended beneficiaries and their relationship to the insured.\n\n5. **Occupation Details**: Request information about the applicant's occupation and employment status to complete risk assessment.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No health information is provided in the identity document. A health questionnaire and possibly medical examination results are needed for proper underwriting."
+      },
+      {
+        "item_description": "Income verification and employment details",
+        "notes": "Financial information is needed to assess premium payment capacity and justify coverage amount."
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "Information about smoking, alcohol use, dangerous hobbies, etc. is needed for risk assessment."
+      },
+      {
+        "item_description": "Coverage amount requested and beneficiary details",
+        "notes": "No information about desired coverage amount or beneficiaries is provided."
+      },
+      {
+        "item_description": "Clarification on relationship between Masoob Alam and Aftab Alam",
+        "notes": "Document contains two different names, requiring clarification on their relationship and who is the actual insurance applicant."
+      }
+    ],
+    "confidence_score": 0.7
+  }
+}

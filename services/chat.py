@@ -48,26 +48,39 @@ def chunk_text(text: str, max_chars: int = 2000, overlap: int = 200) -> List[str
     return chunks
 
 
-def load_json_files_for_submission(submission_id: str) -> List[Dict]:
-    """Load all JSON files from the submission-specific outputs folder."""
+def load_json_files_for_submission(submission_id: str, from_s3: bool = False) -> List[Dict]:
+    """Load all JSON files from the submission-specific outputs folder or S3."""
+    from services.extract import get_latest_json_files
+    
     docs = []
-    submission_output_dir = os.path.join(OUTPUT_DIR, submission_id)
     
-    if not os.path.exists(submission_output_dir):
-        return docs
+    if from_s3:
+        # Get files from S3 using existing helper function
+        json_files = get_latest_json_files(submission_id=submission_id, from_s3=True)
+        print(f"📥 Loaded {len(json_files)} JSON files from S3 for submission {submission_id}")
+    else:
+        # Get files from local filesystem (backward compatibility)
+        submission_output_dir = os.path.join(OUTPUT_DIR, submission_id)
+        
+        if not os.path.exists(submission_output_dir):
+            return docs
+        
+        json_files = glob.glob(os.path.join(submission_output_dir, "*.json"))
+        print(f"📥 Loaded {len(json_files)} JSON files from local filesystem for submission {submission_id}")
     
-    json_files = glob.glob(os.path.join(submission_output_dir, "*.json"))
     if not json_files:
         return docs
     
+    # Load JSON content from files
     for file_path in json_files:
-        with open(file_path, "r", encoding="utf-8") as f:
-            try:
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 content = json.dumps(data, indent=2)
                 docs.append({"source": os.path.basename(file_path), "content": content})
-            except Exception as e:
-                print(f"⚠️ Skipped {file_path}: {e}")
+        except Exception as e:
+            print(f"⚠️ Skipped {file_path}: {e}")
+    
     return docs
 
 
@@ -114,9 +127,9 @@ def get_or_create_collection(submission_id: str, force_recreate: bool = False) -
                 raise Exception(f"Failed to create or get collection '{collection_name}': {str(e)} (get: {str(e2)}, create: {str(e3)})")
 
 
-def initialize_submission_embeddings(submission_id: str):
+def initialize_submission_embeddings(submission_id: str, from_s3: bool = False):
     """Initialize embeddings for a submission by loading and chunking JSON files."""
-    documents = load_json_files_for_submission(submission_id)
+    documents = load_json_files_for_submission(submission_id, from_s3=from_s3)
     if not documents:
         return
     
@@ -241,20 +254,29 @@ async def answer_query(
     query: str,
     insurance_type: str = "property_casualty",
     top_k: int = 6,
-    temperature: float = 0.2
+    temperature: float = 0.2,
+    from_s3: bool = False
 ) -> str:
     """Generate an answer using retrieved context + chat memory for a submission."""
     if not query.strip():
         return "Please ask a question about the data."
     
     # Check if JSON files exist for this submission
-    submission_output_dir = os.path.join(OUTPUT_DIR, submission_id)
-    if not os.path.exists(submission_output_dir):
-        return f"No documents found for submission_id: {submission_id}. Please extract PDFs first."
+    from services.extract import get_latest_json_files
     
-    json_files = glob.glob(os.path.join(submission_output_dir, "*.json"))
-    if not json_files:
-        return f"No JSON files found for submission_id: {submission_id}. Please extract PDFs first."
+    if from_s3:
+        json_files = get_latest_json_files(submission_id=submission_id, from_s3=True)
+        if not json_files:
+            return f"No JSON files found in S3 for submission_id: {submission_id}. Please extract PDFs first."
+    else:
+        # Backward compatibility: check local filesystem
+        submission_output_dir = os.path.join(OUTPUT_DIR, submission_id)
+        if not os.path.exists(submission_output_dir):
+            return f"No documents found for submission_id: {submission_id}. Please extract PDFs first."
+        
+        json_files = glob.glob(os.path.join(submission_output_dir, "*.json"))
+        if not json_files:
+            return f"No JSON files found for submission_id: {submission_id}. Please extract PDFs first."
     
     # Ensure embeddings are initialized (automatically activates when JSON files are available)
     # Always use OpenAI embedding function for fast performance (same as chatbot.py)
@@ -264,8 +286,8 @@ async def answer_query(
         if doc_count == 0:
             # Check if JSON files exist before initializing
             if json_files:
-                print(f"📚 Initializing embeddings for submission {submission_id} with {len(json_files)} JSON files using OpenAI...")
-                initialize_submission_embeddings(submission_id)
+                print(f"📚 Initializing embeddings for submission {submission_id} with {len(json_files)} JSON files using OpenAI... (from_s3={from_s3})")
+                initialize_submission_embeddings(submission_id, from_s3=from_s3)
                 # Re-get collection after initialization (refresh cache)
                 collection = get_or_create_collection(submission_id, force_recreate=False)
                 if collection.count() == 0:
@@ -280,8 +302,8 @@ async def answer_query(
         if "does not exist" in error_msg or "Collection" in error_msg:
             # Collection doesn't exist, initialize it
             if json_files:
-                print(f"📚 Collection not found, initializing embeddings for submission {submission_id}...")
-                initialize_submission_embeddings(submission_id)
+                print(f"📚 Collection not found, initializing embeddings for submission {submission_id}... (from_s3={from_s3})")
+                initialize_submission_embeddings(submission_id, from_s3=from_s3)
                 collection = get_or_create_collection(submission_id, force_recreate=False)
             else:
                 raise Exception(f"No JSON files found for submission {submission_id} and collection doesn't exist")

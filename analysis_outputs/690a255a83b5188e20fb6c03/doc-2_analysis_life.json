@@ -1,0 +1,80 @@
+{
+  "source_file": "doc-2.json",
+  "analysis_timestamp": "2025-11-04T21:43:21.458459",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a life insurance application form for Masoob Alam, a 23-year-old single male born on December 18, 2001. The applicant is employed as an Engineer with a reported gross monthly income of ₹180,000. He has designated his father, Aftab Alam, as the nominee/beneficiary. The applicant reports being in good health with no diseases, does not consume tobacco or alcohol (though there's an indication he may have stopped tobacco use in 2024), and states his occupation is not associated with hazards. The application includes basic biometric information (height: 1.7m, weight: 62kg), educational qualification (B.Tech), and contact details. The applicant has selected an Individual Sum Insured option with Plan A coverage.",
+    "identified_risks": [
+      {
+        "risk_description": "Potential tobacco use history indicated by 'tobacco_stopped_from_when: 2024' despite 'consume_tobacco: false'",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Thyroid condition mentioned in 'q3a_3b_ailment_details' despite all health questions being answered 'No'",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Very high reported monthly income (₹180,000) for a young engineer (age 23) which may require verification",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Tobacco use status inconsistency",
+        "details": "Applicant indicates 'primary_insured_consume_tobacco: false' but also provides 'primary_insured_tobacco_stopped_from_when: 2024', suggesting previous tobacco use",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Health condition reporting inconsistency",
+        "details": "Applicant reports 'primary_insured_good_health_no_diseases: true' and answers 'No' to all health questions, but 'q3a_3b_ailment_details' mentions 'Thyroid'",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Income verification concern",
+        "details": "Monthly income of ₹180,000 (approximately ₹2.16 million annually) appears unusually high for a 23-year-old engineer, potentially requiring verification",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "No comprehensive medical timeline is available in the document. However, there is a mention of 'Thyroid' in the ailment details section, despite all health-related questions being answered 'No'. The applicant also indicates stopping tobacco use in 2024, though claims not to consume tobacco.",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request additional information before proceeding**\n\n1. **Medical clarification needed**: Request clarification regarding the thyroid condition mentioned in the ailment details section despite all health questions being answered 'No'. Medical records or a physician statement regarding the thyroid condition should be obtained.\n\n2. **Tobacco use clarification**: Request clarification on tobacco use history, as the application indicates stopping in 2024 but also states no tobacco consumption.\n\n3. **Income verification**: Request documentation to verify the reported monthly income of ₹180,000, which appears high for a 23-year-old engineer. This verification is important to ensure appropriate coverage amount and premium payment capacity.\n\n4. **Coverage amount assessment**: Once income is verified, assess if the requested coverage amount (not specified in the extracted data) aligns with the applicant's income level and needs.\n\n5. **Occupation details**: Request more specific information about the engineering role to confirm no occupational hazards exist.\n\nOnce these clarifications are received, the application can be reassessed for underwriting decision.",
+    "missing_information": [
+      {
+        "item_description": "Requested coverage amount/sum insured",
+        "notes": "The extracted data does not specify the actual coverage amount requested, which is essential for assessing appropriateness relative to income and needs"
+      },
+      {
+        "item_description": "Medical records regarding thyroid condition",
+        "notes": "Clarification needed on the thyroid condition mentioned in ailment details despite all health questions being answered 'No'"
+      },
+      {
+        "item_description": "Income verification documentation",
+        "notes": "Salary slips, tax returns, or bank statements to verify the reported monthly income of ₹180,000"
+      },
+      {
+        "item_description": "Tobacco use history details",
+        "notes": "Clarification on tobacco use history, given the inconsistency between 'does not consume tobacco' and 'stopped tobacco in 2024'"
+      },
+      {
+        "item_description": "Detailed occupation information",
+        "notes": "Specific details about the engineering role to confirm no occupational hazards"
+      }
+    ],
+    "confidence_score": 0.8
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "source_file": "doc-3.json",
+  "analysis_timestamp": "2025-11-04T21:11:36.943131",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a comprehensive health report from TATA 1mg for Masoob Alam, a 24-year-old male. The report contains detailed medical test results including complete blood count, lipid profile, liver function tests, kidney function tests, thyroid function tests, and urinalysis. The report is dated September 14, 2025, and includes patient ID MGB1394765. This health report is valuable for life insurance underwriting as it provides current medical information about the applicant's health status, which is essential for risk assessment and premium determination.",
+    "identified_risks": [
+      {
+        "risk_description": "Elevated Hemoglobin (17.3 g/dL) and Hematocrit (51.4%) - slightly above reference range, which could indicate polycythemia or dehydration",
+        "severity": "Low",
+        "page_references": [
+          "3",
+          "6"
+        ]
+      },
+      {
+        "risk_description": "Elevated Lymphocytes (40.3%) - slightly above reference range (20-40%), which could indicate a mild immune response",
+        "severity": "Low",
+        "page_references": [
+          "3",
+          "6"
+        ]
+      },
+      {
+        "risk_description": "Low HDL Cholesterol (29 mg/dL) - below reference range (≥39.9 mg/dL), indicating increased cardiovascular risk",
+        "severity": "Medium",
+        "page_references": [
+          "4",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated Total Bilirubin (1.60 mg/dL) and Indirect Bilirubin (1.11 mg/dL) - above reference ranges, possibly indicating liver function issues or hemolysis",
+        "severity": "Medium",
+        "page_references": [
+          "4",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated Alkaline Phosphatase (122 U/L) - slightly above reference range (50-116 U/L), which could indicate mild liver or bone issues",
+        "severity": "Low",
+        "page_references": [
+          "4",
+          "8"
+        ]
+      },
+      {
+        "risk_description": "Elevated PDW (19.2) - above reference range (9-17), which could indicate platelet activation or abnormality",
+        "severity": "Low",
+        "page_references": [
+          "3",
+          "6"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "**September 14, 2025**: Comprehensive health assessment performed at TATA 1mg, Bangalore\n\n**Key findings**:\n- Complete Blood Count: Slightly elevated hemoglobin (17.3 g/dL), hematocrit (51.4%), and lymphocytes (40.3%)\n- Lipid Profile: Low HDL cholesterol (29 mg/dL)\n- Liver Function Tests: Elevated total bilirubin (1.60 mg/dL), indirect bilirubin (1.11 mg/dL), and alkaline phosphatase (122 U/L)\n- Kidney Function Tests: Normal\n- Thyroid Function Tests: Normal\n- Blood Glucose: Normal fasting glucose (73 mg/dL) and HbA1c (4.8%)\n- Urinalysis: Normal",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Standard Rate with Additional Review**\n\nBased on the medical report for Masoob Alam, a 24-year-old male, I recommend offering life insurance at standard rates pending additional review of the following concerns:\n\n1. **Cardiovascular Risk Assessment**: The applicant's low HDL cholesterol (29 mg/dL) indicates increased cardiovascular risk. Request a cardiovascular risk assessment or additional lipid panels to establish if this is a persistent condition.\n\n2. **Liver Function Evaluation**: The elevated bilirubin levels (total: 1.60 mg/dL, indirect: 1.11 mg/dL) and alkaline phosphatase (122 U/L) suggest potential liver function issues. Request medical records or additional liver function tests to determine if this is a temporary condition or indicative of underlying liver disease.\n\n3. **Hematological Assessment**: Slightly elevated hemoglobin, hematocrit, and PDW warrant further investigation to rule out polycythemia or other blood disorders.\n\nThe applicant's young age (24) and otherwise normal test results (normal glucose metabolism, kidney function, and thyroid function) are positive factors. No lifestyle risk factors (smoking, alcohol consumption) are documented in the available information.\n\nIf additional tests confirm these abnormalities are temporary or clinically insignificant, standard rates would be appropriate. If further testing reveals underlying conditions, a rating adjustment may be necessary.",
+    "missing_information": [
+      {
+        "item_description": "Height, weight, and BMI data",
+        "notes": "These are critical for life insurance risk assessment but are listed as 'Data not available' in the report"
+      },
+      {
+        "item_description": "Blood pressure measurements",
+        "notes": "Listed as 'Data not available' but essential for cardiovascular risk assessment"
+      },
+      {
+        "item_description": "Lifestyle factors (smoking, alcohol consumption)",
+        "notes": "No information provided about tobacco use, alcohol consumption, or other lifestyle risk factors"
+      },
+      {
+        "item_description": "Family history",
+        "notes": "Listed as 'Data not available' but important for assessing hereditary risk factors"
+      },
+      {
+        "item_description": "Occupation details",
+        "notes": "No information about the applicant's occupation, which could affect risk assessment"
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiary information",
+        "notes": "No details about the life insurance coverage being applied for"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

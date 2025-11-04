@@ -1,0 +1,51 @@
+{
+  "source_file": "doc-4.json",
+  "analysis_timestamp": "2025-11-04T21:11:58.453436",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document is a Permanent Account Number (PAN) Card issued by the Income Tax Department of India for MASOOB ALAM. This is an official government identification document that contains the individual's unique PAN number (DXHPA0659G), name, father's name (AFTAB ALAM), and date of birth (December 18, 2001). For life insurance underwriting, this document serves as primary identification verification and provides basic demographic information about the applicant. The PAN card confirms the applicant is 22 years old (born in 2001), which is relevant for age-based risk assessment and premium calculation. This document is not a salary slip or invoice but rather an official identification document that helps establish the applicant's identity for insurance purposes.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (22 years old) may indicate limited financial history and stability",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Limited demographic information available for comprehensive risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nWhile the PAN card provides basic identification verification for MASOOB ALAM, it contains insufficient information for a complete life insurance underwriting assessment. Recommend:\n\n1. Request medical history documentation and health questionnaire to assess health risks\n2. Obtain income verification documents (salary slips, tax returns) to evaluate financial stability and premium payment capacity\n3. Request lifestyle questionnaire to assess risk behaviors and activities\n4. Obtain information about desired coverage amount and beneficiaries\n5. Consider requesting additional identification documents to verify the information on the PAN card\n\nThe PAN card confirms the applicant's age as 22, which may impact premium calculations but requires additional context about the applicant's health, occupation, and financial situation before making a final underwriting decision.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No health information is available in the PAN card. Request medical records, health questionnaire, or medical examination results."
+      },
+      {
+        "item_description": "Income verification and employment details",
+        "notes": "No financial information is available. Request salary slips, tax returns, or bank statements to verify income and financial stability."
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking, alcohol consumption, dangerous activities, or other lifestyle factors that affect mortality risk."
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiary information",
+        "notes": "No details about the desired insurance coverage amount or designated beneficiaries."
+      },
+      {
+        "item_description": "Occupation and industry information",
+        "notes": "No details about the applicant's current occupation, which is needed for occupation-based risk assessment."
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

@@ -428,13 +428,14 @@ async def chat_with_documents(
     submission_id: str = Query(..., description="Submission ID to identify which documents to query"),
     insurance_type: Literal["life", "property_casualty"] = Query("property_casualty", description="Type of insurance analysis"),
     top_k: int = Query(6, ge=1, le=20, description="Number of relevant chunks to retrieve"),
-    temperature: float = Query(0.2, ge=0.0, le=2.0, description="Temperature for response generation")
+    temperature: float = Query(0.2, ge=0.0, le=2.0, description="Temperature for response generation"),
+    from_s3: bool = Query(True, description="Whether to read JSON files from S3 (True) or local filesystem (False)")
 ):
     """
     Chat with documents using RAG (Retrieval-Augmented Generation)
     
     This endpoint allows you to ask questions about extracted documents for a specific submission.
-    It automatically initializes embeddings when JSON files are available in outputs/{submission_id}/.
+    It automatically initializes embeddings when JSON files are available in outputs/{submission_id}/ or S3.
     
     Args:
         query: The question to ask about the documents
@@ -442,6 +443,7 @@ async def chat_with_documents(
         insurance_type: Type of insurance analysis ('life' or 'property_casualty')
         top_k: Number of relevant chunks to retrieve (1-20)
         temperature: Temperature for response generation (0.0-2.0)
+        from_s3: Whether to read JSON files from S3 (default True for production) or local filesystem
     
     Returns:
         JSON response with the answer
@@ -452,7 +454,8 @@ async def chat_with_documents(
             query=query,
             insurance_type=insurance_type,
             top_k=top_k,
-            temperature=temperature
+            temperature=temperature,
+            from_s3=from_s3
         )
         
         return JSONResponse(content={

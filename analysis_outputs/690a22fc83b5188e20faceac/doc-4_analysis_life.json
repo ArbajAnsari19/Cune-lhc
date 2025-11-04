@@ -1,0 +1,40 @@
+{
+  "source_file": "doc-4.json",
+  "analysis_timestamp": "2025-11-04T21:34:21.672727",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document is a Permanent Account Number (PAN) Card issued by the Income Tax Department, Government of India. This is an official identification document that contains the applicant's personal information including name (MASOOB ALAM), father's name (AFTAB ALAM), date of birth (December 18, 2001), and unique PAN number (DXHPA0659G). For life insurance underwriting, this document serves as primary identification verification and provides basic demographic information. The applicant is 21-22 years old (depending on current date), which places them in a young adult category for life insurance risk assessment.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (21-22 years) may indicate limited credit history and financial stability",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation for Life Insurance Underwriting:**\n\n- **Proceed with application processing** as the PAN card provides valid identification verification\n- **Request additional documentation** to complete the risk assessment, including:\n  - Medical examination and health history\n  - Income verification documents to assess premium payment capacity\n  - Occupation details to evaluate occupation-based risks\n  - Lifestyle questionnaire to assess risk behaviors\n  - Details about requested coverage amount and beneficiaries\n- **Consider age-appropriate coverage options** for this young adult applicant\n- **Verify identity** against other submitted documents to ensure consistency",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No health information is available in the PAN card. Request medical examination and health questionnaire."
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "No employment or income information is available. Request employment verification, income proof, and occupation details for risk assessment."
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking, alcohol use, dangerous activities, or other lifestyle factors is available. Request lifestyle questionnaire."
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiary information",
+        "notes": "No details about desired coverage amount, term, or beneficiaries are available. Request application form with coverage specifications."
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

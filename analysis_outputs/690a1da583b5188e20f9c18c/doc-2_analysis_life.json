@@ -1,0 +1,66 @@
+{
+  "source_file": "doc-2.json",
+  "analysis_timestamp": "2025-11-04T21:11:06.259171",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a life insurance application form for MASOOB ALAM, a 23-year-old single male born on 18/12/2001. The applicant is employed as an Engineer with a monthly income of 180,000 (currency not specified). The application is for a new retail insurance policy with coverage period from 20/09/2025 to 21/10/2026. The applicant has selected Plan A with individual coverage. AFTAB ALAM (father) is listed as the nominee. The applicant reports being in good health, with no hazardous occupation, and does not consume tobacco or alcohol. The applicant has indicated having thyroid issues in the medical questionnaire despite answering 'no' to all medical questions. The applicant's height is 1.7 meters and weight is 62 kg, resulting in a normal BMI of 21.5.",
+    "identified_risks": [
+      {
+        "risk_description": "Thyroid condition mentioned in medical details despite answering 'no' to all medical questions",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "High monthly income (180,000) without currency specification or verification",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Medical condition disclosure inconsistency",
+        "details": "Applicant answered 'no' to all medical questions but listed 'Thyroid' in the medical details section 3b",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Missing sum insured amount",
+        "details": "The application indicates Plan A was selected but does not specify the sum insured amount",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "Thyroid condition mentioned without details on diagnosis date, treatment, or current status.",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\n1. **Medical Information**: Request complete details about the thyroid condition including diagnosis date, specific condition type (hypothyroidism, hyperthyroidism, etc.), current treatment regimen, treating physician details, and most recent test results.\n\n2. **Income Verification**: Request documentation to verify the stated monthly income of 180,000 (salary slips, tax returns) to ensure the coverage amount is appropriate for the applicant's income level.\n\n3. **Coverage Details**: Clarify the desired sum insured amount as it's not specified in the application.\n\n4. **Medical Examination**: Consider requesting a medical examination including thyroid function tests to assess the current status and control of the thyroid condition.\n\nOnce this information is received, a more complete risk assessment can be performed. The thyroid condition may require rating or exclusions depending on the specific diagnosis, severity, and control.",
+    "missing_information": [
+      {
+        "item_description": "Thyroid condition details",
+        "notes": "Need diagnosis date, specific condition type, current treatment, and most recent test results"
+      },
+      {
+        "item_description": "Income verification documents",
+        "notes": "Salary slips or tax returns to verify the stated monthly income of 180,000"
+      },
+      {
+        "item_description": "Sum insured amount",
+        "notes": "The application does not specify the requested coverage amount"
+      },
+      {
+        "item_description": "Currency specification",
+        "notes": "Currency for the stated income is not specified"
+      },
+      {
+        "item_description": "Medical records",
+        "notes": "Medical records related to the thyroid condition would be beneficial for risk assessment"
+      }
+    ],
+    "confidence_score": 0.8
+  }
+}

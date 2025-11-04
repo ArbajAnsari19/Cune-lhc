@@ -1,0 +1,69 @@
+{
+  "source_file": "doc-2.json",
+  "analysis_timestamp": "2025-11-04T21:33:22.998286",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a life insurance application form for Masoob Alam, a 23-year-old male (DOB: 18/12/2001) who is applying for new insurance coverage. The applicant is single, works as an Engineer with a reported monthly gross income of ₹180,000, and has nominated his father, Aftab Alam, as the beneficiary. The applicant has selected Plan A with individual sum insured option. The health details indicate the applicant is in good health, does not consume tobacco or alcohol currently (with indication of having stopped tobacco use in 2024), and has no occupational hazards. There is a mention of 'Thyroid' in the health details section, though the applicant has answered 'No' to all health condition questions, creating some ambiguity about whether this is a current condition. The insurance period is set from 20/09/2025 to 21/10/2026.",
+    "identified_risks": [
+      {
+        "risk_description": "Possible thyroid condition mentioned in health details despite 'No' answers to health questions",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Recent tobacco cessation (stopped in 2024) which may still present residual health risks",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "High income-to-age ratio (₹180,000 monthly/₹2,160,000 annually at age 23) which may require verification",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Thyroid condition inconsistency",
+        "details": "The applicant answered 'No' to all health condition questions (Q3, Q3a, Q3b), but 'Thyroid' is listed in the details section for these questions, suggesting a possible undisclosed thyroid condition",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Tobacco use history inconsistency",
+        "details": "The applicant indicated they do not consume tobacco, but there is a stop date of '2024' listed, suggesting recent tobacco use that may not be fully disclosed in the health questionnaire",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "2024: Applicant appears to have stopped using tobacco products\n\nPossible thyroid condition mentioned but details are unclear as all health condition questions were answered 'No'",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request Additional Information**\n\n1. **Medical Information Clarification:**\n   - Request clarification regarding the thyroid condition mentioned in the health details section despite 'No' answers to health questions\n   - Obtain medical records related to any thyroid condition if applicable\n   - Request details about tobacco usage history, including type, quantity, and duration before cessation in 2024\n\n2. **Income Verification:**\n   - Request income verification documentation (tax returns, employment verification) to confirm the high monthly income (₹180,000) for a 23-year-old engineer\n   - Ensure the requested coverage amount is appropriate for the verified income level\n\n3. **Coverage Assessment:**\n   - Once medical and income information is verified, assess appropriate coverage levels based on income (typically 5-10x annual income)\n   - Consider standard rates if thyroid condition is minor/controlled and tobacco cessation is confirmed\n   - Consider rating or exclusions if thyroid condition is significant or tobacco use was substantial and recent",
+    "missing_information": [
+      {
+        "item_description": "Details about thyroid condition",
+        "notes": "Need clarification on whether applicant has a thyroid condition, its severity, treatment, and current status"
+      },
+      {
+        "item_description": "Tobacco usage history",
+        "notes": "Need details on type of tobacco used, quantity, frequency, and duration before cessation in 2024"
+      },
+      {
+        "item_description": "Income verification",
+        "notes": "Need documentation to verify the reported monthly income of ₹180,000 for a 23-year-old engineer"
+      },
+      {
+        "item_description": "Requested coverage amount",
+        "notes": "The sum insured/coverage amount is not specified in the extracted data"
+      }
+    ],
+    "confidence_score": 0.8
+  }
+}
