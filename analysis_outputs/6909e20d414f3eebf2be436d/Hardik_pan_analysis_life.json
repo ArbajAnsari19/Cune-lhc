@@ -1,0 +1,48 @@
+{
+  "source_file": "Hardik_pan.json",
+  "analysis_timestamp": "2025-11-04T16:54:25.796105",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document is a Permanent Account Number (PAN) card issued by the Income Tax Department of India to Hardik Agarwal. The PAN card contains basic identification information including the individual's name, father's name, date of birth (27/03/1994), and PAN number (BKPPA3104H). The card was issued on 21/11/2013. This is an identification document used for tax purposes in India and does not contain any medical, insurance, or risk-related information.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited identification document only",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Information Required**\n\nThe provided PAN card document contains only basic identification information and is insufficient for life insurance underwriting purposes. Request comprehensive medical history, lifestyle information, coverage requirements, beneficiary details, and completed insurance application forms. Age verification is confirmed (currently 29-30 years old), but all other underwriting factors are missing.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and conditions",
+        "notes": "No medical information is provided in the PAN card document."
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, occupation, or other lifestyle factors."
+      },
+      {
+        "item_description": "Coverage amount requested",
+        "notes": "No information about the desired insurance coverage amount."
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "No details about intended beneficiaries for the life insurance policy."
+      },
+      {
+        "item_description": "Insurance application form",
+        "notes": "The complete insurance application form with health declarations is missing."
+      },
+      {
+        "item_description": "Contact information",
+        "notes": "No address, phone number, or email provided for the applicant."
+      }
+    ],
+    "confidence_score": 0.9
+  }
+}

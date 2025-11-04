@@ -1,0 +1,48 @@
+{
+  "source_file": "doc-1.json",
+  "analysis_timestamp": "2025-11-04T17:19:18.851266",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The extracted data contains identification information from an Aadhaar card (India's national ID) for Masoob Alam, a 22-year-old male born on December 18, 2001. The document includes personal details such as name, date of birth, gender, address, and Aadhaar number, but contains no information relevant to life insurance underwriting such as medical history, lifestyle factors, coverage amounts, or beneficiary designations.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (22 years old)",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Unable to proceed with life insurance underwriting assessment**\n\nThe provided document is an Aadhaar identification card that only confirms the applicant's identity, age, gender, and address. This document alone is insufficient for life insurance underwriting purposes. A complete application with health questionnaire, medical examination results (if applicable), lifestyle information, coverage details, and beneficiary information is required before an underwriting decision can be made.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about past or present medical conditions, treatments, or diagnoses"
+      },
+      {
+        "item_description": "Lifestyle factors",
+        "notes": "No information about smoking status, alcohol consumption, occupation, or recreational activities"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about hereditary conditions or family health patterns"
+      },
+      {
+        "item_description": "Insurance coverage details",
+        "notes": "No information about requested coverage amount, term length, or policy type"
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "No designation of policy beneficiaries"
+      },
+      {
+        "item_description": "Financial information",
+        "notes": "No details about income, assets, or financial justification for coverage amount"
+      }
+    ],
+    "confidence_score": 0.9
+  }
+}

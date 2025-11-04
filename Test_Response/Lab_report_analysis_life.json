@@ -1,0 +1,104 @@
+{
+  "source_file": "Lab_report.json",
+  "analysis_timestamp": "2025-10-30T19:07:43.042387",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document contains medical laboratory test results for Mr. Hardik Agarwal, a 31-year-old male. The tests were conducted at TATA 1MG OKHLA on June 25, 2025. The comprehensive health panel includes complete blood count, lipid profile, liver function tests, kidney function tests, thyroid function, vitamin D levels, blood glucose, HbA1c, and urinalysis. The results indicate several health concerns including borderline high cholesterol, pre-diabetes risk (elevated HbA1c), vitamin D deficiency, and slightly elevated liver enzymes.",
+    "identified_risks": [
+      {
+        "risk_description": "Elevated HbA1c (5.9%) indicating pre-diabetes risk",
+        "severity": "Medium",
+        "page_references": [
+          "3"
+        ]
+      },
+      {
+        "risk_description": "Borderline high total cholesterol (210 mg/dL)",
+        "severity": "Medium",
+        "page_references": [
+          "5"
+        ]
+      },
+      {
+        "risk_description": "Elevated LDL cholesterol (128 mg/dL)",
+        "severity": "Medium",
+        "page_references": [
+          "5"
+        ]
+      },
+      {
+        "risk_description": "Elevated triglycerides (168 mg/dL)",
+        "severity": "Medium",
+        "page_references": [
+          "5"
+        ]
+      },
+      {
+        "risk_description": "Vitamin D deficiency (19.5 ng/ml)",
+        "severity": "Medium",
+        "page_references": [
+          "11"
+        ]
+      },
+      {
+        "risk_description": "Slightly elevated SGPT/ALT (46 U/L)",
+        "severity": "Low",
+        "page_references": [
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated ESR (18 mm/hr)",
+        "severity": "Low",
+        "page_references": [
+          "2"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Future-dated medical reports",
+        "details": "All medical reports are dated June 25, 2025, which is a future date, suggesting a possible error in the date entry",
+        "page_references": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "13"
+        ]
+      }
+    ],
+    "medical_timeline": "**June 25, 2025** - Comprehensive health checkup at TATA 1MG OKHLA including:\n- Complete blood count\n- Lipid profile showing borderline high cholesterol (210 mg/dL) and elevated triglycerides (168 mg/dL)\n- HbA1c test showing pre-diabetes risk (5.9%)\n- Fasting glucose test (86 mg/dL) - normal\n- Liver function tests showing slightly elevated SGPT/ALT (46 U/L)\n- Kidney function tests - normal\n- Thyroid function test (TSH 2.813 ulU/ml) - normal\n- Vitamin D test showing deficiency (19.5 ng/ml)\n- Urinalysis - normal",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Standard Rate with Health Exclusions**\n\nMr. Hardik Agarwal presents with multiple moderate health risks that warrant attention but do not necessarily disqualify him from life insurance coverage. His pre-diabetic status (HbA1c 5.9%), borderline high cholesterol profile, and vitamin D deficiency represent modifiable risk factors that could impact long-term health outcomes if not addressed.\n\nRecommend offering coverage at standard rates with potential exclusions or riders related to diabetes and cardiovascular conditions. The applicant should be encouraged to follow up with appropriate medical care to address the identified health concerns.\n\nConsider requesting follow-up testing in 6-12 months to monitor progression of pre-diabetes and cholesterol levels, which could potentially lead to rate improvement if values normalize.",
+    "missing_information": [
+      {
+        "item_description": "Medical history",
+        "notes": "No information about past medical conditions, surgeries, hospitalizations, or family history of diseases"
+      },
+      {
+        "item_description": "Lifestyle factors",
+        "notes": "No information about smoking status, alcohol consumption, exercise habits, or occupation"
+      },
+      {
+        "item_description": "Current medications",
+        "notes": "No information about prescription medications, supplements, or treatments the applicant may be taking"
+      },
+      {
+        "item_description": "Insurance application details",
+        "notes": "No information about requested coverage amount, policy type, or beneficiary information"
+      },
+      {
+        "item_description": "Height and weight",
+        "notes": "No information about BMI or physical measurements"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

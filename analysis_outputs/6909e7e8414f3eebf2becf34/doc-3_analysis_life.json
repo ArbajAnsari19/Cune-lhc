@@ -1,0 +1,147 @@
+{
+  "source_file": "doc-3.json",
+  "analysis_timestamp": "2025-11-04T17:20:16.759295",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a comprehensive health report for Masoob Alam, a 24-year-old male, prepared by TATA 1mg Labs. The report, dated September 14, 2025, includes results from various blood tests, urine analysis, and thyroid function tests. It's a Personal Health Smart Report that provides detailed information about the patient's current health status, including hematology, blood glucose, lipid profile, liver function, kidney function, and thyroid function. The purpose of this document is to provide a complete health assessment for potential life insurance underwriting.",
+    "identified_risks": [
+      {
+        "risk_description": "Elevated Hemoglobin (17.3 g/dL, above reference range of 13.0-17.0)",
+        "severity": "Low",
+        "page_references": [
+          "3",
+          "6"
+        ]
+      },
+      {
+        "risk_description": "Elevated Hematocrit (51.4%, above reference range of 40-50%)",
+        "severity": "Low",
+        "page_references": [
+          "3",
+          "6"
+        ]
+      },
+      {
+        "risk_description": "Elevated MCH (32.5 pg, slightly above reference range of 27-32)",
+        "severity": "Low",
+        "page_references": [
+          "3",
+          "6"
+        ]
+      },
+      {
+        "risk_description": "Low RDW-CV (11.3%, below reference range of 11.5-14%)",
+        "severity": "Low",
+        "page_references": [
+          "3",
+          "6"
+        ]
+      },
+      {
+        "risk_description": "Elevated Lymphocytes (40.3%, slightly above reference range of 20-40%)",
+        "severity": "Low",
+        "page_references": [
+          "3",
+          "6"
+        ]
+      },
+      {
+        "risk_description": "Elevated PDW (19.2, above reference range of 9-17)",
+        "severity": "Low",
+        "page_references": [
+          "3",
+          "6"
+        ]
+      },
+      {
+        "risk_description": "Low HDL Cholesterol (29 mg/dL, below reference range of ≥39.9 mg/dL)",
+        "severity": "Medium",
+        "page_references": [
+          "4",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated Total Bilirubin (1.60 mg/dL, above reference range of 0.3-1.2 mg/dL)",
+        "severity": "Low",
+        "page_references": [
+          "4",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated Indirect Bilirubin (1.11 mg/dL, above reference range of 0.2-0.8 mg/dL)",
+        "severity": "Low",
+        "page_references": [
+          "4",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated Alkaline Phosphatase (122 U/L, slightly above reference range of 50-116 U/L)",
+        "severity": "Low",
+        "page_references": [
+          "4",
+          "8"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Inconsistent report date",
+        "details": "The report date is listed as 14/09/2025 in some sections and as 14/Sep/2025 in others. This appears to be a future date.",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Missing lifestyle information",
+        "details": "The report mentions 'Data not available' for Height, Weight, Waist, BMI, Heart Age, BP, Habits, and Family History in the Wellbeing Index section, despite this being a comprehensive health report.",
+        "page_references": [
+          "5"
+        ]
+      },
+      {
+        "discrepancy_description": "Surveys not completed",
+        "details": "The report indicates 'Survey not taken yet' for Diabetes, Hypertension, Stroke, CVD, Depression, Anxiety, and Stress assessments in the Wellbeing Index section.",
+        "page_references": [
+          "5"
+        ]
+      }
+    ],
+    "medical_timeline": "**September 14, 2025**\n- Complete health assessment conducted at TATA 1mg Labs\n- Blood tests show minor abnormalities:\n  - Slightly elevated hemoglobin, hematocrit, MCH\n  - Low HDL cholesterol\n  - Elevated total and indirect bilirubin\n  - Slightly elevated alkaline phosphatase\n- Thyroid function tests normal\n- Blood glucose levels normal\n- Kidney function tests normal",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Standard Approval**\n\nBased on the comprehensive health report for Masoob Alam, I recommend standard approval for life insurance coverage. The applicant is a young 24-year-old male with generally good health markers. While there are some minor abnormalities in his blood work (slightly elevated hemoglobin, hematocrit, bilirubin, and alkaline phosphatase, along with low HDL cholesterol), none of these represent significant health risks that would warrant rating or decline.\n\nThe applicant's blood glucose levels, kidney function, and thyroid function are all within normal ranges, which are positive indicators. The low HDL cholesterol (29 mg/dL) is the most notable finding but doesn't warrant a rating on its own for a young applicant.\n\nBefore finalizing approval, I recommend obtaining the missing lifestyle information (height, weight, BMI, blood pressure, family history, and habits) to complete the risk assessment.",
+    "missing_information": [
+      {
+        "item_description": "Height and weight measurements",
+        "notes": "Required to calculate BMI and assess overall physical health risk"
+      },
+      {
+        "item_description": "Blood pressure readings",
+        "notes": "Important cardiovascular risk indicator not included in the report"
+      },
+      {
+        "item_description": "Family history of diseases",
+        "notes": "Critical for assessing hereditary risk factors"
+      },
+      {
+        "item_description": "Lifestyle habits (smoking, alcohol, exercise)",
+        "notes": "Important for assessing behavioral risk factors"
+      },
+      {
+        "item_description": "Occupation details",
+        "notes": "Needed to assess occupational hazards and risks"
+      },
+      {
+        "item_description": "Intended coverage amount",
+        "notes": "Required to assess appropriateness of coverage relative to financial situation"
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "Required for policy issuance"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "source_file": "Lab_report-1-14.json",
+  "analysis_timestamp": "2025-11-04T14:03:26.367523",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document contains comprehensive medical laboratory test results for Mr. Hardik Agarwal, a 31-year-old male. The tests were conducted on June 25, 2025, at TATA 1MG OKHLA. The results include complete blood count, erythrocyte sedimentation rate, glycosylated hemoglobin (HbA1c), fasting blood sugar, lipid profile, liver function tests, kidney function tests, thyroid function, vitamin D levels, and urinalysis. These tests provide a thorough assessment of the applicant's current health status for life insurance underwriting purposes.",
+    "identified_risks": [
+      {
+        "risk_description": "Elevated HbA1c (5.9%) indicating prediabetes",
+        "severity": "Medium",
+        "page_references": [
+          "3"
+        ]
+      },
+      {
+        "risk_description": "Elevated total cholesterol (210 mg/dL)",
+        "severity": "Medium",
+        "page_references": [
+          "5"
+        ]
+      },
+      {
+        "risk_description": "Elevated LDL cholesterol (128 mg/dL)",
+        "severity": "Medium",
+        "page_references": [
+          "5"
+        ]
+      },
+      {
+        "risk_description": "Elevated non-HDL cholesterol (162 mg/dL)",
+        "severity": "Medium",
+        "page_references": [
+          "5"
+        ]
+      },
+      {
+        "risk_description": "Elevated cholesterol to HDL ratio (4.3)",
+        "severity": "Medium",
+        "page_references": [
+          "5"
+        ]
+      },
+      {
+        "risk_description": "Elevated Erythrocyte Sedimentation Rate (18 mm/hr)",
+        "severity": "Low",
+        "page_references": [
+          "2"
+        ]
+      },
+      {
+        "risk_description": "Vitamin D deficiency (19.5 ng/ml)",
+        "severity": "Low",
+        "page_references": [
+          "11"
+        ]
+      },
+      {
+        "risk_description": "Low Hematocrit (39.0%)",
+        "severity": "Low",
+        "page_references": [
+          "1"
+        ]
+      },
+      {
+        "risk_description": "Low MCV (79.4 fL)",
+        "severity": "Low",
+        "page_references": [
+          "1"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Future-dated medical reports",
+        "details": "All medical reports are dated June 25, 2025, which is a future date. This suggests a potential error in the date recording.",
+        "page_references": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "13"
+        ]
+      }
+    ],
+    "medical_timeline": "**June 25, 2025** (Note: This appears to be an error in date recording)\n\n- Complete blood count showing mild anemia indicators (low hematocrit and MCV)\n- Elevated ESR (18 mm/hr)\n- HbA1c of 5.9% indicating prediabetes\n- Normal fasting blood sugar (86 mg/dL)\n- Elevated lipid profile (total cholesterol 210 mg/dL, LDL 128 mg/dL)\n- Normal liver function tests except slightly elevated SGPT (46 U/L)\n- Normal kidney function tests\n- Normal thyroid function (TSH 2.813 uIU/ml)\n- Vitamin D deficiency (19.5 ng/ml)\n- Normal urinalysis",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Standard with Rating**\n\nMr. Hardik Agarwal, a 31-year-old male, presents with multiple mild to moderate risk factors that warrant a rating adjustment but not a decline. The primary concerns are:\n\n1. Prediabetes (HbA1c 5.9%)\n2. Dyslipidemia (elevated total cholesterol, LDL, and cholesterol ratios)\n3. Mild anemia indicators\n4. Vitamin D deficiency\n\nRecommend approval with a +50 to +75 rating depending on company guidelines for metabolic risk factors. The applicant's young age (31) is favorable, but the combination of prediabetic status and lipid abnormalities suggests increased cardiovascular risk that should be reflected in the premium.\n\nConsider requesting follow-up testing in 6-12 months to monitor the prediabetic condition and lipid profile.",
+    "missing_information": [
+      {
+        "item_description": "Family medical history",
+        "notes": "No information provided about family history of diabetes, heart disease, or other hereditary conditions that could impact risk assessment."
+      },
+      {
+        "item_description": "Lifestyle information",
+        "notes": "No details about smoking status, alcohol consumption, exercise habits, or occupation."
+      },
+      {
+        "item_description": "Medication history",
+        "notes": "No information about current medications that might affect test results or indicate ongoing medical conditions."
+      },
+      {
+        "item_description": "Previous medical history",
+        "notes": "No information about past diagnoses, hospitalizations, or surgeries."
+      },
+      {
+        "item_description": "BMI or height/weight measurements",
+        "notes": "No anthropometric data to assess obesity risk, which would be relevant given the metabolic indicators."
+      },
+      {
+        "item_description": "Coverage amount requested",
+        "notes": "No information about the life insurance coverage amount being applied for."
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "No details about intended beneficiaries of the life insurance policy."
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "source_file": "Hardik_pan.json",
+  "analysis_timestamp": "2025-11-04T14:04:19.204254",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The extracted data appears to be from a PAN (Permanent Account Number) card document for Hardik Agarwal, born on March 27, 1994. This is an identification document issued by the Income Tax Department of India, similar to a tax identification number. The document was issued on November 21, 2013. This is not a life insurance application or policy document, but rather an identification document that might be submitted as part of a life insurance application process for identity verification.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited information for underwriting assessment",
+        "severity": "High",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "No medical history or health information provided",
+        "severity": "High",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Information Required**\n\nThe provided document is only a PAN card which serves as identity verification. To proceed with life insurance underwriting, we require:\n\n1. Complete insurance application form\n2. Medical history and examination results\n3. Lifestyle information (smoking, alcohol consumption, occupation)\n4. Family medical history\n5. Desired coverage amount and beneficiary details\n\nUnderwriting cannot proceed with only identification documentation.",
+    "missing_information": [
+      {
+        "item_description": "Insurance application form",
+        "notes": "No actual insurance application has been provided"
+      },
+      {
+        "item_description": "Medical history",
+        "notes": "No information about applicant's current or past medical conditions"
+      },
+      {
+        "item_description": "Medical examination results",
+        "notes": "No medical tests or physician statements provided"
+      },
+      {
+        "item_description": "Lifestyle factors",
+        "notes": "No information about smoking, alcohol use, occupation, or hobbies"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about hereditary conditions or family health"
+      },
+      {
+        "item_description": "Coverage details",
+        "notes": "No information about requested coverage amount or policy type"
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "No designated beneficiaries provided"
+      }
+    ],
+    "confidence_score": 0.3
+  }
+}

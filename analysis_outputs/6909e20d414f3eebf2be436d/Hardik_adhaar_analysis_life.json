@@ -1,0 +1,51 @@
+{
+  "source_file": "Hardik_adhaar.json",
+  "analysis_timestamp": "2025-11-04T16:54:12.958298",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The extracted data contains identification information from an Aadhaar card (India's national ID) for Hardik Agarwal, a 29-year-old male. The document includes personal details such as date of birth, gender, Aadhaar number, and residential address in Uttar Pradesh, India. This appears to be solely an identification document with no insurance-specific, medical history, or coverage information included.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited identification document only",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "No medical history or health information provided",
+        "severity": "High",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "## Recommendation: Request Additional Information\n\nThe provided document is only an Aadhaar identification card which contains basic personal information. For life insurance underwriting, we require:\n\n1. Completed life insurance application form\n2. Medical examination results\n3. Medical history questionnaire\n4. Income verification\n5. Lifestyle questionnaire\n6. Family medical history\n7. Desired coverage amount and beneficiary information\n\nUnderwriting cannot proceed with only identification documentation.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about applicant's past or current medical conditions, medications, or treatments"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, occupation, or hazardous activities"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about hereditary conditions or family history of diseases"
+      },
+      {
+        "item_description": "Insurance application details",
+        "notes": "No information about requested coverage amount, term, or beneficiaries"
+      },
+      {
+        "item_description": "Financial information",
+        "notes": "No information about income, assets, or financial justification for coverage"
+      }
+    ],
+    "confidence_score": 0.4
+  }
+}

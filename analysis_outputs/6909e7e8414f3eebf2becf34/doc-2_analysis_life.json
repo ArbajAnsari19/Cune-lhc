@@ -1,0 +1,87 @@
+{
+  "source_file": "doc-2.json",
+  "analysis_timestamp": "2025-11-04T17:19:41.324197",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document represents a life insurance application for Masoob Alam, a 23-year-old single male engineer. The application is for a retail segment, new business policy with coverage period from September 20, 2025 to October 21, 2026. The applicant has designated his father, Aftab Alam, as the nominee. The applicant reports being in good health with no tobacco or alcohol consumption, though there is a mention of thyroid condition in the medical details section. The applicant has selected Plan A with individual sum insured option.",
+    "identified_risks": [
+      {
+        "risk_description": "Possible thyroid condition mentioned in medical details",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Inconsistency regarding tobacco use - indicates stopped in 2024 but also marked as not consuming tobacco",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Future-dated application (2025) may indicate document manipulation or error",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Tobacco usage inconsistency",
+        "details": "The applicant is marked as not consuming tobacco, but there is a date (2024) listed for when tobacco use was stopped, suggesting previous tobacco use",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Medical condition reporting inconsistency",
+        "details": "All medical questions are answered 'No' but 'Details for 3a_3b if yes' mentions 'Thyroid'",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Future dates in application",
+        "details": "Receipt date (16/09/2025), period of insurance (20/09/2025 to 21/10/2026), and declaration date (16092025) are all future dates",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Missing payment details",
+        "details": "Payment method is selected as cheque but cheque number, amount, and bank details are missing",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "No comprehensive medical timeline is available in the extracted data. However, there is mention of a thyroid condition without specific details about diagnosis date, treatment, or current status.",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request Additional Information**\n\n1. Clarify the thyroid condition mentioned in the medical details section, including diagnosis date, severity, treatment, and current status\n2. Resolve the inconsistency regarding tobacco use history\n3. Verify the correct dates for the application as all dates are future-dated (2025-2026)\n4. Request complete payment details\n5. Consider requesting a medical examination to verify health status and assess the thyroid condition\n\nThe application cannot be approved until these critical issues are addressed.",
+    "missing_information": [
+      {
+        "item_description": "Details about thyroid condition",
+        "notes": "Need diagnosis date, severity, treatment protocol, and current status"
+      },
+      {
+        "item_description": "Clarification on tobacco use history",
+        "notes": "Inconsistent information about tobacco usage needs resolution"
+      },
+      {
+        "item_description": "Sum insured amount",
+        "notes": "Coverage amount is not specified in the extracted data"
+      },
+      {
+        "item_description": "Complete payment details",
+        "notes": "Cheque number, payment amount, and bank details are missing"
+      },
+      {
+        "item_description": "Correct application dates",
+        "notes": "All dates are future-dated (2025-2026), need verification of actual application date"
+      }
+    ],
+    "confidence_score": 0.7
+  }
+}

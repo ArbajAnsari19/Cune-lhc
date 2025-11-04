@@ -1,0 +1,84 @@
+{
+  "source_file": "Apply_form_medical.json",
+  "analysis_timestamp": "2025-10-30T19:08:06.906704",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a life insurance application form for Hardik Agarwal, a 31-year-old male Indian national. The applicant is employed in a service occupation with an annual income of ₹3,000,000. The document contains personal information, contact details, and medical history. The applicant reports being in good health overall with one hospitalization in the past for fever. The document is dated October 20, 2025 (which appears to be a future date, suggesting a possible error), and was signed in Ghaziabad.",
+    "identified_risks": [
+      {
+        "risk_description": "Previous hospitalization within the last 2 years",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Future-dated document (vernacular declaration date of 20-10-2025)",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Incomplete medical information (height and weight not provided)",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Future date on document",
+        "details": "The vernacular declaration date is listed as 20-10-2025, which is a future date. This suggests either an error in data entry or potential document fraud.",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Age calculation inconsistency",
+        "details": "The document lists the proposer's date of birth as 27-03-1994, which would make him 29-30 years old in 2023-2024, but the document states his age as 31.",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Missing signatures",
+        "details": "The document indicates that proposer and life assured signatures are not present, yet the vernacular declarant signature (also Hardik Agarwal) is present.",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "**2 years prior to application date**: Hospitalized for 1 week due to fever",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nThe application cannot be processed in its current state due to several critical issues:\n\n1. **Document date discrepancy**: The vernacular declaration is dated in the future (2025), raising concerns about document validity\n2. **Missing essential information**: Plan details, coverage amounts, premium information, and beneficiary details are all absent\n3. **Incomplete medical information**: Height, weight, and family medical history details are missing\n4. **Missing signatures**: The proposer and life assured signatures are not present\n\nRecommend requesting a properly completed application with accurate dates, complete medical information, plan details, and all required signatures before proceeding with underwriting.",
+    "missing_information": [
+      {
+        "item_description": "Plan details and coverage amounts",
+        "notes": "No information provided about policy term, premium paying term, sum assured, or premium amount"
+      },
+      {
+        "item_description": "Height and weight measurements",
+        "notes": "These basic medical metrics are not provided, preventing BMI calculation and associated risk assessment"
+      },
+      {
+        "item_description": "Family medical history details",
+        "notes": "While family members are indicated as alive, their ages and medical conditions are not provided"
+      },
+      {
+        "item_description": "Beneficiary/nominee information",
+        "notes": "No details about policy beneficiaries are provided"
+      },
+      {
+        "item_description": "Complete hospitalization details",
+        "notes": "While hospitalization is mentioned, no details about the hospital, treating physician, or complete diagnosis are provided"
+      },
+      {
+        "item_description": "Required signatures",
+        "notes": "The proposer and life assured signatures are indicated as not present"
+      }
+    ],
+    "confidence_score": 0.65
+  }
+}

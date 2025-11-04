@@ -1,0 +1,73 @@
+{
+  "source_file": "sriram life test doc.json",
+  "analysis_timestamp": "2025-11-04T16:54:46.939645",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a life insurance application form from Shriram Life Insurance Company Limited for Hardil Agarwal, a 31-year-old male working in service with an annual income of Rs. 3,000,000. The form contains personal information, contact details, and basic medical history. The applicant reports being in good health with a history of hospitalization for fever 2 years ago. The document is incomplete with many critical fields left blank, including policy details, coverage amounts, and beneficiary information.",
+    "identified_risks": [
+      {
+        "risk_description": "Prior hospitalization history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Inconsistency in name (Hardil vs Hardik)",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Future-dated declaration",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Name inconsistency",
+        "details": "The proposer's name is listed as 'HARDIL AGARWAL' in the personal details section, but the declarant's name is signed as 'Hardik Agarwal'",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Future-dated declaration",
+        "details": "The declaration date is shown as '20-10-2025', which is a future date",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "**Medical Timeline**\n\n- 2 years prior to application: Hospitalized for fever for 1 week\n- Current status: Reports being in good health with no reported chronic conditions\n- No reported family medical history issues",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request Additional Information**\n\nThe application contains significant missing information and discrepancies that need to be addressed before underwriting can proceed:\n\n1. Clarify the applicant's correct name (Hardil vs Hardik)\n2. Correct the declaration date which is currently future-dated (2025)\n3. Obtain complete policy details including plan name, sum assured, and premium information\n4. Request complete medical information including height, weight, and family medical history\n5. Obtain nominee/beneficiary details\n\nThe hospitalization history appears minor (fever), but additional details should be requested to confirm no underlying conditions exist.",
+    "missing_information": [
+      {
+        "item_description": "Policy and coverage details",
+        "notes": "Plan name, policy term, premium paying term, sum assured, and premium amount are all missing"
+      },
+      {
+        "item_description": "Beneficiary/nominee information",
+        "notes": "No beneficiary details provided"
+      },
+      {
+        "item_description": "Complete medical information",
+        "notes": "Height, weight, and detailed family medical history are missing"
+      },
+      {
+        "item_description": "Details about hospitalization",
+        "notes": "More specific information about the hospitalization for fever 2 years ago would be helpful"
+      },
+      {
+        "item_description": "Proposal number and policy number",
+        "notes": "These identifying numbers are missing from the application"
+      }
+    ],
+    "confidence_score": 0.65
+  }
+}

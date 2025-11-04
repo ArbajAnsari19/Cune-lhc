@@ -1,0 +1,84 @@
+{
+  "source_file": "sriram life test doc.json",
+  "analysis_timestamp": "2025-11-04T14:03:48.974686",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a life insurance proposal form for Hardil Agarwal, a 31-year-old male working in a service job with an annual income of Rs. 3,000,000. The form contains personal details, address information, and medical history. The applicant claims to be in good health with a history of hospitalization for fever 2 years ago. The document is incomplete with several critical sections missing, including plan details, coverage amounts, and beneficiary information.",
+    "identified_risks": [
+      {
+        "risk_description": "History of hospitalization in the past 2 years",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Discrepancy in name (Hardil vs Hardik)",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Future-dated signature (20-10-2025)",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Name inconsistency",
+        "details": "The applicant's name is listed as 'HARDIL AGARWAL' in the details section but signed as 'Hardik Agarwal' in the declaration",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Future date on declaration",
+        "details": "The declaration is dated 20-10-2025, which is a future date",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Hospitalization history contradiction",
+        "details": "The form indicates 'No' for hospitalization in the last few years, but details are provided stating hospitalization 2 years ago for fever for 1 week",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "**Medical History Timeline**\n\n* 2 years ago: Hospitalized for 1 week due to fever\n* Current: Claims to be in good health\n* No reported chronic conditions (heart, kidney, diabetes, cancer, etc.)",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nThe application cannot be processed in its current state due to:\n\n1. Significant missing information about the insurance plan, coverage amounts, and beneficiaries\n2. Discrepancies in the applicant's name\n3. Future-dated signature raising concerns about document validity\n4. Incomplete medical information (height and weight missing)\n\nRequest clarification on the hospitalization history, correct documentation with proper dates, and completion of all missing fields before proceeding with underwriting assessment.",
+    "missing_information": [
+      {
+        "item_description": "Insurance plan details",
+        "notes": "Plan name, policy term, premium paying term, and sum assured are all missing"
+      },
+      {
+        "item_description": "Premium information",
+        "notes": "Mode of premium payment and installment premium amount not specified"
+      },
+      {
+        "item_description": "Nominee/beneficiary details",
+        "notes": "No information provided about beneficiaries"
+      },
+      {
+        "item_description": "Height and weight",
+        "notes": "Physical measurements not provided for BMI calculation"
+      },
+      {
+        "item_description": "Existing insurance policies",
+        "notes": "No information about other existing life insurance policies"
+      },
+      {
+        "item_description": "Family medical history details",
+        "notes": "While family members are marked as alive, no details about their health conditions are provided"
+      }
+    ],
+    "confidence_score": 0.65
+  }
+}

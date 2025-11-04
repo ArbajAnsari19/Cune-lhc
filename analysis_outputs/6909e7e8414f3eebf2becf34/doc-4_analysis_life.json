@@ -1,0 +1,36 @@
+{
+  "source_file": "doc-4.json",
+  "analysis_timestamp": "2025-11-04T17:20:30.395048",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document is a Permanent Account Number (PAN) Card issued by the Income Tax Department of India to Masoob Alam. The PAN card contains basic identification information including the individual's name, father's name, date of birth (18/12/2001), and PAN number (DXHPA0659G). This is an identification document used for tax purposes in India and not a life insurance document. It provides no medical history, lifestyle factors, risk behaviors, or insurance coverage details.",
+    "identified_risks": [],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Information Required**\n\nThe provided document is only a PAN Card (tax identification document) and contains insufficient information for life insurance underwriting. Request comprehensive medical history, lifestyle information, desired coverage details, beneficiary information, and completed insurance application forms before proceeding with underwriting assessment.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and health conditions",
+        "notes": "No medical information is provided in the PAN card document."
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, occupation, or other risk factors."
+      },
+      {
+        "item_description": "Insurance application form",
+        "notes": "No insurance application with coverage amounts and terms is provided."
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "No details about intended beneficiaries for the life insurance policy."
+      },
+      {
+        "item_description": "Financial information",
+        "notes": "No details about income, assets, or financial justification for coverage."
+      }
+    ],
+    "confidence_score": 0.9
+  }
+}
