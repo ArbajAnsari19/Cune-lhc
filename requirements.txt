@@ -9,3 +9,4 @@ chromadb
 openai
 gradio
 tqdm
+python-dotenv

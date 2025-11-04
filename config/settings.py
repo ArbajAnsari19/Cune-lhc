@@ -2,10 +2,22 @@ import os
 from datetime import datetime
 from botocore.config import Config as BotoConfig
 import boto3
+from dotenv import load_dotenv
 
-NANONETS_API_KEY = os.getenv("NANONETS_API_KEY", "77928432-b113-11f0-843f-0a3a41e3fad1")
+# Load environment variables from .env file
+load_dotenv()
+
+NANONETS_API_KEY = os.getenv("NANONETS_API_KEY")
+if not NANONETS_API_KEY:
+    raise ValueError("NANONETS_API_KEY environment variable is required. Please set it in your .env file.")
+
 AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
+if not AWS_ACCESS_KEY_ID:
+    raise ValueError("AWS_ACCESS_KEY_ID environment variable is required. Please set it in your .env file.")
+
 AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
+if not AWS_SECRET_ACCESS_KEY:
+    raise ValueError("AWS_SECRET_ACCESS_KEY environment variable is required. Please set it in your .env file.")
 AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
 MAX_WORKERS = 10
 OUTPUT_DIR = "outputs"

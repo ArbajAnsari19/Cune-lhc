@@ -11,11 +11,17 @@ from chromadb.utils import embedding_functions
 from openai import OpenAI
 from typing import List, Dict
 import gradio as gr
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # --------------------------
 # 1. Environment setup
 # --------------------------
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise ValueError("OPENAI_API_KEY environment variable is required. Please set it in your .env file.")
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 client = OpenAI(api_key=OPENAI_API_KEY)
 
