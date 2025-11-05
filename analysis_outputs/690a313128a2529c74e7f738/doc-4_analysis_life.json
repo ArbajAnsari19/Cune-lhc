@@ -1,0 +1,51 @@
+{
+  "source_file": "doc-4.json",
+  "analysis_timestamp": "2025-11-04T22:38:48.116353",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document is a Permanent Account Number (PAN) Card issued by the Income Tax Department of India to Masoob Alam. This is an identification document used for tax purposes in India, similar to a Social Security Number in the US. The PAN card contains the individual's name, father's name, date of birth (December 18, 2001), and unique PAN number (DXHPA0659G). This document serves as identity verification for the life insurance applicant and provides basic demographic information relevant to underwriting, including confirmation of the applicant's age (21-22 years old based on the DOB). While not a salary slip or invoice, this document is valuable for identity verification purposes in the life insurance application process.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (21-22 years old) may indicate limited financial stability or employment history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Limited demographic information available for comprehensive risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nWhile the PAN card provides basic identity verification and age confirmation, it is insufficient for a complete life insurance underwriting assessment. Request the following additional documentation:\n\n1. Complete medical history and current health status information\n2. Employment verification and income documentation (salary slips, tax returns)\n3. Lifestyle questionnaire to assess risk behaviors\n4. Details on requested coverage amounts and named beneficiaries\n5. Any existing insurance policies\n\nThe applicant's young age (21-22) is favorable from a mortality risk perspective, but additional information is needed to assess financial stability, premium payment capacity, and appropriate coverage amount justification.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No medical information is available in the PAN card. Request medical questionnaire, examination results, or physician statements."
+      },
+      {
+        "item_description": "Employment and income verification",
+        "notes": "No employment or income information is available. Request salary slips, employment verification, or tax returns to assess financial stability and premium payment capacity."
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information on smoking, alcohol use, dangerous activities, or other lifestyle factors that affect mortality risk."
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiary information",
+        "notes": "No information on the desired insurance coverage amount or named beneficiaries to assess appropriateness of coverage."
+      },
+      {
+        "item_description": "Current address and contact information",
+        "notes": "PAN card does not include the applicant's current residential address or contact details."
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "source_file": "doc-2.json",
+  "analysis_timestamp": "2025-11-05T12:04:04.941494",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a life insurance application form for Masoob Alam, a 23-year-old male (DOB: 18/12/2001) who is applying for individual health/life insurance coverage under Plan A. The applicant is single, works as an Engineer with a reported monthly income of ₹180,000, and has nominated his father, Aftab Alam, as the beneficiary. The applicant is in good health, does not consume tobacco or alcohol, and has no occupational hazards. However, there is a mention of thyroid condition in the medical section. The application is for a retail segment new business policy with coverage period from 20/09/2025 to 21/10/2026. The applicant has selected physical policy format and payment by cheque.",
+    "identified_risks": [
+      {
+        "risk_description": "Thyroid condition mentioned in medical section",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "High monthly income (₹180,000) that seems unusually high for a young engineer, potentially indicating misrepresentation",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Young age (23) with relatively short employment history may affect financial stability",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Income level inconsistency",
+        "details": "The reported gross monthly income of ₹180,000 (₹2,160,000 annually) appears unusually high for a young engineer who is only 23 years old with a B.Tech qualification, potentially indicating a misrepresentation or data entry error",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Tobacco usage inconsistency",
+        "details": "The form indicates the applicant does not consume tobacco, yet there is a 'tobacco stopped from when' field filled with '2024', suggesting previous tobacco use that contradicts the negative tobacco consumption response",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Medical condition reporting inconsistency",
+        "details": "While the applicant claims to be in 'good health', there is a thyroid condition mentioned in the ailment treatment section, which represents a potential contradiction",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "The applicant reports being in good health but has a thyroid condition mentioned in the ailment treatment section (sr_no_3c_details_of_ailment_treatment). No specific timeline or treatment details are provided for this condition. The applicant indicates no tobacco use but has a 'tobacco stopped from when' field showing '2024', suggesting recent cessation of tobacco use.",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request Additional Information**\n\n1. **Medical Information**: Request detailed medical records regarding the thyroid condition, including diagnosis date, treatment plan, medication, and current status. This is critical as thyroid disorders can have varying impacts on mortality risk depending on type and severity.\n\n2. **Income Verification**: Request additional documentation to verify the reported monthly income of ₹180,000, which appears unusually high for a 23-year-old engineer. This verification is essential for:\n   - Confirming premium payment capacity\n   - Validating appropriate coverage amount (typically 5-10x annual income)\n   - Preventing potential fraud or misrepresentation\n\n3. **Tobacco Usage Clarification**: Obtain clarification on tobacco usage history, as the application contains contradictory information (claims no tobacco use but indicates cessation in 2024).\n\n4. **Coverage Amount**: Request information about the desired coverage amount, which is missing from the application but necessary to assess appropriateness relative to income and needs.\n\n5. **Employment Verification**: Obtain employment verification to confirm occupation, income, and employment stability given the applicant's young age.\n\nOnce this additional information is received, a more complete risk assessment can be performed to determine appropriate underwriting action.",
+    "missing_information": [
+      {
+        "item_description": "Benefit amount/sum insured",
+        "notes": "The coverage amount requested is not specified in the application, making it impossible to assess if the coverage is appropriate for the applicant's income and needs"
+      },
+      {
+        "item_description": "Detailed medical information about thyroid condition",
+        "notes": "No details provided about the type of thyroid condition, diagnosis date, severity, treatment, or current status"
+      },
+      {
+        "item_description": "Clarification on tobacco usage history",
+        "notes": "Contradictory information regarding tobacco usage - claims no usage but indicates cessation in 2024"
+      },
+      {
+        "item_description": "Employment verification",
+        "notes": "No employment verification documents to confirm the stated occupation and unusually high income for a 23-year-old engineer"
+      },
+      {
+        "item_description": "Payment details",
+        "notes": "Payment information fields (cheque number, amount, bank details) are blank despite indicating payment by cheque"
+      }
+    ],
+    "confidence_score": 0.75
+  }
+}

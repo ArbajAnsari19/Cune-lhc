@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Masoob Alam",
+    "dob": "18/12/2001",
+    "gender": "MALE",
+    "aadhaar_number": "783296048167",
+    "virtual_id": "9159120491242473"
+  },
+  {
+    "authority_name_english": "Unique Identification Authority of India",
+    "authority_name_hindi": "भारतीय विशिष्ट पहचान प्राधिकरण",
+    "address_hindi": "S/O: आफताब आलम, 104, सरोवर व्यू टॉवर अपार्टमेंट, जोरा तालाब बरियातु, बरियातू, रांची, झारखण्ड - 834009",
+    "address_english": "S/O: Aftab Alam, 104, Lake View Tower Apartment, Jora Talab Bariatu, Bariatu, Ranchi, Jharkhand - 834009",
+    "aadhaar_number": "783296048167",
+    "virtual_id": "9159120491242473",
+    "website": "www.uidai.gov.in",
+    "email": "help@uidai.gov.in",
+    "helpline_number": "1947"
+  }
+]

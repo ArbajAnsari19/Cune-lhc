@@ -1,0 +1,73 @@
+{
+  "source_file": "doc-2.json",
+  "analysis_timestamp": "2025-11-05T14:53:17.420716",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a life insurance application form for MASOOB ALAM, a 23-year-old male (DOB: 18/12/2001) who works as an Engineer with a reported gross monthly income of ₹180,000. The applicant is single, has a B.Tech degree, and has nominated his father, AFTAB ALAM, as the beneficiary. The applicant reports being in good health, has no tobacco or alcohol consumption history (though indicates stopping tobacco use in 2024), and has selected an individual sum insured option with Plan A coverage. The application mentions thyroid as a medical condition, though there are inconsistencies in how this is reported. The insurance period is requested from 20/09/2025 to 21/10/2026, and the applicant has selected cheque as the preferred payment mode.",
+    "identified_risks": [
+      {
+        "risk_description": "Thyroid condition mentioned but inconsistently reported",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Tobacco use history indicated (stopped in 2024) despite 'No' response to tobacco consumption",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "High monthly income (₹180,000) requires verification as it appears unusually high for a young engineer",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Inconsistent reporting of thyroid condition",
+        "details": "The applicant answered 'No' to all questions about medical conditions, treatments, and illnesses, but 'Thyroid' is listed under 'details_3a_3b_ailment_treatment'",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Inconsistent tobacco use reporting",
+        "details": "The applicant indicated 'No' to tobacco consumption but provided a stop date of '2024' in the 'primary_insured_tobacco_stopped_from_when' field, suggesting previous tobacco use",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "The applicant has indicated a thyroid condition in the 'details_3a_3b_ailment_treatment' field, though this conflicts with the 'No' responses to medical condition questions. No specific timeline, treatment details, or medication information is provided for this condition.",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\n1. **Medical Clarification Required**: Request medical records and clarification regarding the thyroid condition mentioned in the application. The inconsistent reporting raises concerns about full disclosure of medical history.\n\n2. **Income Verification**: Request income verification documentation (tax returns, employment verification) as the reported monthly income of ₹180,000 (₹2.16 million annually) appears high for a young engineer who recently completed B.Tech education.\n\n3. **Tobacco Use History**: Seek clarification on tobacco use history, including duration of use, quantity, and exact cessation date, as there are inconsistencies in the application.\n\n4. **Medical Examination**: Consider requiring a medical examination including thyroid function tests to assess current health status and verify the reported thyroid condition.\n\n5. **Coverage Amount Assessment**: Once income is verified, assess appropriate coverage amount based on income level and financial obligations.\n\nThe application should be held pending until these clarifications are received and verified.",
+    "missing_information": [
+      {
+        "item_description": "Details about thyroid condition",
+        "notes": "Need specifics on diagnosis date, severity, treatment, medication, and current status"
+      },
+      {
+        "item_description": "Income verification documentation",
+        "notes": "Request tax returns, employment verification letter, or bank statements to verify the reported monthly income of ₹180,000"
+      },
+      {
+        "item_description": "Tobacco use history details",
+        "notes": "Need clarification on past tobacco use, including duration, quantity, and exact cessation date"
+      },
+      {
+        "item_description": "Requested coverage amount/sum insured",
+        "notes": "The application does not specify the requested coverage amount or sum insured value"
+      },
+      {
+        "item_description": "Complete medical history",
+        "notes": "Request comprehensive medical history including any treatments, medications, or consultations for the thyroid condition"
+      }
+    ],
+    "confidence_score": 0.7
+  }
+}

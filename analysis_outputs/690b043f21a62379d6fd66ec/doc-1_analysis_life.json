@@ -1,0 +1,51 @@
+{
+  "source_file": "doc-1.json",
+  "analysis_timestamp": "2025-11-05T13:39:19.877494",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document appears to be an Aadhaar card (India's national identification document) for Masoob Alam, a 21-year-old male born on December 18, 2001. The document contains personal identification information including name, date of birth, gender, Aadhaar number, virtual ID, and residential address in Ranchi, Jharkhand, India. This is not a salary slip or invoice but rather an identity verification document that provides basic demographic information relevant for a life insurance application. The document helps verify the applicant's identity, age, and residence, which are fundamental factors in life insurance underwriting.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (21 years old) may indicate limited credit and insurance history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "No occupation information provided, limiting occupational risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nWhile the Aadhaar card provides basic identity verification, it is insufficient for a complete life insurance underwriting assessment. The following additional information is required:\n\n1. **Medical history and health questionnaire** to assess health risks\n2. **Occupation details** to evaluate occupational hazards and income stability\n3. **Income verification documents** (salary slips, tax returns) to determine premium payment capacity and appropriate coverage amount\n4. **Lifestyle information** to assess risk behaviors\n5. **Beneficiary details** to understand insurable interest\n\nThe application should be held pending receipt of this critical information. The Aadhaar verification appears legitimate, confirming the applicant's identity and age, which provides a foundation for further underwriting.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and health information",
+        "notes": "No health information is provided in the Aadhaar document. Medical questionnaire, examination results, or health records are needed to assess health risks."
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "No employment or income information is available. Need occupation type, employer details, and income verification to assess occupational risks and premium payment capacity."
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, dangerous hobbies, or other lifestyle factors that affect mortality risk."
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiary information",
+        "notes": "No details about the desired insurance coverage amount or named beneficiaries, which are essential for underwriting assessment."
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about family medical history that might indicate hereditary conditions or risks."
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

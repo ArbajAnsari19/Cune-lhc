@@ -1,0 +1,51 @@
+{
+  "source_file": "doc-1.json",
+  "analysis_timestamp": "2025-11-05T12:03:41.453960",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The extracted data appears to be from an Aadhaar card (India's national identification document) for Masoob Alam, born on December 18, 2001. The document contains personal identification information including name, date of birth, gender, Aadhaar number, and residential address in Ranchi, Jharkhand, India. This is not a salary slip or invoice but rather an identity verification document that can be used to confirm the applicant's identity for life insurance purposes. The document provides basic demographic information that would be relevant for the initial stages of life insurance underwriting.",
+    "identified_risks": [
+      {
+        "risk_description": "Young age of applicant (21-22 years old) may indicate limited financial stability or income history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Identity document only - no health, lifestyle, or financial information provided to assess mortality risk",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nWhile the Aadhaar card provides basic identity verification, it is insufficient for life insurance underwriting. Request the following:\n\n1. Complete medical history and health questionnaire\n2. Income verification documents (salary slips, tax returns)\n3. Lifestyle questionnaire to assess risk factors\n4. Details on desired coverage amount and beneficiary information\n5. Occupation details to assess occupational hazards\n\nThe application cannot proceed with only identity verification. Age verification confirms the applicant is a young adult (21-22 years old), which typically represents lower mortality risk but requires additional financial stability verification.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about applicant's health conditions, medications, or medical history is provided"
+      },
+      {
+        "item_description": "Income verification and employment details",
+        "notes": "No information about applicant's income, employment status, or financial stability to assess premium payment capacity"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, dangerous activities, or other lifestyle risk factors"
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiaries",
+        "notes": "No information about desired insurance coverage amount or designated beneficiaries"
+      },
+      {
+        "item_description": "Occupation details",
+        "notes": "No information about applicant's occupation to assess occupation-related risks"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

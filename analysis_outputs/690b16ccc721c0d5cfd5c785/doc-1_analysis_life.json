@@ -1,0 +1,55 @@
+{
+  "source_file": "doc-1.json",
+  "analysis_timestamp": "2025-11-05T14:52:51.201990",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The extracted data appears to be from an Aadhaar card (India's national identity document) for Masoob Alam, born December 18, 2001. The document contains personal identification information including name, date of birth, gender, Aadhaar number, virtual ID, and residential address in Ranchi, Jharkhand. This is not a salary slip or invoice but rather an identity verification document that would be used as part of the life insurance application process to confirm the applicant's identity and address. The applicant is a young adult male (21-22 years old based on the DOB) residing in Ranchi, Jharkhand, India.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (21-22 years) may indicate limited financial stability or income history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Limited personal information available for comprehensive risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Information Required**\n\nWhile the Aadhaar card provides basic identity verification, it is insufficient for life insurance underwriting purposes. Request the following additional documentation:\n\n1. Completed life insurance application form with health declarations\n2. Income proof documentation (salary slips, tax returns, or bank statements) to assess premium payment capacity\n3. Medical examination results appropriate for the applicant's age and requested coverage amount\n4. Occupation details to assess occupation-based risk factors\n5. Lifestyle questionnaire to evaluate non-medical risk factors\n6. Details about requested coverage amount and beneficiary information\n\nThe applicant's young age (21-22) is not a significant risk factor by itself, but requires verification of financial stability and justification for coverage needs. Proceed with standard age-appropriate underwriting after receiving the above documentation.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No health information is available in the provided document. Medical examination and health questionnaire are required."
+      },
+      {
+        "item_description": "Income verification",
+        "notes": "No income information is available to assess premium payment capacity and coverage justification."
+      },
+      {
+        "item_description": "Occupation details",
+        "notes": "No information about the applicant's occupation is available for occupation-based risk assessment."
+      },
+      {
+        "item_description": "Lifestyle factors and habits",
+        "notes": "No information about smoking, alcohol consumption, or other lifestyle factors that affect mortality risk."
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiary information",
+        "notes": "No details about the requested insurance coverage or beneficiary designations."
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about family medical history that might indicate hereditary conditions."
+      }
+    ],
+    "confidence_score": 0.7
+  }
+}

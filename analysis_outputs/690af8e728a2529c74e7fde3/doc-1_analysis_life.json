@@ -1,0 +1,51 @@
+{
+  "source_file": "doc-1.json",
+  "analysis_timestamp": "2025-11-05T12:44:13.070265",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document appears to be an Aadhaar card (India's national identity document) for Masoob Alam, a 22-year-old male born on December 18, 2001. The document contains personal identification information including name, date of birth, gender, Aadhaar number, virtual ID, and residential address in Ranchi, Jharkhand, India. This is not a salary slip or invoice but rather an identity verification document that can be used to confirm the applicant's identity for life insurance purposes. The document provides basic demographic information relevant to life insurance underwriting, including age and gender, which are key rating factors.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (22 years old) may indicate limited financial stability or employment history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Limited personal information available for comprehensive risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nWhile the Aadhaar card provides basic identity verification, it is insufficient for a complete life insurance underwriting assessment. Request the following:\n\n1. Completed life insurance application with medical history, lifestyle information, and coverage details\n2. Income verification documents to assess premium payment capacity and appropriate coverage amount\n3. Medical examination results or health records to evaluate medical risks\n4. Occupation details to assess occupation-based risks\n5. Beneficiary information\n\nThe applicant's young age (22) is favorable from a mortality risk perspective, but additional information is needed to properly assess overall risk and determine appropriate coverage and premium rates.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about pre-existing conditions, medications, or recent medical treatments is available"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, dangerous activities, or hobbies"
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "No information about current employment, occupation hazards, or income level to assess premium payment capacity"
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiary information",
+        "notes": "No information about desired coverage amount, term length, or designated beneficiaries"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about family history of hereditary conditions or diseases"
+      }
+    ],
+    "confidence_score": 0.7
+  }
+}

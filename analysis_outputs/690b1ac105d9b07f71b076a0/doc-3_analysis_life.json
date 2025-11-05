@@ -1,0 +1,92 @@
+{
+  "source_file": "doc-3.json",
+  "analysis_timestamp": "2025-11-05T15:12:19.584326",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a comprehensive health report from TATA 1mg for Masoob Alam, a 24-year-old male. The report contains detailed laboratory test results including complete blood count, lipid profile, liver function tests, kidney function tests, thyroid function tests, and urinalysis. The report is dated September 14, 2025, and includes patient ID MGB1394765. This medical document provides valuable health information for life insurance underwriting, showing the applicant's current health status across multiple parameters.",
+    "identified_risks": [
+      {
+        "risk_description": "Elevated Hemoglobin (17.3 g/dL, reference range 13.0-17.0 g/dL)",
+        "severity": "Low",
+        "page_references": [
+          "3"
+        ]
+      },
+      {
+        "risk_description": "Elevated Hematocrit (51.4%, reference range 40-50%)",
+        "severity": "Low",
+        "page_references": [
+          "3",
+          "6"
+        ]
+      },
+      {
+        "risk_description": "Low HDL Cholesterol (29 mg/dL, reference range ≥39.9 mg/dL)",
+        "severity": "Medium",
+        "page_references": [
+          "3",
+          "4",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated Total Bilirubin (1.60 mg/dL, reference range 0.3-1.2 mg/dL)",
+        "severity": "Low",
+        "page_references": [
+          "4",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated Indirect Bilirubin (1.11 mg/dL, reference range 0.2-0.8 mg/dL)",
+        "severity": "Low",
+        "page_references": [
+          "4",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated Alkaline Phosphatase (122 U/L, reference range 50-116 U/L)",
+        "severity": "Low",
+        "page_references": [
+          "4",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated Cholesterol:HDL Ratio (4.7)",
+        "severity": "Medium",
+        "page_references": [
+          "5"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "## Medical Timeline for Masoob Alam (24/Male)\n\n**September 14, 2025**\n- Comprehensive health assessment conducted at TATA 1mg Bangalore\n- Lab Visit ID: MGB1394765\n\n**Key Findings:**\n- **Cardiovascular Health**: Low HDL cholesterol (29 mg/dL) and elevated cholesterol:HDL ratio (4.7), indicating moderate cardiovascular risk despite normal total cholesterol (137 mg/dL) and LDL (84 mg/dL)\n- **Liver Function**: Slightly elevated total bilirubin (1.60 mg/dL), indirect bilirubin (1.11 mg/dL), and alkaline phosphatase (122 U/L)\n- **Blood Parameters**: Slightly elevated hemoglobin (17.3 g/dL) and hematocrit (51.4%)\n- **Metabolic Health**: Normal glucose levels (fasting: 73 mg/dL) and HbA1c (4.8%)\n- **Kidney Function**: Normal creatinine (1.00 mg/dL) and electrolytes\n- **Thyroid Function**: Normal TSH (2.634 μIU/mL), T3 (0.77 ng/mL), and T4 (6.6 μg/dL)\n- **Urinalysis**: Normal findings with no significant abnormalities",
+    "property_assessment": "N/A",
+    "final_recommendation": "## Underwriting Recommendation\n\n**Overall Assessment**: Standard rates with potential for slight rating adjustment\n\n**Rationale**:\n- The applicant is a young 24-year-old male with generally good health indicators\n- Several minor laboratory abnormalities are present but none indicate serious underlying conditions\n- The most significant finding is the low HDL cholesterol (29 mg/dL) and elevated cholesterol:HDL ratio (4.7), which represents a moderate cardiovascular risk factor\n- Mild liver function abnormalities (elevated bilirubin and alkaline phosphatase) warrant monitoring but are not severe\n\n**Recommended Actions**:\n1. Proceed with standard rates with consideration for a slight rating adjustment based on the cardiovascular risk profile\n2. Request additional information about:\n   - Family history of cardiovascular disease\n   - Current exercise habits and lifestyle\n   - Smoking, alcohol consumption, and other risk behaviors\n   - Any previous medical diagnoses or treatments\n3. Consider requesting a follow-up lipid panel in 3-6 months to monitor HDL levels\n4. Document the mild liver function abnormalities for future reference\n\n**Note**: The applicant's young age (24) is a positive factor that partially mitigates the cardiovascular risk findings.",
+    "missing_information": [
+      {
+        "item_description": "Height and weight measurements",
+        "notes": "BMI calculation is listed as 'Data not available' in the report. This information is essential for proper risk assessment."
+      },
+      {
+        "item_description": "Blood pressure readings",
+        "notes": "BP is listed as 'Data not available' in the report. This is critical information for cardiovascular risk assessment."
+      },
+      {
+        "item_description": "Lifestyle factors (smoking, alcohol consumption)",
+        "notes": "Habits are listed as 'Data not available' in the report. This information is important for risk assessment."
+      },
+      {
+        "item_description": "Family history of medical conditions",
+        "notes": "Family History is listed as 'Data not available' in the report. This information is crucial for genetic risk assessment."
+      },
+      {
+        "item_description": "Medical questionnaire responses",
+        "notes": "Several surveys (Diabetes, Hypertension, Stroke, CVD, Depression, Anxiety, Stress) are listed as 'Survey not taken yet' or 'Data not available'."
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

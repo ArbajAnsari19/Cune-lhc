@@ -1,0 +1,51 @@
+{
+  "source_file": "doc-4.json",
+  "analysis_timestamp": "2025-11-05T12:45:17.502885",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document is a Permanent Account Number (PAN) Card issued by the Income Tax Department of the Government of India. This is an official identification document that contains the individual's unique PAN number (DXHPA0659G), full name (MASOOB ALAM), father's name (AFTAB ALAM), and date of birth (December 18, 2001). For life insurance underwriting, this document serves as primary identification verification and provides basic demographic information about the applicant. The PAN card confirms the applicant is a young adult (21-22 years old depending on current date), which is relevant for age-based risk assessment in life insurance.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (21-22 years old) may indicate limited financial stability or income history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "PAN card provides identity verification but lacks information on medical history, lifestyle factors, or occupation",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Documentation Required**\n\nWhile the PAN card provides basic identity verification and confirms the applicant's age, it is insufficient for comprehensive life insurance underwriting. Recommend requesting:\n\n1. Complete medical history and examination reports\n2. Income verification documents (salary slips, tax returns, bank statements)\n3. Lifestyle questionnaire to assess risk behaviors\n4. Occupation details and employment verification\n5. Family medical history\n6. Proposed coverage amount and beneficiary information\n\nThe applicant's young age (21-22) may qualify them for favorable premium rates, but additional documentation is essential to complete a proper risk assessment and determine appropriate coverage levels.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about applicant's medical conditions, treatments, or current health status is available in the PAN card"
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "Employment information, occupation type, and income verification are needed to assess risk and appropriate coverage amounts"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "Information about smoking status, alcohol consumption, dangerous activities, and other lifestyle factors is needed"
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiaries",
+        "notes": "Details about the desired insurance coverage amount and named beneficiaries are not provided"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "Information about hereditary conditions or family medical history that could affect risk assessment"
+      }
+    ],
+    "confidence_score": 0.9
+  }
+}

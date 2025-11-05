@@ -1,0 +1,99 @@
+{
+  "source_file": "doc-3.json",
+  "analysis_timestamp": "2025-11-05T12:04:34.763617",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a comprehensive health report from TATA 1mg for Masoob Alam, a 24-year-old male. The report contains detailed blood test results, including complete blood count, lipid profile, liver function tests, kidney function tests, thyroid function tests, and urinalysis. The report appears to be a routine health checkup rather than addressing any specific medical concern. For life insurance underwriting, this medical report provides valuable insights into the applicant's current health status, potential risk factors, and overall wellness.",
+    "identified_risks": [
+      {
+        "risk_description": "Elevated Hemoglobin (17.3 g/dL, reference range: 13.0-17.0 g/dL)",
+        "severity": "Low",
+        "page_references": [
+          "3"
+        ]
+      },
+      {
+        "risk_description": "Elevated Hematocrit (51.4%, reference range: 40-50%)",
+        "severity": "Low",
+        "page_references": [
+          "3"
+        ]
+      },
+      {
+        "risk_description": "Low HDL Cholesterol (29 mg/dL, reference range: ≥ 39.9 mg/dL)",
+        "severity": "Medium",
+        "page_references": [
+          "4",
+          "5"
+        ]
+      },
+      {
+        "risk_description": "Elevated Total Bilirubin (1.60 mg/dL, reference range: 0.3-1.2 mg/dL)",
+        "severity": "Low",
+        "page_references": [
+          "4",
+          "6"
+        ]
+      },
+      {
+        "risk_description": "Elevated Indirect Bilirubin (1.11 mg/dL, reference range: 0.2-0.8 mg/dL)",
+        "severity": "Low",
+        "page_references": [
+          "4",
+          "6"
+        ]
+      },
+      {
+        "risk_description": "Elevated Alkaline Phosphatase (122 U/L, reference range: 50-116 U/L)",
+        "severity": "Low",
+        "page_references": [
+          "4",
+          "6"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "## Medical Timeline for Masoob Alam (24-year-old male)\n\n**September 14, 2025 - Comprehensive Health Assessment**\n\n- Complete Blood Count: Minor elevations in hemoglobin (17.3 g/dL) and hematocrit (51.4%)\n- Lipid Profile: Low HDL cholesterol (29 mg/dL), otherwise normal lipid values\n- Liver Function Tests: Slightly elevated total bilirubin (1.60 mg/dL), indirect bilirubin (1.11 mg/dL), and alkaline phosphatase (122 U/L)\n- Kidney Function Tests: Normal\n- Thyroid Function Tests: Normal\n- Blood Glucose: Normal fasting glucose (73 mg/dL) and HbA1c (4.8%)\n- Urinalysis: Normal\n\nNo previous medical history or chronic conditions documented in the report. The report does not indicate any medications, treatments, or follow-up recommendations.",
+    "property_assessment": "N/A",
+    "final_recommendation": "## Underwriting Recommendation\n\n**Recommendation: Standard rates with potential for preferred classification pending additional information**\n\nThe applicant is a 24-year-old male with generally favorable health indicators. The comprehensive health report shows mostly normal results with a few minor abnormalities that are unlikely to significantly impact mortality risk:\n\n1. **Cardiovascular Health**: Normal cholesterol levels overall, though HDL is below recommended levels (29 mg/dL vs. ≥39.9 mg/dL reference). This represents a modest cardiovascular risk factor but is mitigated by the applicant's young age and otherwise normal lipid panel.\n\n2. **Metabolic Health**: Normal glucose metabolism with fasting glucose of 73 mg/dL and HbA1c of 4.8%, both well within normal ranges.\n\n3. **Liver Function**: Minor elevations in bilirubin and alkaline phosphatase warrant monitoring but are likely benign given normal SGOT/SGPT values.\n\n4. **Kidney Function**: All parameters within normal limits.\n\n5. **Thyroid Function**: All parameters within normal limits.\n\nThe slightly elevated hemoglobin and hematocrit values could be physiological or related to dehydration at the time of testing, rather than indicating pathology.\n\nRecommend obtaining additional information about:\n- Family history of cardiovascular disease or other hereditary conditions\n- Lifestyle factors (smoking, alcohol consumption, exercise habits)\n- Height and weight for BMI calculation\n- Blood pressure readings\n\nAbsent any concerning findings from this additional information, the applicant appears to be a good candidate for standard or potentially preferred life insurance rates given his young age and largely favorable health profile.",
+    "missing_information": [
+      {
+        "item_description": "Height and weight measurements",
+        "notes": "Needed to calculate BMI and assess obesity-related risks"
+      },
+      {
+        "item_description": "Blood pressure readings",
+        "notes": "Important cardiovascular risk indicator not included in the report"
+      },
+      {
+        "item_description": "Smoking status",
+        "notes": "Critical lifestyle factor for life insurance risk assessment"
+      },
+      {
+        "item_description": "Alcohol consumption habits",
+        "notes": "Important lifestyle factor for assessing liver health and overall mortality risk"
+      },
+      {
+        "item_description": "Family history details",
+        "notes": "Report mentions 'Family History: Data not available' but this information is crucial for hereditary risk assessment"
+      },
+      {
+        "item_description": "Physical activity level",
+        "notes": "Important lifestyle factor that impacts cardiovascular health and overall mortality risk"
+      },
+      {
+        "item_description": "Occupation details",
+        "notes": "Needed to assess occupation-related risks"
+      },
+      {
+        "item_description": "Coverage amount requested",
+        "notes": "Needed to evaluate appropriateness of coverage relative to financial situation"
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "Required to assess insurable interest and complete application"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

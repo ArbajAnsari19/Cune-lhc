@@ -1,0 +1,73 @@
+{
+  "source_file": "doc-2.json",
+  "analysis_timestamp": "2025-11-05T15:10:30.439165",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a life insurance application form for Masoob Alam, a 23-year-old male engineer born on December 18, 2001. The applicant is single, salaried, and has nominated his father Aftab Alam as the beneficiary. The application indicates good health with no significant medical conditions except a mention of thyroid issues. The applicant has a monthly income of Rs. 180,000, is a non-smoker (quit in 2024), and does not consume alcohol. The applicant has selected an individual sum insured option under Plan A. The document includes personal details, health declarations, and insurance preferences for coverage beginning September 20, 2025.",
+    "identified_risks": [
+      {
+        "risk_description": "Thyroid condition mentioned in health details",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Recent tobacco cessation (stopped in 2024)",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Inconsistency in health declarations (marked 'No' for suffering from illnesses but mentions thyroid)",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Health condition disclosure inconsistency",
+        "details": "Applicant marked 'No' for having suffered from illnesses or medical conditions, but 'Thyroid' is listed under ailment details",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Tobacco usage inconsistency",
+        "details": "Applicant indicated 'No' for tobacco consumption but provided a quit date of 2024, suggesting previous tobacco use",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "2024: Applicant reports quitting tobacco use\nUnspecified date: Thyroid condition (details not provided)",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request additional information before proceeding**\n\n1. **Thyroid condition clarification**: Request complete details about the thyroid condition including diagnosis date, type (hypothyroid/hyperthyroid), treatment regimen, medication dosage, and most recent test results. This inconsistency in health declarations requires clarification.\n\n2. **Tobacco usage history**: Request details about previous tobacco consumption habits including duration, frequency, and type of tobacco products used before quitting in 2024.\n\n3. **Income verification**: While the monthly income of Rs. 180,000 appears sufficient to support premium payments, request income documentation to verify the stated amount.\n\n4. **Medical examination**: Consider requiring a medical examination with thyroid function tests to assess current thyroid status and overall health.\n\nThe application shows no other significant health concerns, and the applicant's age (23), occupation (Engineer), and lifestyle factors (non-drinker, recently quit smoking) are generally favorable risk factors. Once the thyroid condition is properly assessed and documented, standard rates may be appropriate if the condition is well-controlled.",
+    "missing_information": [
+      {
+        "item_description": "Thyroid condition details",
+        "notes": "Need diagnosis date, type of thyroid disorder, severity, treatment regimen, and current status"
+      },
+      {
+        "item_description": "Previous tobacco usage details",
+        "notes": "Need information on duration, frequency, and type of tobacco products used before quitting in 2024"
+      },
+      {
+        "item_description": "Income verification documentation",
+        "notes": "Need salary slips or tax returns to verify the stated monthly income of Rs. 180,000"
+      },
+      {
+        "item_description": "Sum insured amount",
+        "notes": "The application does not specify the requested coverage amount/sum insured"
+      },
+      {
+        "item_description": "Medical records",
+        "notes": "Need medical records related to the thyroid condition including recent test results"
+      }
+    ],
+    "confidence_score": 0.8
+  }
+}

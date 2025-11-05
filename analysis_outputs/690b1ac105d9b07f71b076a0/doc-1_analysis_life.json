@@ -1,0 +1,55 @@
+{
+  "source_file": "doc-1.json",
+  "analysis_timestamp": "2025-11-05T15:11:29.667918",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The extracted data appears to be from an Aadhaar card, which is India's national identification document. The document contains personal identification information for Masoob Alam, a 22-year-old male born on December 18, 2001. The document includes his Aadhaar number (783296048167), Virtual ID (9159120491242473), and residential address in Ranchi, Jharkhand, India. This is not a salary slip or invoice but rather an identity verification document that provides basic demographic information relevant for a life insurance application. The document confirms the applicant's identity, age, gender, and residence, which are fundamental elements for life insurance underwriting.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (22 years old) may indicate limited financial stability or income history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Residential location in Jharkhand, which may have different mortality rates or healthcare access compared to other regions in India",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation for Further Processing**\n\nThe Aadhaar card confirms the applicant's basic identity information (name, age, gender, address) which matches the initial application details. However, this document alone is insufficient for complete life insurance underwriting.\n\n**Next Steps:**\n1. Request medical examination and health history to assess mortality risk\n2. Obtain income verification documents to assess premium payment capacity and appropriate coverage amount\n3. Request lifestyle questionnaire to evaluate risk behaviors\n4. Verify occupation details to assess occupation-related risks\n5. Confirm beneficiary information and relationship to the applicant\n\nThe application can proceed to the next underwriting stage with identity verification complete, but additional documentation is required before final approval.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No health information is provided in the Aadhaar card. Medical examination, doctor's reports, or health questionnaires are needed to assess mortality risk."
+      },
+      {
+        "item_description": "Income verification",
+        "notes": "No financial information is available. Salary slips, tax returns, or bank statements are needed to verify income and premium payment capacity."
+      },
+      {
+        "item_description": "Occupation details",
+        "notes": "No occupation information is provided. Employment verification and job description are needed to assess occupation-related risks."
+      },
+      {
+        "item_description": "Lifestyle factors",
+        "notes": "No information about smoking, alcohol consumption, exercise habits, or other lifestyle factors that affect mortality risk."
+      },
+      {
+        "item_description": "Coverage amount requested",
+        "notes": "No information about the desired coverage amount or policy type is provided."
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "No details about intended beneficiaries, their relationship to the applicant, or insurable interest."
+      }
+    ],
+    "confidence_score": 0.8
+  }
+}

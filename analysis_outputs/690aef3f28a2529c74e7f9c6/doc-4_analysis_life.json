@@ -1,0 +1,51 @@
+{
+  "source_file": "doc-4.json",
+  "analysis_timestamp": "2025-11-05T12:04:52.487494",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document is a Permanent Account Number (PAN) Card issued by the Income Tax Department, Government of India. This is an official identification document that contains the applicant's personal information including name (MASOOB ALAM), father's name (AFTAB ALAM), date of birth (December 18, 2001), and unique PAN number (DXHPA0659G). For life insurance underwriting, this document serves as primary identification verification and provides basic demographic information. The applicant is 22 years old (born in 2001), which is relevant for age-based risk assessment and premium calculation. This is not a salary slip or invoice, but rather an official government identification document essential for verifying the applicant's identity in the life insurance application process.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (22 years old) may indicate limited financial stability or income history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "PAN card provides identity verification but lacks information on medical history, lifestyle factors, or occupation",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Documentation Required**\n\nWhile the PAN card provides basic identity verification, it is insufficient for a complete life insurance underwriting assessment. Recommend:\n\n1. Request standard medical examination and health questionnaire to assess health risks\n2. Obtain income verification documents (salary slips, tax returns, or bank statements) to assess premium payment capacity and appropriate coverage amount\n3. Request occupation details to evaluate occupation-based risks\n4. Collect information on lifestyle factors (smoking, alcohol consumption, dangerous activities)\n5. Gather details on desired coverage amount and beneficiary information\n\nThe application process should continue once these additional documents are provided for a comprehensive risk assessment.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No health information is available in the PAN card. Medical examination and health questionnaire are needed."
+      },
+      {
+        "item_description": "Income verification",
+        "notes": "Salary slips, tax returns, or bank statements are required to assess financial stability and premium payment capacity."
+      },
+      {
+        "item_description": "Occupation details",
+        "notes": "Information about the applicant's current occupation is needed to assess occupation-based risks."
+      },
+      {
+        "item_description": "Lifestyle factors",
+        "notes": "Information about smoking, alcohol consumption, and participation in dangerous activities is needed for risk assessment."
+      },
+      {
+        "item_description": "Desired coverage amount and beneficiary information",
+        "notes": "Details about the requested life insurance coverage amount and intended beneficiaries are required."
+      }
+    ],
+    "confidence_score": 0.9
+  }
+}

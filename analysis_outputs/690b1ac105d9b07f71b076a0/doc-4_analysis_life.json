@@ -1,0 +1,51 @@
+{
+  "source_file": "doc-4.json",
+  "analysis_timestamp": "2025-11-05T15:12:37.874996",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a Permanent Account Number (PAN) Card issued by the Income Tax Department of the Government of India to Masoob Alam. The PAN card serves as an important identification document in India and contains the individual's unique PAN number (DXHPA0659G), full name, father's name (Aftab Alam), and date of birth (December 18, 2001). For life insurance purposes, this document provides identity verification and confirms the applicant's age as 21-22 years old (depending on current date). The PAN card helps establish the applicant's identity for KYC (Know Your Customer) requirements but does not provide information about medical history, lifestyle factors, income, or coverage needs.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (21-22 years old) may indicate limited financial stability or income history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Limited identification document with no information on medical history, occupation, or lifestyle factors",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Documentation Required**\n\nThe PAN card provides basic identity verification but is insufficient for life insurance underwriting. Request the following additional documentation:\n\n1. Completed life insurance application form with medical history disclosure\n2. Income proof documents (salary slips, tax returns) to assess premium payment capacity and appropriate coverage amount\n3. Medical examination reports based on age and requested coverage amount\n4. Occupation details to assess occupation-based risk factors\n5. Lifestyle questionnaire to evaluate risk behaviors\n6. Beneficiary information and relationship to the applicant\n\nThe applicant's young age (21-22) may qualify for standard or preferred rates pending medical and lifestyle evaluation. However, comprehensive assessment requires the additional documentation listed above.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about applicant's medical conditions, treatments, or family medical history is available in the PAN card"
+      },
+      {
+        "item_description": "Income verification and employment details",
+        "notes": "No information about applicant's occupation, income level, or employment stability to assess premium payment capacity and appropriate coverage amount"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, dangerous hobbies, or other lifestyle factors that impact life insurance risk assessment"
+      },
+      {
+        "item_description": "Requested coverage amount and policy details",
+        "notes": "No information about desired coverage amount, policy term, or specific life insurance product being applied for"
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "No details about intended beneficiaries, their relationship to the applicant, or coverage justification"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

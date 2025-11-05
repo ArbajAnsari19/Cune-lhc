@@ -1,0 +1,51 @@
+{
+  "source_file": "doc-1.json",
+  "analysis_timestamp": "2025-11-04T22:37:54.865104",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document is an Aadhaar card (India's national identity document) for Masoob Alam, a 22-year-old male born on December 18, 2001. The Aadhaar card is issued by the Government of India through the Unique Identification Authority of India (UIDAI). It contains the individual's personal identification details including name, date of birth, gender, address, and unique identification numbers (Aadhaar number and Virtual ID). For life insurance underwriting purposes, this document serves as identity verification and provides basic demographic information that helps establish the applicant's age and residence, which are fundamental factors in determining life insurance eligibility and premium rates.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (22 years old) may indicate limited financial stability or income history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Limited personal information available for comprehensive risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nWhile the Aadhaar card provides basic identity verification and age confirmation, it is insufficient for a complete life insurance underwriting assessment. The following additional documentation is required:\n\n1. **Medical information**: Request a completed health questionnaire and medical examination results to assess health risks\n2. **Income verification**: Request salary slips, tax returns, or bank statements to verify financial capacity for premium payments\n3. **Occupation details**: Request employment verification to assess occupation-related risks\n4. **Lifestyle information**: Request details on smoking, alcohol consumption, and other lifestyle factors\n5. **Family medical history**: Request information on family health conditions relevant to mortality risk\n\nThe applicant's young age (22) is favorable from a mortality risk perspective, but additional information is needed to make a comprehensive underwriting decision.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about pre-existing conditions, current medications, or recent medical treatments is available"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, dangerous activities, or other lifestyle risk factors"
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "No information about the applicant's occupation, income level, or employment stability"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about family history of hereditary conditions or early mortality"
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiary information",
+        "notes": "No information about desired insurance coverage amount, term length, or intended beneficiaries"
+      }
+    ],
+    "confidence_score": 0.7
+  }
+}

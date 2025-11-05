@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Hardik Agarwal",
+    "dob": "27/03/1994",
+    "gender": "MALE",
+    "aadhaar_number": "592455052947"
+  },
+  {
+    "authority_name_english": "Unique Identification Authority of India",
+    "authority_name_hindi": "भारतीय विशिष्ट पहचान प्राधिकरण",
+    "address_english": "S/O: Hirdesh Kumar Agarwal, 045 Mohalla Mathmaliyan, Near Gopi Sweets, Pilkhuwa, Hapur, Pilkhua Dehat, Ghaziabad, Uttar Pradesh - 245304",
+    "address_hindi": "आत्मज: हृदेश कुमार अग्रवाल, 045 मोहल्ला मठमालियान, नज़दीक गोपी स्वीट्स, पिलखुवा, हापुड़, पिलखुवा देहात, गाज़ियाबाद, उत्तर प्रदेश - 245304",
+    "aadhaar_number": "592455052947",
+    "helpline_number": "1947",
+    "email": "help@uidai.gov.in",
+    "website": "www.uidai.gov.in"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "source_file": "doc-4.json",
+  "analysis_timestamp": "2025-11-05T15:11:11.319358",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document is a Permanent Account Number (PAN) Card issued by the Income Tax Department, Government of India. This is an official identification document that contains the individual's unique PAN number (DXHPA0659G), full name (MASOOB ALAM), father's name (AFTAB ALAM), and date of birth (December 18, 2001). For life insurance underwriting purposes, this document serves as identity verification and provides basic demographic information. The applicant is 22 years old (born in 2001), which is relevant for age-based risk assessment in life insurance. This document does not provide any medical history, lifestyle factors, coverage amounts, or beneficiary information.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (22 years old) may indicate limited credit and insurance history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation**: Proceed with the application process but request additional documentation to complete the underwriting assessment. The PAN card confirms the applicant's identity and age but provides insufficient information for a comprehensive life insurance risk assessment. \n\n**Required actions**:\n1. Obtain medical history and current health status information\n2. Request lifestyle questionnaire to assess risk behaviors\n3. Verify income and employment details to determine appropriate coverage amount\n4. Collect information on desired coverage amount and beneficiary designations\n5. Consider standard rates for this age group, pending review of additional documentation",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No medical information is available in the PAN card. Request medical questionnaire, examination results, or physician statements."
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "Information about smoking status, alcohol consumption, dangerous activities, and occupation is needed for risk assessment."
+      },
+      {
+        "item_description": "Income verification",
+        "notes": "Salary slips, tax returns, or bank statements needed to verify income and determine appropriate coverage amount."
+      },
+      {
+        "item_description": "Coverage amount and beneficiary information",
+        "notes": "Details about requested coverage amount and designated beneficiaries are required to complete the application."
+      }
+    ],
+    "confidence_score": 0.9
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "source_file": "doc-3.json",
+  "analysis_timestamp": "2025-11-04T22:38:24.456107",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a comprehensive health report from TATA 1mg for Masoob Alam, a 24-year-old male. The report includes detailed blood work results, urinalysis, and thyroid function tests. The document appears to be a Personal Health Smart Report that provides a comprehensive analysis of the applicant's health status. This medical report is highly relevant for life insurance underwriting as it provides current health indicators including blood glucose levels, cholesterol profile, liver and kidney function tests, complete blood count, and thyroid function, all of which are critical for assessing mortality risk.",
+    "identified_risks": [
+      {
+        "risk_description": "Elevated total bilirubin (1.60 mg/dL) and indirect bilirubin (1.11 mg/dL) above reference ranges",
+        "severity": "Medium",
+        "page_references": [
+          "6",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Low HDL cholesterol (29 mg/dL) below reference range (≥ 39.9 mg/dL)",
+        "severity": "Medium",
+        "page_references": [
+          "4",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated alkaline phosphatase (122 U/L) slightly above reference range (50-116 U/L)",
+        "severity": "Low",
+        "page_references": [
+          "6",
+          "8"
+        ]
+      },
+      {
+        "risk_description": "Elevated hemoglobin (17.3 g/dL) and hematocrit (51.4%) slightly above reference ranges",
+        "severity": "Low",
+        "page_references": [
+          "3",
+          "6"
+        ]
+      },
+      {
+        "risk_description": "Slightly elevated lymphocytes (40.3%) above reference range (20-40%)",
+        "severity": "Low",
+        "page_references": [
+          "3",
+          "6"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "**September 14, 2025**\n- Complete blood count showing slightly elevated hemoglobin (17.3 g/dL) and hematocrit (51.4%)\n- Lipid profile showing low HDL cholesterol (29 mg/dL) and normal LDL cholesterol (84 mg/dL)\n- Liver function tests showing elevated total bilirubin (1.60 mg/dL) and indirect bilirubin (1.11 mg/dL)\n- Normal kidney function with creatinine at 1.00 mg/dL\n- Normal thyroid function with TSH at 2.634 μIU/mL\n- Normal fasting glucose (73 mg/dL) and HbA1c (4.8%)\n- Normal urinalysis with no significant findings",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Standard rates with potential for slight rating**\n\nBased on the comprehensive health report, Masoob Alam is a 24-year-old male with generally good health indicators but with a few minor abnormalities that warrant consideration:\n\n1. **Liver Function Concerns**: The elevated total and indirect bilirubin levels suggest possible Gilbert's syndrome or other mild liver function issues that should be clarified with additional information or testing.\n\n2. **Cardiovascular Risk**: Low HDL cholesterol (29 mg/dL) is a risk factor for cardiovascular disease, though total cholesterol and LDL are within normal ranges.\n\n3. **Otherwise Favorable Profile**: The applicant has:\n   - Normal blood glucose and HbA1c levels indicating no diabetes concerns\n   - Normal kidney function\n   - Normal thyroid function\n   - No evidence of hypertension (though actual BP measurements are missing)\n\nRecommend proceeding with standard rates with potential for a slight rating due to the liver function and lipid abnormalities. Consider requesting clarification on the elevated bilirubin levels, particularly whether the applicant has a diagnosis of Gilbert's syndrome or other liver condition.",
+    "missing_information": [
+      {
+        "item_description": "Blood pressure measurements",
+        "notes": "The report mentions BP data is not available, which is important for cardiovascular risk assessment"
+      },
+      {
+        "item_description": "Height and weight measurements",
+        "notes": "BMI data is listed as not available, which is critical for mortality risk assessment"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "Listed as data not available, important for hereditary risk assessment"
+      },
+      {
+        "item_description": "Lifestyle factors and habits",
+        "notes": "Listed as data not available, important for risk behavior assessment"
+      },
+      {
+        "item_description": "Medical questionnaire responses",
+        "notes": "Surveys for diabetes, hypertension, stroke, CVD, depression, anxiety, and stress are listed as not taken"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

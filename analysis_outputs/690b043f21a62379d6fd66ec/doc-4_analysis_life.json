@@ -1,0 +1,44 @@
+{
+  "source_file": "doc-4.json",
+  "analysis_timestamp": "2025-11-05T13:40:41.280254",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document is a Permanent Account Number (PAN) Card issued by the Income Tax Department, Government of India. This is an official identification document that contains the applicant's unique PAN number (DXHPA0659G), full name (MASOOB ALAM), father's name (AFTAB ALAM), and date of birth (18/12/2001). For life insurance underwriting, this document serves as primary identification verification and provides basic demographic information. The applicant is young (21-22 years old, depending on the current date), which generally indicates lower mortality risk. This document alone does not provide information about medical history, lifestyle factors, occupation, income, or coverage details needed for comprehensive life insurance underwriting.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (21-22 years old) may indicate limited credit history and financial stability",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Information Required**\n\nWhile the PAN card provides basic identification verification, it is insufficient for life insurance underwriting decisions. Request the following additional documentation:\n\n1. Completed life insurance application form with medical questionnaire\n2. Income proof (salary slips, tax returns) to verify financial capacity and determine appropriate coverage amount\n3. Medical examination results appropriate for the applicant's age and requested coverage amount\n4. Occupation details to assess occupation-related risks\n5. Lifestyle questionnaire to evaluate non-medical risk factors\n\nThe applicant's young age (21-22) is generally favorable for life insurance from a mortality risk perspective, but additional information is needed to determine appropriate premium rates and coverage eligibility.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information provided about applicant's medical conditions, medications, or health status"
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "No information about employment, occupation hazards, or income to assess financial justification for coverage"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol use, dangerous activities, or other lifestyle risk factors"
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiary information",
+        "notes": "No details about the type of life insurance policy, coverage amount, or named beneficiaries"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about family history of hereditary conditions that might affect mortality risk"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

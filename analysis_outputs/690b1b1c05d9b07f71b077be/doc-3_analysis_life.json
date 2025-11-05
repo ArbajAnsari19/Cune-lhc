@@ -1,0 +1,104 @@
+{
+  "source_file": "doc-3.json",
+  "analysis_timestamp": "2025-11-05T15:10:54.226486",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a comprehensive health report from TATA 1mg for Masoob Alam, a 24-year-old male. The report contains detailed blood work results, including complete blood count, lipid profile, liver function tests, kidney function tests, thyroid function tests, and urinalysis. The report appears to be a routine health checkup rather than addressing any specific medical concern. For life insurance underwriting, this medical report provides valuable insights into the applicant's current health status, potential risk factors, and overall medical condition.",
+    "identified_risks": [
+      {
+        "risk_description": "Elevated Hemoglobin (17.3 g/dL, reference range: 13.0-17.0 g/dL)",
+        "severity": "Low",
+        "page_references": [
+          "3",
+          "6"
+        ]
+      },
+      {
+        "risk_description": "Low HDL Cholesterol (29 mg/dL, reference range: ≥ 39.9 mg/dL)",
+        "severity": "Medium",
+        "page_references": [
+          "3",
+          "4",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated Total Bilirubin (1.60 mg/dL, reference range: 0.3-1.2 mg/dL)",
+        "severity": "Low",
+        "page_references": [
+          "4",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated Indirect Bilirubin (1.11 mg/dL, reference range: 0.2-0.8 mg/dL)",
+        "severity": "Low",
+        "page_references": [
+          "4",
+          "7"
+        ]
+      },
+      {
+        "risk_description": "Elevated Alkaline Phosphatase (122 U/L, reference range: 50-116 U/L)",
+        "severity": "Low",
+        "page_references": [
+          "4",
+          "8"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Missing physical measurements",
+        "details": "The Wellbeing Index section indicates 'Data not available' for height, weight, waist, BMI, heart age, and BP measurements, which are typically included in a comprehensive health assessment",
+        "page_references": [
+          "5"
+        ]
+      },
+      {
+        "discrepancy_description": "Missing lifestyle information",
+        "details": "The report indicates 'Data not available' for habits and family history in the Wellbeing Index section, which would be valuable for risk assessment",
+        "page_references": [
+          "5"
+        ]
+      },
+      {
+        "discrepancy_description": "Incomplete health survey data",
+        "details": "The report indicates 'Survey not taken yet' for diabetes, hypertension, stroke, CVD, depression, anxiety, and stress assessments",
+        "page_references": [
+          "5"
+        ]
+      }
+    ],
+    "medical_timeline": "## Medical Report Summary for Masoob Alam (24/Male)\n\n### Key Findings:\n- **Blood Parameters**: Most values within normal range\n- **Glucose Metabolism**: Normal fasting glucose (73 mg/dL) and HbA1c (4.8%)\n- **Lipid Profile**: Total cholesterol normal (137 mg/dL), but HDL cholesterol low (29 mg/dL)\n- **Liver Function**: Slight elevations in total bilirubin (1.60 mg/dL), indirect bilirubin (1.11 mg/dL), and alkaline phosphatase (122 U/L)\n- **Kidney Function**: Normal\n- **Thyroid Function**: Normal\n- **Urinalysis**: Normal\n\nNo chronic conditions or significant health issues identified in this report.",
+    "property_assessment": "N/A",
+    "final_recommendation": "## Underwriting Recommendation\n\nBased on the comprehensive health report for Masoob Alam, I recommend **Standard Plus** rating for life insurance coverage.\n\n### Justification:\n- Applicant is young (24 years old) with mostly normal laboratory values\n- No evidence of chronic diseases like diabetes, hypertension, or thyroid disorders\n- No indications of kidney or significant liver disease\n- No reported lifestyle risk factors (smoking, alcohol consumption)\n\n### Minor Concerns:\n- Low HDL cholesterol (29 mg/dL) suggests potential cardiovascular risk\n- Slightly elevated liver enzymes (bilirubin, alkaline phosphatase) warrant monitoring but are not severe\n\n### Additional Considerations:\n- Request completion of lifestyle questionnaire to assess habits and family history\n- Obtain height, weight, and blood pressure measurements to complete risk assessment\n- Consider follow-up on low HDL cholesterol if family history indicates cardiovascular disease\n\nOverall, the applicant presents as a healthy young adult with minimal medical concerns that would impact life insurance eligibility.",
+    "missing_information": [
+      {
+        "item_description": "Height and weight measurements",
+        "notes": "BMI calculation is important for cardiovascular risk assessment and overall mortality risk"
+      },
+      {
+        "item_description": "Blood pressure readings",
+        "notes": "Essential for cardiovascular risk assessment"
+      },
+      {
+        "item_description": "Lifestyle information (smoking, alcohol, exercise habits)",
+        "notes": "Critical for assessing behavioral risk factors"
+      },
+      {
+        "item_description": "Family history",
+        "notes": "Important for evaluating genetic predisposition to diseases"
+      },
+      {
+        "item_description": "Occupation details",
+        "notes": "Needed to assess occupational hazards and lifestyle factors"
+      },
+      {
+        "item_description": "Requested coverage amount",
+        "notes": "Required to evaluate appropriateness of coverage relative to financial situation"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "source_file": "Hardik_adhaar.json",
+  "analysis_timestamp": "2025-11-05T12:32:26.955372",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The extracted data contains identification information from an Aadhaar card (India's national ID) for Hardik Agarwal, a 29-year-old male born on March 27, 1994. The document provides personal identification details including name, date of birth, gender, Aadhaar number, and residential address in Pilkhuwa, Hapur, Uttar Pradesh. This document serves as identity verification for the life insurance application process but does not contain any medical history, lifestyle factors, coverage details, or financial information that would directly impact underwriting decisions.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited demographic information for comprehensive risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "No medical history or lifestyle information available for mortality risk assessment",
+        "severity": "High",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "No occupation information to assess occupation-related mortality risks",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nThe Aadhaar card provides basic identity verification but is insufficient for life insurance underwriting. Request the following:\n\n1. **Medical Information**: Complete medical history questionnaire and medical examination results\n2. **Lifestyle Information**: Details about smoking, alcohol consumption, exercise habits, and high-risk activities\n3. **Occupation Details**: Current occupation, job duties, and workplace hazards\n4. **Financial Information**: Income verification, existing coverage, and justification for requested coverage amount\n5. **Family Medical History**: Information about hereditary conditions\n\nThe application cannot proceed with underwriting decisions until this critical information is received. The Aadhaar card has been verified for identity purposes only.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about pre-existing conditions, medications, or recent medical examinations"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, exercise habits, or participation in high-risk activities"
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "No information about current occupation, job duties, workplace hazards, or income level"
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiaries",
+        "notes": "No information about desired life insurance coverage amount or designated beneficiaries"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about hereditary conditions or family history of diseases"
+      }
+    ],
+    "confidence_score": 0.8
+  }
+}

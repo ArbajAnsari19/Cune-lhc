@@ -1,0 +1,84 @@
+{
+  "source_file": "doc-2.json",
+  "analysis_timestamp": "2025-11-05T13:39:51.466837",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a life insurance application form for MASOOB ALAM, a 23-year-old male (DOB: 18/12/2001) who is applying for individual coverage. The applicant is single, works as an Engineer with a reported monthly income of ₹180,000, and has nominated his father AFTAB ALAM as the beneficiary. The applicant reports being in good health, with no tobacco or alcohol consumption, though there is a mention of thyroid as an ailment. The application indicates Plan A coverage has been selected with an individual sum insured option. The applicant has no reported occupational hazards and appears to have stopped using tobacco products in 2024.",
+    "identified_risks": [
+      {
+        "risk_description": "Thyroid condition mentioned in medical section",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Former tobacco use indicated (stopped in 2024)",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Very high monthly income (₹180,000) that seems disproportionate for a young engineer (age 23)",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Income level inconsistency with age and occupation",
+        "details": "The applicant reports a monthly income of ₹180,000 (₹2.16 million annually) which is unusually high for a 23-year-old engineer who recently completed B.Tech education. This income level requires verification.",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Tobacco use status unclear",
+        "details": "The form indicates the applicant does not consume tobacco (marked as false), yet there is a 'stopped from when' date of 2024, suggesting previous tobacco use that was not properly disclosed in the consumption question.",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Thyroid condition reporting inconsistency",
+        "details": "While 'No' is marked for suffering from medical conditions in section 3a, 'Thyroid' is listed as an ailment in section 3c, creating an inconsistency in the medical disclosure.",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "The applicant reports having a thyroid condition (mentioned in section 3c), though the details, diagnosis date, treatment status, and severity are not provided. The applicant also indicates previous tobacco use that was stopped in 2024, though the duration and quantity of previous use are not specified.",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request additional information before proceeding**\n\n1. **Medical Information**: Request detailed medical records regarding the thyroid condition including diagnosis date, specific condition type (hypothyroidism/hyperthyroidism), treatment protocol, medication details, and most recent lab results.\n\n2. **Income Verification**: Request documentation to verify the reported monthly income of ₹180,000, which appears unusually high for a 23-year-old engineer. This could include tax returns, employment contract, or additional pay stubs.\n\n3. **Tobacco Use History**: Clarify the history of tobacco use including duration, frequency, and type of tobacco products used before cessation in 2024.\n\n4. **Coverage Amount Justification**: Request clarification on the desired coverage amount (not specified in the extracted data) to ensure it aligns with financial needs and income level.\n\nOnce this information is received, a more accurate risk assessment can be completed. The thyroid condition may require additional rating depending on its severity and control status. The income verification is particularly important to ensure the coverage amount requested is appropriate and the premium payment capacity is accurately assessed.",
+    "missing_information": [
+      {
+        "item_description": "Specific details about thyroid condition",
+        "notes": "Need diagnosis date, condition type (hypothyroidism/hyperthyroidism), severity, treatment protocol, and current status"
+      },
+      {
+        "item_description": "Income verification documentation",
+        "notes": "Request tax returns, employment contract, or additional pay stubs to verify the reported monthly income of ₹180,000"
+      },
+      {
+        "item_description": "Tobacco use history details",
+        "notes": "Need information on duration of use, frequency, type of tobacco products, and exact cessation date"
+      },
+      {
+        "item_description": "Requested coverage amount/sum insured",
+        "notes": "The benefit amount/sum insured is not specified in the extracted data"
+      },
+      {
+        "item_description": "Complete address information",
+        "notes": "City and pincode are missing from the applicant's address"
+      },
+      {
+        "item_description": "Detailed medical questionnaire responses",
+        "notes": "Need complete responses to medical questions to better assess the thyroid condition and any other potential health issues"
+      }
+    ],
+    "confidence_score": 0.7
+  }
+}

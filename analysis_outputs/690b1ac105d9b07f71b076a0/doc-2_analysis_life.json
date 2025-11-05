@@ -1,0 +1,73 @@
+{
+  "source_file": "doc-2.json",
+  "analysis_timestamp": "2025-11-05T15:11:54.360986",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a life insurance application form for SBI General Insurance Company Limited. The applicant, Mr. Masoob Alam, is a 23-year-old male (DOB: 18/12/2001) who works as an Engineer with a reported monthly income of 180,000 INR. He is single and has listed his father, Aftab Alam, as the nominee. The application indicates the insured is in good health, does not consume tobacco or alcohol (though notes he stopped smoking in 2024), and has no significant medical conditions except for a mention of 'Thyroid' under ailment details. The insurance period is from 20/09/2025 to 21/10/2026, with Plan A selected under an Individual sum insured option.",
+    "identified_risks": [
+      {
+        "risk_description": "Thyroid condition mentioned but details are unclear",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Inconsistency regarding tobacco use - states does not consume tobacco but indicates stopped smoking in 2024",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "High monthly income (180,000 INR) without verification documentation",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Tobacco use status inconsistency",
+        "details": "The form indicates 'primary_insured_consume_tobacco' as false, but also shows 'primary_insured_stopped_smoking_from_when' as '2024', suggesting previous tobacco use",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Thyroid ailment mentioned without details",
+        "details": "Thyroid is listed under 'q3c_ailment_details' but all related medical condition questions are marked as false, creating uncertainty about the applicant's thyroid condition status",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "**Medical Information**\n- Thyroid condition mentioned (no details provided on diagnosis date, severity, or treatment)\n- No other medical conditions reported\n- Stopped smoking in 2024 (though form also indicates no tobacco use)",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request Additional Information**\n\n1. **Medical Clarification Required:**\n   - Request medical records or physician statement regarding the thyroid condition mentioned in the application\n   - Clarify severity, treatment protocol, and current status\n   - Standard thyroid panel blood test results should be obtained\n\n2. **Tobacco Use Clarification:**\n   - Resolve the discrepancy regarding tobacco use history\n   - If applicant was previously a smoker (as suggested by the 'stopped smoking in 2024' entry), obtain details on duration and frequency of past tobacco use\n\n3. **Income Verification:**\n   - Request income verification documents (tax returns, employer verification) to confirm the stated monthly income of 180,000 INR\n   - Ensure the coverage amount requested (not specified in extracted data) is appropriate for the income level\n\nOnce these clarifications are received, the application can be reconsidered. The applicant's young age (23) and otherwise good health are positive factors, but the thyroid condition and tobacco history require further investigation before proceeding.",
+    "missing_information": [
+      {
+        "item_description": "Benefit amount/sum insured",
+        "notes": "The coverage amount requested is not specified in the extracted data"
+      },
+      {
+        "item_description": "Details of thyroid condition",
+        "notes": "Type, severity, treatment status, and diagnosis date of the thyroid condition are not provided"
+      },
+      {
+        "item_description": "Income verification documentation",
+        "notes": "No supporting documents to verify the stated monthly income of 180,000 INR"
+      },
+      {
+        "item_description": "Complete tobacco use history",
+        "notes": "Clarification needed on past tobacco use, given the discrepancy in the application"
+      },
+      {
+        "item_description": "Medical examination results",
+        "notes": "No medical examination or laboratory test results are included"
+      }
+    ],
+    "confidence_score": 0.75
+  }
+}

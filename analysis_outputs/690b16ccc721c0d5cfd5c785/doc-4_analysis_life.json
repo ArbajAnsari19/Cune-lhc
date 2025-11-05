@@ -1,0 +1,51 @@
+{
+  "source_file": "doc-4.json",
+  "analysis_timestamp": "2025-11-05T14:54:07.510057",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document is a Permanent Account Number (PAN) Card issued by the Income Tax Department of India to MASOOB ALAM. This is an identification document that serves as a tax identification number in India, similar to a Social Security Number in the US. The PAN card contains the individual's basic personal information including full name, father's name, and date of birth. For life insurance underwriting, this document provides identity verification and confirms the applicant's age (born December 18, 2001, making them 21-22 years old). The PAN card is not a salary slip or invoice but rather a government-issued identification document that helps establish the applicant's identity for tax purposes in India.",
+    "identified_risks": [
+      {
+        "risk_description": "Young applicant age (21-22 years old) may indicate limited financial stability or employment history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "PAN card provides identity verification but lacks financial, medical, or lifestyle information needed for comprehensive risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Documentation Required**\n\nWhile the PAN card provides basic identity verification for MASOOB ALAM, it is insufficient for life insurance underwriting purposes. Request the following additional documentation:\n\n1. **Complete life insurance application form** with medical history, lifestyle information, and coverage details\n2. **Income verification documents** (salary slips, tax returns, or bank statements) to assess premium payment capacity and appropriate coverage amount\n3. **Medical examination reports** or health records to evaluate medical risk factors\n4. **Occupation details** to assess occupation-based risks\n5. **Beneficiary information** to understand coverage needs and financial dependencies\n\nThe PAN card confirms the applicant is relatively young (21-22 years old), which may be favorable from a mortality risk perspective but requires verification of financial stability and income to support the requested coverage.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No medical information is provided in the PAN card. Request medical examination reports or health questionnaires."
+      },
+      {
+        "item_description": "Income verification and employment details",
+        "notes": "No financial information is available. Request salary slips, tax returns, or bank statements to verify income and assess premium payment capacity."
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking, alcohol consumption, dangerous activities, or other lifestyle factors is available."
+      },
+      {
+        "item_description": "Coverage amount requested and beneficiary information",
+        "notes": "No details about the requested life insurance coverage or intended beneficiaries are provided."
+      },
+      {
+        "item_description": "Occupation and industry information",
+        "notes": "No details about the applicant's occupation, which is necessary for occupation-based risk assessment."
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

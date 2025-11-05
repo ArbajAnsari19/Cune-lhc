@@ -1,0 +1,88 @@
+{
+  "source_file": "sriram life test doc.json",
+  "analysis_timestamp": "2025-11-05T12:33:33.056719",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a Life Insurance Proposal Form from Shriram Life Insurance Company Limited for Hardil Agarwal, a 31-year-old male (DOB: 27-03-1994) who works in service-based employment. The applicant has an annual income of Rs. 3,000,000 from his job. He has provided his PAN card as age proof and has also submitted his Aadhaar number. The applicant resides in Ghaziabad, U.P. The form includes personal details, contact information, and medical history. The applicant reports being in good health overall but mentions hospitalization 2 years ago for fever lasting 1 week. Family history indicates that parents, brothers, and sisters are alive. The form appears to be at the application stage for life insurance coverage, though specific plan details, premium amounts, and coverage amounts are not completed in the extracted data.",
+    "identified_risks": [
+      {
+        "risk_description": "Prior hospitalization for fever 2 years ago",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Incomplete medical information - height and weight not provided",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Incomplete plan details - no coverage amount or premium information provided",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "No nominee/beneficiary details provided",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Name inconsistency in form",
+        "details": "Applicant is referred to as 'HARDIL AGARWAL' in the proposer name field but signs as 'Hardik Agarwal'",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Missing signatures",
+        "details": "Form indicates proposer signature and life assured signature are not present, yet there is a declarant signature in English",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "- 2 years ago: Hospitalized for fever lasting 1 week\n- Current status: Reports being in good health\n- No reported chronic conditions (heart dysfunction, kidney dysfunction, high blood pressure, diabetes, cancer, liver dysfunction, blood abnormality)",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request Additional Information Before Proceeding**\n\nWhile the applicant appears to be a generally healthy 31-year-old with stable employment and good income (Rs. 3,000,000 annually), several critical pieces of information are missing to complete a proper risk assessment:\n\n1. Request complete medical information including height, weight, and BMI calculation\n2. Obtain clarification on the name discrepancy (Hardil vs. Hardik Agarwal)\n3. Request plan details including desired coverage amount to assess appropriateness relative to income\n4. Obtain nominee/beneficiary information\n5. Request properly completed signatures on the form\n6. Verify employment details with additional documentation\n\nThe hospitalization for fever 2 years ago appears to be an acute, resolved issue rather than a chronic condition and likely poses minimal risk. The applicant's income level suggests good premium payment capacity. Once the missing information is provided, this appears to be a potentially standard risk case.",
+    "missing_information": [
+      {
+        "item_description": "Height and weight measurements",
+        "notes": "Required for BMI calculation and proper health risk assessment"
+      },
+      {
+        "item_description": "Plan details and coverage amount",
+        "notes": "Needed to assess appropriateness of coverage relative to income and needs"
+      },
+      {
+        "item_description": "Nominee/beneficiary information",
+        "notes": "Required to complete the policy application"
+      },
+      {
+        "item_description": "Employment verification",
+        "notes": "Additional documentation to verify employment status and income"
+      },
+      {
+        "item_description": "Complete medical examination results",
+        "notes": "Standard medical tests and physician's report needed for full underwriting"
+      },
+      {
+        "item_description": "Clarification on name discrepancy",
+        "notes": "Verify correct legal name (Hardil vs. Hardik)"
+      },
+      {
+        "item_description": "Properly completed signatures",
+        "notes": "Form indicates missing proposer and life assured signatures"
+      }
+    ],
+    "confidence_score": 0.7
+  }
+}
