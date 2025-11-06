@@ -1,0 +1,51 @@
+{
+  "source_file": "WhatsApp Image 2025-10-21 at 22.26.13.json",
+  "analysis_timestamp": "2025-11-06T15:56:22.577753",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document appears to be a Permanent Account Number (PAN) card issued by the Income Tax Department of India for Hardik Agarwal. This is an identification document rather than a salary slip or invoice. The PAN card contains the individual's name, father's name, date of birth, PAN number, and issue date. For life insurance underwriting, this document serves as identity verification and can confirm basic personal details of the applicant. The applicant is 29 years old (born in 1994), which places them in a relatively low-risk age category for life insurance.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited information for comprehensive risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Age of 29 years (born in 1994) - generally favorable for life insurance",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation**: The PAN card provides basic identity verification but is insufficient for complete life insurance underwriting. While the applicant's age of 29 is favorable for life insurance pricing, additional documentation is required to assess health status, lifestyle factors, occupation, income, and coverage needs. Request standard medical examination, income verification, and lifestyle questionnaire before proceeding with underwriting decision.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No health information is available in the provided document. Request medical examination reports and health questionnaire."
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "No employment or income information is available. Request salary slips, employment verification, or tax returns to assess income and occupation-related risks."
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking, alcohol consumption, dangerous activities, or other lifestyle factors. Request lifestyle questionnaire."
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiary information",
+        "notes": "No details about desired coverage amount or beneficiaries. Request application form with coverage requirements and beneficiary designations."
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about family medical history that could indicate hereditary conditions. Request family medical history questionnaire."
+      }
+    ],
+    "confidence_score": 0.7
+  }
+}

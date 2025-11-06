@@ -267,16 +267,16 @@ async def answer_query(
     if from_s3:
         json_files = get_latest_json_files(submission_id=submission_id, from_s3=True)
         if not json_files:
-            return f"No JSON files found in S3 for submission_id: {submission_id}. Please extract PDFs first."
+            return f"No JSON files found in S3 for submission_id: {submission_id}. Please extract files first."
     else:
         # Backward compatibility: check local filesystem
         submission_output_dir = os.path.join(OUTPUT_DIR, submission_id)
         if not os.path.exists(submission_output_dir):
-            return f"No documents found for submission_id: {submission_id}. Please extract PDFs first."
+            return f"No documents found for submission_id: {submission_id}. Please extract files first."
         
         json_files = glob.glob(os.path.join(submission_output_dir, "*.json"))
         if not json_files:
-            return f"No JSON files found for submission_id: {submission_id}. Please extract PDFs first."
+            return f"No JSON files found for submission_id: {submission_id}. Please extract files first."
     
     # Ensure embeddings are initialized (automatically activates when JSON files are available)
     # Always use OpenAI embedding function for fast performance (same as chatbot.py)

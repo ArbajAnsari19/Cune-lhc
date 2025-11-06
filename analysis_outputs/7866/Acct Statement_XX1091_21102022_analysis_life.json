@@ -1,0 +1,64 @@
+{
+  "source_file": "Acct Statement_XX1091_21102022.json",
+  "analysis_timestamp": "2025-11-06T14:59:55.593233",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a bank statement for Hardik Agarwal covering the period from April 1, 2022, to September 30, 2022. The statement shows regular salary deposits from JM Financial Services Limited, indicating stable employment. The account was opened on May 3, 2022, and shows consistent monthly salary credits of approximately ₹172,903 with an additional larger payment of ₹537,797 in June 2022. The statement also reveals multiple transactions with Mahavir/Mahaveer Textiles, suggesting possible business involvement or family business connections. The closing balance as of September 30, 2022, was ₹210,072.41. This bank statement provides valuable information for life insurance underwriting by verifying income stability, premium payment capacity, and financial obligations that would justify life insurance coverage needs.",
+    "identified_risks": [
+      {
+        "risk_description": "Large fund transfers to real estate developers (Meridian City Project, Landcraft Developers) suggesting significant financial obligations",
+        "severity": "Medium",
+        "page_references": [
+          "1"
+        ]
+      },
+      {
+        "risk_description": "Fluctuating account balance with significant withdrawals, dropping to as low as ₹25,017 on August 25, 2022",
+        "severity": "Low",
+        "page_references": [
+          "2"
+        ]
+      },
+      {
+        "risk_description": "Possible business involvement with Mahavir/Mahaveer Textiles indicating additional financial responsibilities or business-related risks",
+        "severity": "Low",
+        "page_references": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Inconsistent spelling of business name in transactions",
+        "details": "The business name appears as both 'Mahavir Textiles' and 'Mahaveer Textiles' in different transactions",
+        "page_references": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    "medical_timeline": "",
+    "property_assessment": "N/A",
+    "final_recommendation": "### Recommendation for Life Insurance Underwriting\n\n**Approve with standard rates** based on the following findings:\n\n1. **Income Verification & Premium Payment Capacity**:\n   - Consistent monthly salary of approximately ₹172,903 from JM Financial Services Limited demonstrates stable income and ability to pay premiums\n   - Average monthly income supports a life insurance coverage of approximately ₹10-17 million (using 5-10x annual income guideline)\n   - Account shows regular positive cash flow despite some large transactions\n\n2. **Financial Stability Assessment**:\n   - Regular salary deposits indicate stable employment in the financial services sector\n   - Closing balance of ₹210,072.41 shows adequate liquidity\n   - While there are large transactions, the account maintains positive balance throughout\n\n3. **Coverage Justification**:\n   - Real estate investments evident from large transfers to developers suggest financial obligations that would benefit from life insurance protection\n   - Possible business involvement with Mahavir/Mahaveer Textiles may indicate additional financial responsibilities\n\n4. **Additional Considerations**:\n   - Recommend obtaining details about real estate investments and any business ownership interests to fully assess coverage needs\n   - Consider requesting information about existing life insurance coverage to prevent over-insurance",
+    "missing_information": [
+      {
+        "item_description": "Employment verification letter from JM Financial Services Limited",
+        "notes": "To confirm employment status, position, and tenure with the company"
+      },
+      {
+        "item_description": "Information about relationship with Mahavir/Mahaveer Textiles",
+        "notes": "To clarify if this represents business ownership, family business, or other financial relationship"
+      },
+      {
+        "item_description": "Details of real estate investments",
+        "notes": "Information about properties purchased from Meridian City Project and Landcraft Developers to assess financial obligations"
+      },
+      {
+        "item_description": "Information about existing life insurance coverage",
+        "notes": "To ensure appropriate total coverage and prevent over-insurance"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

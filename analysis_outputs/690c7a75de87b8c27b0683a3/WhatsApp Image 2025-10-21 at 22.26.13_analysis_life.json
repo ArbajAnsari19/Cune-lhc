@@ -1,0 +1,51 @@
+{
+  "source_file": "WhatsApp Image 2025-10-21 at 22.26.13.json",
+  "analysis_timestamp": "2025-11-06T16:08:29.195290",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document appears to be a Permanent Account Number (PAN) card issued by the Income Tax Department of the Government of India for HARDIK AGARWAL. This is an identification document that contains the individual's name, father's name, date of birth, PAN number, and issue date. This is not a salary slip or invoice but rather an identity verification document that would be used as part of the life insurance application process to verify the applicant's identity. The applicant is 29 years old (born on March 27, 1994), which is relevant for life insurance risk assessment.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited information for comprehensive risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Identity verification only - no health or lifestyle information available",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Information Required**\n\nWhile the PAN card provides basic identity verification for the applicant, it is insufficient for making an underwriting decision for life insurance. Request the following additional documentation:\n\n1. Completed life insurance application form\n2. Medical examination results and health questionnaire\n3. Income verification documents (salary slips, tax returns)\n4. Lifestyle questionnaire\n5. Family medical history\n6. Details of requested coverage amount and beneficiary information\n\nThe applicant is 29 years old, which generally falls into a lower-risk age category for life insurance, but a complete risk assessment cannot be made without additional health, lifestyle, and financial information.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information available about applicant's medical conditions, medications, or health status"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information on smoking status, alcohol consumption, dangerous activities, or occupation"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information on hereditary conditions or family history of diseases"
+      },
+      {
+        "item_description": "Income verification",
+        "notes": "No salary or income information to assess premium payment capacity or appropriate coverage amount"
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiaries",
+        "notes": "No details on the amount of life insurance coverage requested or designated beneficiaries"
+      }
+    ],
+    "confidence_score": 0.6
+  }
+}

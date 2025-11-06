@@ -1,0 +1,62 @@
+{
+  "source_file": "WhatsApp Image 2025-10-21 at 22.26.13 (1).json",
+  "analysis_timestamp": "2025-11-06T15:56:07.746262",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be an identification document containing basic personal information for Hardik Agarwal, a 29-year-old male born on March 27, 1994, with Aadhaar number 592455052947. The document is not a salary slip or invoice but rather appears to be an identity verification document that would be part of a life insurance application process. The Aadhaar number is India's unique identification number, similar to a Social Security Number in the US, which is commonly required for insurance applications in India.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited personal information provided for comprehensive life insurance underwriting",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "No medical history or lifestyle information provided to assess mortality risk",
+        "severity": "High",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "No information on coverage amount or beneficiaries to assess insurance needs",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nThe provided document only contains basic identification information for Hardik Agarwal. While this confirms the applicant's identity and age (29), it is insufficient for life insurance underwriting. Request the following:\n\n1. Complete medical history questionnaire and medical records\n2. Lifestyle information (smoking status, alcohol consumption, exercise habits)\n3. Occupation details to assess occupation-related risks\n4. Financial information to justify coverage amount and verify premium payment capacity\n5. Beneficiary information\n6. Family medical history\n\nUnderwriting cannot proceed without this essential information for mortality risk assessment.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information provided about applicant's medical conditions, medications, or recent doctor visits"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, exercise habits, or high-risk activities"
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "No information about applicant's occupation, which is necessary for occupation-based risk assessment and income verification"
+      },
+      {
+        "item_description": "Coverage amount requested",
+        "notes": "No information about desired coverage amount to assess appropriateness relative to financial situation"
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "No details about intended beneficiaries to understand insurable interest"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about family history of hereditary conditions that could affect mortality risk"
+      }
+    ],
+    "confidence_score": 0.6
+  }
+}

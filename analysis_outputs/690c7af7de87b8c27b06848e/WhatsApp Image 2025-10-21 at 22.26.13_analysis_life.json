@@ -1,0 +1,51 @@
+{
+  "source_file": "WhatsApp Image 2025-10-21 at 22.26.13.json",
+  "analysis_timestamp": "2025-11-06T16:12:45.167608",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a Permanent Account Number (PAN) card issued by the Income Tax Department of India for Hardik Agarwal. The PAN card is an important identification document in India that serves as proof of identity and is used for tax purposes. For life insurance underwriting, this document provides basic identification information including the applicant's full name, father's name, and date of birth. The applicant was born on March 27, 1994, making him approximately 29 years old. This document serves primarily as identity verification rather than providing health, financial, or lifestyle information directly relevant to risk assessment.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited identification information - PAN card provides only basic identity verification without health, financial, or lifestyle data needed for comprehensive underwriting",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Age of applicant (29) - while not high-risk, requires appropriate age-based mortality assessment",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Documentation Required**\n\nWhile the PAN card provides basic identity verification, it is insufficient for life insurance underwriting. Recommend:\n\n1. Request medical examination and health history questionnaire to assess health status and risks\n2. Obtain income verification documents (salary slips, tax returns) to determine appropriate coverage amount and premium payment capacity\n3. Request lifestyle questionnaire to assess risk behaviors (smoking, alcohol use, dangerous activities)\n4. Verify occupation details to assess occupation-related risks\n5. Collect information on desired coverage amount and beneficiary designations\n\nThe application cannot proceed with underwriting until these additional documents are provided.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No health information is available in the PAN card. Medical examination, health questionnaire, and possibly medical records are needed."
+      },
+      {
+        "item_description": "Income verification and financial information",
+        "notes": "No financial data is available. Salary slips, tax returns, or bank statements are needed to assess premium payment capacity and appropriate coverage amount."
+      },
+      {
+        "item_description": "Occupation details",
+        "notes": "No occupation information is provided. Details about the applicant's job, industry, and workplace hazards are needed for occupation-based risk assessment."
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking, alcohol use, dangerous hobbies, or other lifestyle factors that affect mortality risk."
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiary information",
+        "notes": "No details about desired insurance coverage or beneficiary designations are provided."
+      }
+    ],
+    "confidence_score": 0.8
+  }
+}

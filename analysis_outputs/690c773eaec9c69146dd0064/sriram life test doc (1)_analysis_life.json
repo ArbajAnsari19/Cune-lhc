@@ -1,0 +1,88 @@
+{
+  "source_file": "sriram life test doc (1).json",
+  "analysis_timestamp": "2025-11-06T15:57:38.854526",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a life insurance application form for Hardil Agarwal, a 31-year-old male Indian national. The applicant is a post-graduate working in the service sector with an annual income of ₹3,000,000 from his job. The form includes personal details such as date of birth (27-03-1994), PAN card number (BKPPA3104H), Aadhaar number (321478946278), and contact information. The medical history section indicates the applicant is in good health with no physical handicaps, though he was hospitalized for fever approximately 2 years ago for one week. Family history shows both parents and siblings are alive. The document was signed in Ghaziabad.",
+    "identified_risks": [
+      {
+        "risk_description": "Prior hospitalization for fever",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Limited medical information - no height/weight data provided",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Incomplete family medical history - ages not provided for living family members",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Name inconsistency in document",
+        "details": "The applicant is referred to as 'HARDIL AGARWAL' in the proposer name field but as 'Hardik Agarwal' in the declarant vernacular name field",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Missing plan details",
+        "details": "Policy term, premium paying term, mode of premium payment, sum proposed, and installment premium fields are all blank",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Missing nominee information",
+        "details": "No beneficiary/nominee details are provided despite this being a life insurance application",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "**Medical Timeline**\n- Approximately 2023 (2 years ago): Hospitalized for fever for 1 week\n- Current status: Reports being in good health with no physical handicaps or chronic conditions",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request Additional Information**\n\nWhile the applicant appears to be a standard risk based on the limited information provided (31-year-old service professional with good health and adequate income), several critical pieces of information are missing to complete a proper underwriting assessment:\n\n1. Request complete medical information including height, weight, and BMI calculations\n2. Clarify the name discrepancy (Hardil vs. Hardik Agarwal)\n3. Obtain details about the hospitalization for fever 2 years ago including diagnosis, treatment, and current status\n4. Request complete family medical history with ages of living family members\n5. Obtain plan details and coverage amount to assess appropriateness relative to income\n6. Request nominee/beneficiary information\n\nThe applicant's income of ₹3,000,000 annually suggests good premium payment capacity, but we need the requested coverage amount to determine if it's within reasonable multiples of annual income (typically 5-10x).",
+    "missing_information": [
+      {
+        "item_description": "Height and weight measurements",
+        "notes": "Required for BMI calculation and standard health assessment"
+      },
+      {
+        "item_description": "Complete details of hospitalization 2 years ago",
+        "notes": "Need diagnosis, treatment details, and current status"
+      },
+      {
+        "item_description": "Ages of living family members",
+        "notes": "Required for family medical history assessment"
+      },
+      {
+        "item_description": "Plan details and coverage amount",
+        "notes": "Policy term, premium paying term, sum assured, and premium amount are all missing"
+      },
+      {
+        "item_description": "Nominee/beneficiary information",
+        "notes": "Required for policy issuance"
+      },
+      {
+        "item_description": "Nature of duties in service occupation",
+        "notes": "Required for occupational risk assessment"
+      },
+      {
+        "item_description": "Name of current employer",
+        "notes": "Required for income verification and occupational risk assessment"
+      }
+    ],
+    "confidence_score": 0.7
+  }
+}

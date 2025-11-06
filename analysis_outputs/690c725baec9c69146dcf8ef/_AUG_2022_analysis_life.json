@@ -1,0 +1,47 @@
+{
+  "source_file": "_AUG_2022.json",
+  "analysis_timestamp": "2025-11-06T15:36:50.930000",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a salary slip for HARDIK AGARWAL from JM FINANCIAL SERVICES LIMITED for August 2022. The employee holds the position of Assistant Vice President in the Digital Broking department, with a joining date of March 7, 2022. The salary slip shows a gross monthly income of ₹238,000 with deductions totaling ₹65,097, resulting in a net pay of ₹172,903. For life insurance underwriting, this document provides valuable income verification showing substantial financial capacity to pay premiums. The high income level (annual gross of approximately ₹2,856,000) would support a significant life insurance coverage amount (typically 5-10x annual income, suggesting coverage of ₹14-28 million would be appropriate). The employment in financial services as an AVP indicates a white-collar profession with lower occupational hazards. The recent employment start date (5 months before this pay slip) may warrant verification of employment stability.",
+    "identified_risks": [
+      {
+        "risk_description": "Recent employment (less than 6 months at time of salary slip)",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Financial services industry employment may involve high stress levels",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Approve with standard rates** based on the following financial assessment:\n\n- **Premium Payment Capacity**: Excellent. Monthly net income of ₹172,903 demonstrates strong financial capacity to maintain premium payments for a substantial life insurance policy.\n\n- **Coverage Amount Justification**: Based on the annual gross income of approximately ₹2,856,000, a coverage amount of 5-10x annual income (₹14-28 million) would be appropriate and financially justified.\n\n- **Occupation Risk**: Low risk occupation as Assistant Vice President in Digital Broking at a financial services company. This white-collar position typically does not present elevated mortality risks.\n\n- **Financial Stability**: While the applicant has only been with the current employer for 5 months as of this salary slip, the senior position (AVP) and substantial compensation package suggest career stability and financial responsibility.\n\n**Additional Verification Recommended**: Due to the relatively recent employment start date, consider requesting 1-2 additional months of salary slips to confirm income consistency.",
+    "missing_information": [
+      {
+        "item_description": "Additional salary slips",
+        "notes": "Request 1-2 additional months of salary slips to verify income consistency given the relatively recent employment start date (March 2022)."
+      },
+      {
+        "item_description": "Previous employment history",
+        "notes": "Given the senior position (AVP) but recent start date, information about previous employment would help establish career stability and consistent income history."
+      },
+      {
+        "item_description": "Requested life insurance coverage amount",
+        "notes": "The application's requested coverage amount is needed to assess if it aligns appropriately with the income level (5-10x annual income would be typical)."
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "Details about intended beneficiaries would help verify insurable interest and appropriate coverage amount."
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

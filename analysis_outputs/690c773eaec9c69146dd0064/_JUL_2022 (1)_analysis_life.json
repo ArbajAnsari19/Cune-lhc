@@ -1,0 +1,47 @@
+{
+  "source_file": "_JUL_2022 (1).json",
+  "analysis_timestamp": "2025-11-06T15:56:58.677602",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a salary slip for Hardik Agarwal, an Assistant Vice President at JM Financial in the Digital Broking department, for July 2022. The employee has a high monthly gross income of ₹238,000 with a net pay of ₹172,903 after deductions. The salary slip indicates stable employment with full attendance (31 days worked) and a recent date of joining (March 7, 2022). For life insurance underwriting, this document provides valuable income verification showing strong premium payment capacity, confirms employment in the financial sector (moderate occupational risk), and supports a substantial coverage amount justification based on the high income level. The employee's position as AVP suggests a white-collar job with minimal physical occupational hazards but potentially high stress levels common in financial services.",
+    "identified_risks": [
+      {
+        "risk_description": "Recent employment (less than 6 months at time of salary slip) may indicate employment instability",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Financial sector employment (Digital Broking) may involve high stress levels affecting long-term health",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Approve with standard rates** based on the following financial assessment:\n\n- **Premium Payment Capacity**: Excellent - Monthly net income of ₹172,903 demonstrates strong ability to pay life insurance premiums consistently\n- **Coverage Amount Justification**: The applicant's annual income of approximately ₹2,856,000 (₹238,000 × 12) would justify a substantial life insurance coverage of ₹14,280,000 to ₹28,560,000 (5-10× annual income)\n- **Occupation Risk**: Low to moderate risk - Financial sector employment as Assistant Vice President indicates white-collar work with minimal physical hazards but potentially elevated stress levels\n- **Financial Stability**: Strong - High income level and full attendance indicate financial stability, though relatively recent employment (4 months at time of salary slip) should be noted\n- **Income-to-Coverage Ratio**: If the requested coverage amount falls within 5-10× annual income, it should be considered appropriate and affordable\n\nRecommend standard rates with no financial concerns regarding premium payment ability. The applicant's income level supports substantial coverage.",
+    "missing_information": [
+      {
+        "item_description": "Length of employment history beyond current position",
+        "notes": "Additional employment verification or resume would be helpful to confirm longer-term employment stability, as the salary slip shows only 4 months at current employer"
+      },
+      {
+        "item_description": "Requested life insurance coverage amount",
+        "notes": "Need to verify if requested coverage amount aligns with income level (typically 5-10× annual income)"
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "Details about intended beneficiaries would help assess financial dependencies and coverage needs"
+      },
+      {
+        "item_description": "Medical history and lifestyle information",
+        "notes": "No health-related information is available from this salary slip; medical questionnaire or exam results would be needed for full underwriting"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "source_file": "sriram life test doc (1).json",
+  "analysis_timestamp": "2025-11-06T16:14:10.006024",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a life insurance application form for Hardil Agarwal, a 31-year-old male Indian national. The applicant is highly educated (post-graduate) and works in the service sector with an annual income of Rs. 3,000,000 from his job. The form includes personal details such as date of birth (27-03-1994), PAN card number (BKPPA2104H), and Aadhaar number (321478946278). The applicant resides in Ghaziabad, U.P. The medical section indicates the applicant is in good health overall but was hospitalized 2 years ago for fever, which lasted one week. Family medical history shows parents and siblings are alive. The application is signed by the applicant as 'Hardik Agarwal' in Ghaziabad.",
+    "identified_risks": [
+      {
+        "risk_description": "Prior hospitalization history",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Discrepancy between signature name (Hardik) and application name (Hardil)",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Incomplete medical information (height and weight not provided)",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Name discrepancy between application and signature",
+        "details": "The life assured name is listed as 'HARDIL AGARWAL' but the signature and declarant name is 'Hardik Agarwal'",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "- 2 years ago: Hospitalized for fever for one week\n- Current status: In good health\n- No reported chronic conditions or physical handicaps",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request additional information before proceeding**\n\nWhile the applicant appears to be a good risk overall with stable employment and good income (Rs. 3,000,000 annually), there are several issues that need clarification:\n\n1. Resolve the name discrepancy between 'Hardil' and 'Hardik' Agarwal\n2. Obtain complete medical information including height, weight, and BMI\n3. Request more details about the hospitalization episode from 2 years ago\n4. Obtain information about the plan details, coverage amount, and beneficiary information\n\nThe applicant's income level supports a substantial coverage amount (potentially 5-10x annual income), and the occupation in service sector generally presents standard risk. Once the missing information is provided and the name discrepancy is resolved, this application could likely proceed with standard rates.",
+    "missing_information": [
+      {
+        "item_description": "Plan details and coverage amount",
+        "notes": "No information provided about the insurance plan, policy term, premium payment term, or sum assured"
+      },
+      {
+        "item_description": "Height and weight measurements",
+        "notes": "Medical section lacks basic biometric data needed for underwriting"
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "No nominee/beneficiary details provided"
+      },
+      {
+        "item_description": "Detailed employer information",
+        "notes": "Present employer name and nature of duties not specified"
+      },
+      {
+        "item_description": "Hospitalization details",
+        "notes": "Additional medical records regarding the hospitalization 2 years ago would be helpful"
+      },
+      {
+        "item_description": "Existing insurance policies",
+        "notes": "No information about existing coverage with other insurers"
+      }
+    ],
+    "confidence_score": 0.75
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "source_file": "WhatsApp Image 2025-10-21 at 22.26.13 (1).json",
+  "analysis_timestamp": "2025-11-06T15:36:13.562632",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be an identification document containing basic personal information for Hardik Agarwal, a 29-year-old male born on March 27, 1994, with Aadhaar number 592455052947. This is not a salary slip or invoice but rather appears to be an identity verification document that would be part of a life insurance application process. The Aadhaar number is India's unique identification number, similar to a Social Security Number in the US, which is commonly required for insurance applications in India.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited information for comprehensive risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Age factor - applicant is 29 years old, which generally represents low mortality risk",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nWhile the identification information provided for Hardik Agarwal establishes basic identity verification, this document alone is insufficient for life insurance underwriting. The applicant's age (29) places him in a generally favorable risk category, but comprehensive underwriting requires:\n\n1. Complete medical history and current health status\n2. Lifestyle factors (smoking, alcohol consumption, exercise habits)\n3. Family medical history\n4. Occupation details and income verification\n5. Desired coverage amount and beneficiary information\n\nRecommend proceeding with standard application process including medical questionnaire, possibly medical examination based on coverage amount requested, and financial justification for the coverage amount.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about applicant's medical conditions, medications, or recent doctor visits"
+      },
+      {
+        "item_description": "Lifestyle factors",
+        "notes": "No information about smoking status, alcohol consumption, exercise habits, or high-risk activities"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about hereditary conditions or family history of diseases"
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "No information about occupation, income level, or employment status to assess risk and premium payment capacity"
+      },
+      {
+        "item_description": "Desired coverage amount",
+        "notes": "No information about requested coverage amount or term length"
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "No information about intended beneficiaries or their relationship to the applicant"
+      }
+    ],
+    "confidence_score": 0.6
+  }
+}

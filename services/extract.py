@@ -27,12 +27,12 @@ def poll_until_ready(record_id: str, api_key: str, max_wait: int = 120, interval
             raise TimeoutError(f"Polling timed out after {max_wait} seconds for record_id {record_id}")
         time.sleep(interval)
 
-def extract_pdf_to_json_sync(pdf_path: str, api_key: str, submission_id: Optional[str] = None, upload_to_s3: bool = True) -> dict:
+def extract_file_to_json_sync(file_path: str, api_key: str, submission_id: Optional[str] = None, upload_to_s3: bool = True) -> dict:
     """
-    Extract PDF to JSON and optionally upload to S3
+    Extract file (PDF, images, Excel, CSV) to JSON and optionally upload to S3
     
     Args:
-        pdf_path: Path to PDF file
+        file_path: Path to file (PDF, images, Excel, CSV)
         api_key: Nanonets API key
         submission_id: Optional submission ID for S3 path organization
         upload_to_s3: Whether to upload to S3 after extraction
@@ -47,7 +47,7 @@ def extract_pdf_to_json_sync(pdf_path: str, api_key: str, submission_id: Optiona
     headers = {"Authorization": f"Bearer {api_key}"}
     data = {"output_type": "flat-json"}
     try:
-        with open(pdf_path, "rb") as file:
+        with open(file_path, "rb") as file:
             files = {"file": file}
             response = requests.post(extract_url, headers=headers, files=files, data=data, timeout=90)
         response.raise_for_status()
@@ -61,8 +61,8 @@ def extract_pdf_to_json_sync(pdf_path: str, api_key: str, submission_id: Optiona
         else:
             return {"success": False, "error": "No record_id or content returned", "response": response_data}
         
-        base_name = os.path.splitext(os.path.basename(pdf_path))[0]
-        filename = os.path.basename(pdf_path)
+        base_name = os.path.splitext(os.path.basename(file_path))[0]
+        filename = os.path.basename(file_path)
         
         # Save locally first (for backward compatibility)
         local_output_dir = OUTPUT_DIR
@@ -90,18 +90,18 @@ def extract_pdf_to_json_sync(pdf_path: str, api_key: str, submission_id: Optiona
         
         return result
     except requests.exceptions.RequestException as e:
-        return {"success": False, "error": f"Request failed: {e}", "filename": os.path.basename(pdf_path)}
+        return {"success": False, "error": f"Request failed: {e}", "filename": os.path.basename(file_path)}
     except Exception as e:
-        return {"success": False, "error": f"Unexpected error: {e}", "filename": os.path.basename(pdf_path)}
+        return {"success": False, "error": f"Unexpected error: {e}", "filename": os.path.basename(file_path)}
 
-async def process_pdf_async(pdf_file: UploadFile, api_key: str, temp_dir: str, submission_id: Optional[str] = None, upload_to_s3: bool = True) -> dict:
-    temp_path = os.path.join(temp_dir, pdf_file.filename)
+async def process_file_async(file: UploadFile, api_key: str, temp_dir: str, submission_id: Optional[str] = None, upload_to_s3: bool = True) -> dict:
+    temp_path = os.path.join(temp_dir, file.filename)
     try:
         with open(temp_path, "wb") as buffer:
-            shutil.copyfileobj(pdf_file.file, buffer)
+            shutil.copyfileobj(file.file, buffer)
         loop = asyncio.get_event_loop()
         with ThreadPoolExecutor(max_workers=1) as executor:
-            result = await loop.run_in_executor(executor, extract_pdf_to_json_sync, temp_path, api_key, submission_id, upload_to_s3)
+            result = await loop.run_in_executor(executor, extract_file_to_json_sync, temp_path, api_key, submission_id, upload_to_s3)
         return result
     finally:
         if os.path.exists(temp_path):

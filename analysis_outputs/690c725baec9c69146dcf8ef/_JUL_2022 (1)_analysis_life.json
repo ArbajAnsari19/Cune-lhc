@@ -1,0 +1,47 @@
+{
+  "source_file": "_JUL_2022 (1).json",
+  "analysis_timestamp": "2025-11-06T15:37:12.100646",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a salary slip from JM FINANCIAL SERVICES LIMITED for HARDIK AGARWAL for July 2022. The employee holds the position of Assistant Vice President in the Digital Broking department and joined the company on March 7, 2022. The salary slip shows a gross monthly income of ₹238,000 with deductions totaling ₹65,097, resulting in a net pay of ₹172,903. For life insurance underwriting, this document provides valuable income verification showing substantial earning capacity (annual gross income of approximately ₹2,856,000), which supports premium payment ability and justifies a significant coverage amount (typically 5-10x annual income would be ₹14-28 million). The employee's senior position in financial services indicates a professional occupation with likely low physical risk but potentially high stress. The consistent employment (full month worked with no loss of pay) suggests stability, though the relatively recent joining date (4 months before this pay slip) may warrant verification of employment history.",
+    "identified_risks": [
+      {
+        "risk_description": "Recent employment start date (March 2022) may indicate employment instability if previous employment history is not verified",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Financial services industry position (Assistant Vice President) may involve high stress levels, potentially affecting health and mortality risk",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Approve with standard rates** based on the following financial assessment:\n\n- **Premium Payment Capacity**: Excellent. Monthly net income of ₹172,903 demonstrates strong ability to pay life insurance premiums consistently.\n\n- **Coverage Amount Justification**: The applicant's annual income of approximately ₹2.86 million would justify coverage of ₹14-28 million (5-10x annual income), depending on family needs and financial obligations.\n\n- **Occupation Risk**: Low physical risk as Assistant Vice President in Digital Broking, though potentially moderate stress-related risk due to financial industry position.\n\n- **Financial Stability**: Current position shows good income stability with full month worked and no loss of pay, though recommend verifying previous employment history given relatively recent start date (March 2022).\n\n- **Additional Considerations**: The applicant's senior position and high income level suggest good education and likely financial literacy, positive factors for policy persistence.",
+    "missing_information": [
+      {
+        "item_description": "Previous employment history",
+        "notes": "Given the recent start date (March 2022), verification of previous employment history would be valuable to confirm long-term income stability"
+      },
+      {
+        "item_description": "Family status and dependents",
+        "notes": "Information about marital status, dependents, and financial obligations would help assess appropriate coverage amount needs"
+      },
+      {
+        "item_description": "Additional income sources",
+        "notes": "Verification of any additional income sources beyond salary would provide a complete financial picture"
+      },
+      {
+        "item_description": "Existing life insurance coverage",
+        "notes": "Information about any existing life insurance policies to assess total coverage and avoid over-insurance"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

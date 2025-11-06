@@ -1,0 +1,47 @@
+{
+  "source_file": "_SEP_2022 (1).json",
+  "analysis_timestamp": "2025-11-06T15:57:14.889488",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a salary slip for HARDIK AGARWAL, an Assistant Vice President in the Digital Broking department at JM FINANCIAL SERVICES LIMITED for September 2022. The employee has a substantial monthly gross income of ₹238,000 with a net pay of ₹172,903 after deductions. The employee joined the company on March 7, 2022, indicating approximately 6 months of employment at the time of this salary slip. For life insurance underwriting, this document provides valuable income verification showing strong premium payment capacity, confirms employment in the financial services industry (moderate occupational risk), and supports a substantial coverage amount justification (potentially 5-10x annual income of approximately ₹28.56 lakhs). The employee's senior designation suggests career stability and financial responsibility.",
+    "identified_risks": [
+      {
+        "risk_description": "High-income occupation in financial services may involve stress-related health risks",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Relatively short tenure with current employer (approximately 6 months at time of salary slip)",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Approve with Standard Rates**\n\nThe applicant demonstrates excellent premium payment capacity with a monthly gross income of ₹238,000 (annual income approximately ₹28.56 lakhs). This income level would justify a substantial life insurance coverage amount in the range of ₹1.4 to ₹2.8 crores (5-10x annual income).\n\nThe applicant holds a senior position (Assistant Vice President) in the financial services industry, which typically indicates financial stability and responsibility. While the tenure with the current employer is relatively short (approximately 6 months at the time of this salary slip), the senior designation suggests career stability and established professional experience.\n\nThe occupation in financial services (Digital Broking) presents minimal physical hazards but may involve moderate stress levels. No unusual deductions or health-related concerns are evident from the salary information.\n\nRecommend proceeding with standard rates based on the strong financial profile, assuming all other underwriting requirements (medical examination, lifestyle questionnaire, etc.) are satisfactory.",
+    "missing_information": [
+      {
+        "item_description": "Additional employment history",
+        "notes": "Given the relatively short tenure with current employer, verification of previous employment history would be beneficial to establish career stability."
+      },
+      {
+        "item_description": "Medical examination results",
+        "notes": "Standard medical examination results would be required to complete the underwriting assessment."
+      },
+      {
+        "item_description": "Lifestyle questionnaire",
+        "notes": "Information about smoking status, alcohol consumption, exercise habits, and other lifestyle factors is needed for comprehensive risk assessment."
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "Information about family medical history would help assess hereditary risk factors."
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

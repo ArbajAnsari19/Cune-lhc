@@ -1,0 +1,59 @@
+{
+  "source_file": "WhatsApp Image 2025-10-21 at 22.26.13 (1).json",
+  "analysis_timestamp": "2025-11-06T16:12:25.734339",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be an identification document containing basic personal information for Hardik Agarwal. The extracted data includes the individual's name, date of birth (27/03/1994), gender (male), and Aadhaar number (592455052947). This is not a salary slip or invoice, but rather appears to be a government identification document (Aadhaar card) from India. For life insurance underwriting, this document provides basic identity verification and age confirmation, which are fundamental for determining premium rates and policy eligibility. The applicant is a 29-year-old male based on the date of birth provided.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited information for comprehensive risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "No medical history or lifestyle information available",
+        "severity": "High",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nWhile the identification document confirms the applicant's basic identity and age, it is insufficient for making an underwriting decision for life insurance. The following additional documents are essential:\n\n1. Completed life insurance application form\n2. Medical examination reports or health questionnaire\n3. Income verification documents to assess premium payment capacity and appropriate coverage amount\n4. Lifestyle questionnaire to evaluate risk factors\n5. Beneficiary designation information\n\nThe applicant's age (29) places him in a generally favorable age bracket for life insurance, but no underwriting decision can be made without comprehensive health, lifestyle, and financial information.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "Request medical examination reports, health questionnaire, or physician statements to assess mortality risk"
+      },
+      {
+        "item_description": "Income verification",
+        "notes": "Request salary slips, tax returns, or bank statements to verify income and determine appropriate coverage amount and premium payment capacity"
+      },
+      {
+        "item_description": "Occupation details",
+        "notes": "Request information about current occupation, job duties, and industry to assess occupation-related risks"
+      },
+      {
+        "item_description": "Lifestyle factors",
+        "notes": "Request information about smoking status, alcohol consumption, exercise habits, and dangerous activities/hobbies"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "Request information about family history of hereditary conditions or diseases"
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "Request details about intended beneficiaries and their relationship to the applicant"
+      },
+      {
+        "item_description": "Desired coverage amount and term",
+        "notes": "Request information about the desired death benefit amount and policy term"
+      }
+    ],
+    "confidence_score": 0.4
+  }
+}

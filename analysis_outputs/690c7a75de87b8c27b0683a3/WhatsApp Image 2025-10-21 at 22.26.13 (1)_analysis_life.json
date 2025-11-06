@@ -1,0 +1,58 @@
+{
+  "source_file": "WhatsApp Image 2025-10-21 at 22.26.13 (1).json",
+  "analysis_timestamp": "2025-11-06T16:08:11.889800",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a basic identification document containing personal information for Hardik Agarwal, a 29-year-old male born on March 27, 1994, with Aadhaar number 592455052947. This is not a salary slip or invoice but rather an identity verification document that would be part of a life insurance application process. The Aadhaar number is India's unique identification number, similar to a Social Security Number in the US, which is commonly required for insurance applications in India. The document provides basic demographic information but lacks medical history, lifestyle factors, or coverage details needed for a comprehensive life insurance underwriting assessment.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited demographic information with no medical history or lifestyle factors",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "No information about occupation, income, or financial stability to assess premium payment capacity",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "No coverage amount or beneficiary information to evaluate appropriateness of coverage",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nThe provided document only contains basic identification information for Hardik Agarwal. While this confirms the applicant's identity and age (29 years), it is insufficient for life insurance underwriting. Request the following:\n\n1. Complete medical history questionnaire and records\n2. Lifestyle questionnaire (smoking status, alcohol consumption, exercise habits)\n3. Occupation details and income verification\n4. Desired coverage amount and beneficiary information\n5. Any existing life insurance policies\n\nThe application cannot proceed until these critical underwriting factors are obtained to properly assess mortality risk and appropriate coverage levels.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about pre-existing conditions, medications, hospitalizations, or family medical history is provided."
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, exercise habits, or dangerous activities/hobbies."
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "No information about employment, occupation hazards, or income to assess premium payment capacity and appropriate coverage amount."
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiaries",
+        "notes": "No information about desired death benefit amount or beneficiary designations to evaluate insurance needs."
+      },
+      {
+        "item_description": "Existing insurance coverage",
+        "notes": "No information about other life insurance policies that might affect underwriting decisions."
+      }
+    ],
+    "confidence_score": 0.6
+  }
+}

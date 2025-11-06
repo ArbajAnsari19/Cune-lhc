@@ -1,0 +1,67 @@
+{
+  "source_file": "WhatsApp Image 2025-10-21 at 22.26.14.json",
+  "analysis_timestamp": "2025-11-06T15:01:17.655782",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document is an Aadhaar card, which is India's national identification document issued by the Unique Identification Authority of India (UIDAI). This is not a salary slip or invoice, but rather an identity verification document. The Aadhaar card belongs to an individual who is the son of Hirdesh Kumar Agarwal, residing in Pilkhuwa, Hapur, Ghaziabad, Uttar Pradesh, India. The document contains the individual's Aadhaar number (592455052947) and residential address. For life insurance underwriting purposes, this document primarily serves as identity verification and address proof for the applicant.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited demographic information - the document does not contain the individual's full name, date of birth, or gender, which are critical for life insurance risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "No health or lifestyle information available in this identification document",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nWhile the Aadhaar card provides valid identity verification and address proof for the applicant, it is insufficient for comprehensive life insurance underwriting. Request the following additional documentation:\n\n1. Completed life insurance application form with full name, date of birth, and gender details\n2. Medical examination reports and health questionnaire\n3. Income proof documents (salary slips, tax returns, or bank statements)\n4. Lifestyle questionnaire\n5. Family medical history\n6. Beneficiary designation form\n\nThe Aadhaar card can be used to verify the applicant's identity and address, but substantial additional information is required to properly assess mortality risk and coverage needs.",
+    "missing_information": [
+      {
+        "item_description": "Applicant's full name",
+        "notes": "The Aadhaar card only mentions the applicant as 'S/O: Hirdesh Kumar Agarwal' without providing the applicant's full name"
+      },
+      {
+        "item_description": "Date of birth",
+        "notes": "Age is a critical factor in life insurance underwriting and is not provided in the extracted data"
+      },
+      {
+        "item_description": "Gender information",
+        "notes": "Gender is an important rating factor for life insurance and is not provided"
+      },
+      {
+        "item_description": "Medical history",
+        "notes": "No medical information is available in this identification document"
+      },
+      {
+        "item_description": "Occupation details",
+        "notes": "Occupation affects risk assessment and is not provided"
+      },
+      {
+        "item_description": "Income information",
+        "notes": "Income details are needed to assess appropriate coverage amounts and premium payment capacity"
+      },
+      {
+        "item_description": "Lifestyle factors",
+        "notes": "Information about smoking, alcohol use, and other lifestyle factors is missing"
+      },
+      {
+        "item_description": "Requested coverage amount",
+        "notes": "No information about desired coverage amount or policy type"
+      },
+      {
+        "item_description": "Beneficiary information",
+        "notes": "No details about intended beneficiaries"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

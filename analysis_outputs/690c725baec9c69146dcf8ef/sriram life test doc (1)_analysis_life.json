@@ -1,0 +1,74 @@
+{
+  "source_file": "sriram life test doc (1).json",
+  "analysis_timestamp": "2025-11-06T15:38:01.681162",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a life insurance proposal form from Shriram Life Insurance Company Limited for Hardil Agarwal, a 31-year-old male. The applicant is employed in a service job with an annual income of Rs. 3,000,000 (approximately $40,000 USD). He has provided identification details including PAN card (BKPPA3104H) and Aadhaar number (321478946278). The applicant has a post-graduate education and lives in Ghaziabad, U.P. The medical history section indicates the applicant is in good health overall but was hospitalized 2 years ago for fever for a duration of 1 week. The form is incomplete with several sections left blank, including plan details, premium information, nominee details, and existing policy information.",
+    "identified_risks": [
+      {
+        "risk_description": "Prior hospitalization for fever 2 years ago",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Incomplete application with missing plan details, nominee information, and existing policy information",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Occupation details are vague ('SERVICE' and 'JOB') without specific industry or role information",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Name inconsistency in the document",
+        "details": "The proposer is named as 'HARDIL AGARWAL' at the beginning of the form but signed as 'Hardik Agarwal' in the declaration section",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "- 2 years ago: Hospitalized for fever for 1 week\n- Current status: Reports being in good health\n- No reported chronic conditions (heart dysfunction, kidney dysfunction, high blood pressure, diabetes, cancer, liver dysfunction, or blood abnormality)",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request Additional Information**\n\nBased on the incomplete proposal form, I recommend requesting the following before proceeding with underwriting:\n\n1. Complete the missing sections of the application, particularly plan details, premium information, and nominee details\n2. Clarify the name discrepancy (Hardil vs. Hardik Agarwal)\n3. Request more specific occupation details to properly assess occupation-related risks\n4. Obtain medical records related to the hospitalization 2 years ago to confirm it was only for fever and there were no complications\n5. Request height and weight information which is missing from the medical section\n\nThe applicant appears to be a standard risk based on the limited information provided. The annual income of Rs. 3,000,000 should support a reasonable coverage amount (typically 5-10x annual income). The prior hospitalization for fever appears minor but should be verified. Once the missing information is provided, a complete risk assessment can be performed.",
+    "missing_information": [
+      {
+        "item_description": "Plan details and coverage amount",
+        "notes": "The form is missing information about the policy term, premium paying term, sum proposed, and installment premium"
+      },
+      {
+        "item_description": "Nominee details",
+        "notes": "No beneficiary information is provided"
+      },
+      {
+        "item_description": "Height and weight information",
+        "notes": "Medical section does not include height and weight measurements which are essential for BMI calculation and risk assessment"
+      },
+      {
+        "item_description": "Existing policy information",
+        "notes": "No information about existing life insurance policies is provided"
+      },
+      {
+        "item_description": "Specific occupation details",
+        "notes": "Only 'SERVICE' and 'JOB' are mentioned without specific industry or role information"
+      },
+      {
+        "item_description": "Medical records for prior hospitalization",
+        "notes": "Details about the hospitalization for fever 2 years ago should be verified with medical records"
+      },
+      {
+        "item_description": "Family medical history details",
+        "notes": "Family history section indicates family members are alive but does not provide ages or medical conditions"
+      }
+    ],
+    "confidence_score": 0.7
+  }
+}
