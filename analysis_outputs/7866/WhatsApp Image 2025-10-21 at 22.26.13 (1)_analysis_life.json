@@ -1,0 +1,51 @@
+{
+  "source_file": "WhatsApp Image 2025-10-21 at 22.26.13 (1).json",
+  "analysis_timestamp": "2025-11-06T15:00:38.037972",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a basic identification document containing personal information for Hardik Agarwal, a 29-year-old male born on March 27, 1994, with Aadhaar number 592455052947. This is not a salary slip or invoice, but rather an identity verification document that provides basic demographic information relevant for a life insurance application. The Aadhaar number indicates this is likely from India, as Aadhaar is India's biometric ID system. While this document provides essential identity verification, it lacks comprehensive information needed for a complete life insurance underwriting assessment.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited information for risk assessment - document only contains basic identity information without medical history, lifestyle factors, or occupation details",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Age factor - applicant is 29 years old, which is generally a low-risk age category for life insurance, but requires verification with health information",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Request Additional Information**\n\nThe provided document only contains basic identification information for Hardik Agarwal. While this confirms the applicant's identity and age (29 years), it is insufficient for a comprehensive life insurance underwriting decision. \n\nRecommend requesting:\n1. Complete medical history and current health status\n2. Lifestyle information (smoking status, alcohol consumption, exercise habits)\n3. Occupation details and income verification\n4. Family medical history\n5. Desired coverage amount and beneficiary information\n\nThe applicant's age (29) is favorable for life insurance from an age-based risk perspective, but a complete risk assessment requires the additional information listed above.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about applicant's medical conditions, medications, or recent medical examinations"
+      },
+      {
+        "item_description": "Lifestyle factors",
+        "notes": "Missing information on smoking status, alcohol consumption, exercise habits, and other lifestyle risk factors"
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "No information about applicant's occupation, industry, job duties, or income level to assess occupation-based risks and premium payment capacity"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about family history of hereditary conditions or diseases"
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiaries",
+        "notes": "No information about desired coverage amount, policy type, or intended beneficiaries"
+      }
+    ],
+    "confidence_score": 0.6
+  }
+}

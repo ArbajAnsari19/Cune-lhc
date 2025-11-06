@@ -1,0 +1,51 @@
+{
+  "source_file": "WhatsApp Image 2025-10-21 at 22.26.13.json",
+  "analysis_timestamp": "2025-11-06T15:00:57.530140",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document appears to be a Permanent Account Number (PAN) card issued by the Income Tax Department of India for Hardik Agarwal. This is an identification document rather than a salary slip or invoice. The PAN card contains the individual's name, father's name, date of birth, PAN number, and issue date. For life insurance underwriting purposes, this document primarily serves as identity verification. The applicant is Hardik Agarwal, born on March 27, 1994 (currently 29-30 years old), which places him in a relatively low-risk age category for life insurance. The PAN card confirms his identity and provides basic demographic information but does not contain medical history, lifestyle factors, or coverage details needed for a comprehensive life insurance assessment.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited identification document with no health or lifestyle information",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "No financial information to assess premium payment capacity",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Information Required**\n\nThe PAN card provides basic identity verification but is insufficient for life insurance underwriting. The applicant is 29-30 years old, which generally falls into a favorable age category for life insurance. However, I recommend:\n\n1. Request a completed life insurance application with medical history, lifestyle factors, and coverage requirements\n2. Obtain medical records or require a medical examination depending on the coverage amount requested\n3. Request income verification documents (salary slips, tax returns) to assess premium payment capacity and appropriate coverage amount\n4. Collect information about occupation, hobbies, and risk behaviors\n5. Verify beneficiary information and relationship to the applicant\n\nNo underwriting decision can be made with only the identification document provided.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about existing conditions, medications, or family medical history is available"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, dangerous activities, or occupation"
+      },
+      {
+        "item_description": "Coverage amount and beneficiary details",
+        "notes": "No information about requested coverage amount, term length, or beneficiary designation"
+      },
+      {
+        "item_description": "Income verification",
+        "notes": "No salary information or financial details to assess premium payment capacity or appropriate coverage amount"
+      },
+      {
+        "item_description": "Completed life insurance application",
+        "notes": "Standard application with health questionnaire and coverage requirements needed"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

@@ -9,7 +9,7 @@ import json
 import shutil
 import tempfile
 
-from services.extract import process_pdf_async, poll_until_ready, get_latest_json_files
+from services.extract import process_file_async, poll_until_ready, get_latest_json_files
 from services.analyze import (
     get_individual_analysis_prompt,
     get_consolidated_analysis_prompt,
@@ -35,7 +35,7 @@ router = APIRouter()
 @router.get("/")
 async def root():
     return {
-        "message": "PDF Extraction & Analysis API",
+        "message": "File Extraction & Analysis API",
         "version": "2.0.0",
         "endpoints": {
             "extraction": ["/extract"],
@@ -56,15 +56,15 @@ async def health():
     }
 
 @router.post("/extract")
-async def extract_pdfs(
+async def extract_files(
     files: List[UploadFile] = File(...),
     submission_id: Optional[str] = Query(None, description="Submission ID for organizing files in S3")
 ):
     """
-    Extract PDFs to JSON and optionally upload to S3
+    Extract files (PDF, images, Excel, CSV) to JSON and optionally upload to S3
     
     Args:
-        files: List of PDF files to extract
+        files: List of files to extract (PDF, images, Excel, CSV)
         submission_id: Optional submission ID for organizing files in S3
     
     Returns:
@@ -95,18 +95,25 @@ async def extract_pdfs(
                 if os.path.isfile(file_path):
                     os.remove(file_path)
 
+    # Allowed file extensions
+    ALLOWED_EXTENSIONS = {'.pdf', '.jpg', '.jpeg', '.png', '.gif', '.bmp', '.xlsx', '.xls', '.csv'}
+    
     if not files:
         raise HTTPException(
             status_code=400, 
-            detail="No files provided. Upload at least one PDF in the 'files' field."
+            detail="No files provided. Upload at least one file (PDF, images, Excel, CSV) in the 'files' field."
         )
     for f in files:
-        if not f.filename.lower().endswith(".pdf"):
-            raise HTTPException(status_code=400, detail=f"Invalid file type: {f.filename}. Only PDF files are allowed.")
+        file_ext = os.path.splitext(f.filename.lower())[1] if f.filename else ""
+        if file_ext not in ALLOWED_EXTENSIONS:
+            raise HTTPException(
+                status_code=400, 
+                detail=f"Invalid file type: {f.filename}. Allowed types: PDF, images (JPG, PNG, GIF, BMP), Excel (XLSX, XLS), CSV."
+            )
     temp_dir = tempfile.mkdtemp()
     try:
-        # Pass submission_id to process_pdf_async for S3 upload
-        tasks = [process_pdf_async(f, NANONETS_API_KEY, temp_dir, submission_id, upload_to_s3=True) for f in files]
+        # Pass submission_id to process_file_async for S3 upload
+        tasks = [process_file_async(f, NANONETS_API_KEY, temp_dir, submission_id, upload_to_s3=True) for f in files]
         results = await asyncio.gather(*tasks)
 
         response_data = {
@@ -194,7 +201,7 @@ async def analyze_documents(
     if not json_files:
         raise HTTPException(
             status_code=404,
-            detail="No JSON files found. Please extract PDFs first."
+            detail="No JSON files found. Please extract files first."
         )
     
     individual_analyses = []
@@ -337,7 +344,7 @@ async def structured_summary(
     if not json_files:
         raise HTTPException(
             status_code=404,
-            detail="No JSON files found in outputs directory. Please extract PDFs first."
+            detail="No JSON files found in outputs directory. Please extract files first."
         )
 
     summaries = []
