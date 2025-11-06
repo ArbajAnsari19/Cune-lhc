@@ -1,0 +1,43 @@
+{
+  "source_file": "_JUL_2022 (1).json",
+  "analysis_timestamp": "2025-11-06T14:11:33.695925",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a salary slip for HARDIK AGARWAL from JM FINANCIAL SERVICES LIMITED for July 2022. The employee holds the position of Assistant Vice President in the Digital Broking department with a gross monthly salary of ₹238,000 and net pay of ₹172,903 after deductions. For life insurance underwriting, this salary slip provides valuable income verification showing strong premium payment capacity with an annual income of approximately ₹2,856,000. The applicant's occupation in financial services (Digital Broking) typically represents standard risk for life insurance. The income level supports a substantial life insurance coverage amount (potentially 5-10x annual income, suggesting coverage capacity of ₹14-28 million). The employment appears stable, though relatively recent (joined March 2022), and the high-level position indicates career progression and professional status.",
+    "identified_risks": [
+      {
+        "risk_description": "Recent employment (joined March 2022) may indicate employment instability if there's a pattern of job-hopping",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Financial services industry (Digital Broking) may involve elevated stress levels affecting long-term health outcomes",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Approve with standard rates** based on the following financial assessment:\n\n- **Premium Payment Capacity**: Excellent - Monthly net income of ₹172,903 demonstrates strong ability to pay life insurance premiums consistently\n- **Coverage Amount Justification**: Annual income of approximately ₹2,856,000 supports coverage of 5-10x annual income (₹14-28 million range)\n- **Occupation Risk**: Standard risk - Financial services position (Assistant Vice President, Digital Broking) typically does not involve physical hazards\n- **Financial Stability**: Strong - High income level and executive position indicate financial stability and responsibility\n- **Income Verification**: Complete - Salary slip provides comprehensive verification of income, employment status, and occupation\n\nRecommend proceeding with underwriting process with no financial concerns. The applicant's income level supports substantial coverage and demonstrates ability to maintain premium payments.",
+    "missing_information": [
+      {
+        "item_description": "Length of employment history",
+        "notes": "While we have the date of joining (March 2022), additional employment verification for previous positions would help establish longer-term employment stability"
+      },
+      {
+        "item_description": "Insurance application details",
+        "notes": "Need to verify the requested coverage amount to ensure it aligns with income level and financial justification"
+      },
+      {
+        "item_description": "Lifestyle and health information",
+        "notes": "No health-related information is available from this document; medical questionnaire and examination results would be needed"
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

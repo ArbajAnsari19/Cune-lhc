@@ -1,0 +1,47 @@
+{
+  "source_file": "_SEP_2022 (1).json",
+  "analysis_timestamp": "2025-11-06T14:11:54.468935",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a salary slip for HARDIK AGARWAL from JM FINANCIAL SERVICES LIMITED for September 2022. The employee holds the position of Assistant Vice President in the Digital Broking department and joined the company on March 7, 2022. The salary slip indicates a gross monthly income of ₹238,000 with deductions totaling ₹65,097, resulting in a net pay of ₹172,903. For life insurance underwriting, this document provides valuable income verification showing substantial financial capacity to pay premiums. The high income level (annual gross of approximately ₹2,856,000 or $35,000+) suggests the applicant could support a significant life insurance coverage amount (typically 5-10x annual income). The employment in financial services as an AVP indicates a professional occupation with likely lower mortality risk. The document also confirms stable employment with full attendance (30 days worked) and regular income, which are positive indicators for policy persistence.",
+    "identified_risks": [
+      {
+        "risk_description": "High-income occupation in financial services may involve stress-related health risks",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Relatively new employment (joined March 2022) may indicate some employment stability risk",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Approve with standard rates**\n\nBased on the salary slip analysis, I recommend approving life insurance coverage with standard rates for the following reasons:\n\n1. **Premium Payment Capacity**: The applicant demonstrates excellent financial capacity with a monthly gross income of ₹238,000 (approximately ₹2,856,000 annually), which strongly supports ability to pay premiums consistently.\n\n2. **Coverage Amount Justification**: Based on the 5-10x annual income guideline, the applicant could qualify for coverage between ₹14,280,000-₹28,560,000 (approximately $175,000-$350,000 USD), depending on other financial obligations and needs.\n\n3. **Occupation Risk Assessment**: The position as Assistant Vice President in Digital Broking at a financial services company indicates a professional occupation with standard mortality risk. The financial services industry typically doesn't present elevated physical hazards.\n\n4. **Financial Stability**: The salary slip shows consistent employment with full attendance (30 days worked) and no loss of pay, suggesting good employment stability despite relatively recent joining date (7 months at time of slip).\n\n5. **Income-to-Premium Ratio**: With this income level, premium payments would likely constitute a small percentage of monthly earnings, reducing lapse risk.\n\nRecommend proceeding with standard underwriting, with coverage limits aligned to income level and financial needs assessment.",
+    "missing_information": [
+      {
+        "item_description": "Additional employment verification",
+        "notes": "Given the relatively recent employment start date (March 2022), additional verification of previous employment history would be valuable to establish longer-term income stability."
+      },
+      {
+        "item_description": "Health questionnaire and medical records",
+        "notes": "No health information is available from this document. Standard health assessment documentation is required for complete underwriting."
+      },
+      {
+        "item_description": "Lifestyle questionnaire",
+        "notes": "Information about smoking status, alcohol consumption, and other lifestyle factors that affect mortality risk is needed."
+      },
+      {
+        "item_description": "Financial needs analysis",
+        "notes": "Information about dependents, financial obligations, and coverage needs would help justify appropriate coverage amount."
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

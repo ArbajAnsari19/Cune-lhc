@@ -1,0 +1,47 @@
+{
+  "source_file": "_AUG_2022.json",
+  "analysis_timestamp": "2025-11-06T13:32:24.574644",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document is a salary slip for HARDIK AGARWAL from JM FINANCIAL for August 2022. The employee holds the position of Assistant Vice President in the Digital Broking department, having joined on March 7, 2022. The salary slip shows a gross monthly income of ₹238,000 with deductions totaling ₹65,097, resulting in a net pay of ₹172,903. For life insurance underwriting, this document provides valuable income verification showing substantial earning capacity (annual gross income of approximately ₹2,856,000), confirming the applicant's ability to pay insurance premiums. The position as AVP in financial services indicates a professional occupation with likely low physical hazards but potentially high stress. The income level supports a substantial life insurance coverage amount (typically 5-10x annual income would justify coverage of ₹14-28 million). The document also confirms stable employment, though the relatively recent employment start date (5 months before this pay slip) may warrant verification of employment history.",
+    "identified_risks": [
+      {
+        "risk_description": "Recent employment start date (March 2022) indicates limited tenure at current employer, which could suggest employment instability if previous employment history is not established",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Position in financial services (Digital Broking) may involve high stress levels, which could potentially impact health and mortality risk",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Approve with standard rates** based on the salary verification showing strong premium payment capacity. The applicant's monthly income of ₹238,000 gross (₹172,903 net) demonstrates excellent financial stability and ability to maintain premium payments. Based on the 5-10x annual income guideline, the applicant would qualify for life insurance coverage between ₹14-28 million.\n\nRecommendations:\n- Verify employment history prior to March 2022 to confirm long-term income stability\n- Confirm occupation details and specific job responsibilities to assess any potential occupational hazards in the financial services sector\n- Proceed with standard medical underwriting based on age and coverage amount\n- Consider the applicant's high income level as a positive factor for mortality risk assessment, as higher socioeconomic status typically correlates with better health outcomes and lower mortality",
+    "missing_information": [
+      {
+        "item_description": "Previous employment history",
+        "notes": "The salary slip shows employment beginning March 2022, which is relatively recent. Previous employment records would help establish long-term income stability."
+      },
+      {
+        "item_description": "Specific job responsibilities",
+        "notes": "While the designation (Assistant Vice President) and department (Digital Broking) are provided, more details about specific job duties would help assess occupational risk factors."
+      },
+      {
+        "item_description": "Additional financial documents",
+        "notes": "Tax returns or bank statements would provide a more comprehensive view of the applicant's financial situation and verify consistent income."
+      },
+      {
+        "item_description": "Requested coverage amount",
+        "notes": "The actual life insurance coverage amount being requested is not provided, making it difficult to assess if it aligns appropriately with income level."
+      }
+    ],
+    "confidence_score": 0.85
+  }
+}

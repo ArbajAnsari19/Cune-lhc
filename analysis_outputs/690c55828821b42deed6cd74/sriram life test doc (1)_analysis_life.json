@@ -1,0 +1,84 @@
+{
+  "source_file": "sriram life test doc (1).json",
+  "analysis_timestamp": "2025-11-06T14:12:15.554629",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be a life insurance application form for Hardil Agarwal, a 31-year-old Indian male. The applicant is employed in a service job with an annual income of Rs. 3,000,000. He has a post-graduate education and resides in Ghaziabad, U.P. The form includes personal details such as date of birth (27-03-1994), PAN card number (BKPPA2104H), and Aadhaar number (321478946278). The medical history section indicates the applicant is in good health, though he was hospitalized for fever approximately 2 years ago for a one-week period. Family history shows that parents, brothers, and sisters are all alive. The document is signed by Hardik Agarwal (possibly the same person with a slight name variation) in Ghaziabad.",
+    "identified_risks": [
+      {
+        "risk_description": "Hospitalization history for fever 2 years ago",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Possible name discrepancy between life assured name (Hardil) and declarant signature name (Hardik)",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Incomplete medical information - height and weight not provided",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_description": "Name inconsistency",
+        "details": "The life assured name is listed as 'HARDIL AGARWAL' while the declarant signature name is 'Hardik Agarwal'",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Missing plan details",
+        "details": "The application includes personal information but lacks critical insurance plan details such as policy term, premium paying term, sum proposed, and installment premium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "discrepancy_description": "Missing nominee information",
+        "details": "No nominee details are provided despite this being a life insurance application",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "medical_timeline": "**Medical Timeline:**\n\n* Approximately 2 years prior to application: Hospitalized for fever for 1 week\n* Current status: Applicant reports being in good health\n* No reported history of heart dysfunction, kidney dysfunction, high blood pressure, diabetes, cancer, liver dysfunction, or blood abnormalities",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Recommendation: Request Additional Information**\n\n1. **Clarify name discrepancy** between Hardil and Hardik Agarwal to confirm identity\n2. **Request complete medical information** including:\n   - Height and weight measurements\n   - More details about the hospitalization for fever (diagnosis, treatment, follow-up care)\n   - Medical records or attending physician's statement if available\n3. **Obtain missing plan details** including policy term, premium paying term, sum proposed, and installment premium\n4. **Request nominee information** which is essential for a life insurance policy\n5. **Verify employment details** including employer name and nature of duties for occupation risk assessment\n\nThe applicant appears to be a good candidate for life insurance based on age (31), income level (Rs. 3,000,000 annually), education (post-graduate), and reported good health with only minor medical history. However, the application is incomplete and requires additional information before a final underwriting decision can be made.",
+    "missing_information": [
+      {
+        "item_description": "Height and weight measurements",
+        "notes": "Required for BMI calculation and health risk assessment"
+      },
+      {
+        "item_description": "Complete plan details",
+        "notes": "Policy term, premium paying term, sum proposed, and installment premium are missing"
+      },
+      {
+        "item_description": "Nominee information",
+        "notes": "No nominee details provided for the life insurance policy"
+      },
+      {
+        "item_description": "Employer name and detailed nature of duties",
+        "notes": "Required for complete occupation risk assessment"
+      },
+      {
+        "item_description": "Medical examination results",
+        "notes": "Standard medical examination results should be provided for age and coverage amount"
+      },
+      {
+        "item_description": "Details about hospitalization",
+        "notes": "More specific information about the fever diagnosis, treatment, and any complications"
+      }
+    ],
+    "confidence_score": 0.7
+  }
+}

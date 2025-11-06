@@ -1,0 +1,51 @@
+{
+  "source_file": "WhatsApp Image 2025-10-21 at 22.26.13.json",
+  "analysis_timestamp": "2025-11-06T13:32:06.012253",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "The document appears to be a Permanent Account Number (PAN) card issued by the Income Tax Department of India for Hardik Agarwal. This is an identification document rather than a salary slip or invoice. The PAN card contains basic personal information including the individual's name, father's name, date of birth, PAN number, and issue date. For life insurance underwriting purposes, this document serves primarily as identity verification. The applicant is Hardik Agarwal, born on March 27, 1994 (currently 29-30 years old), which places him in a relatively low-risk age category for life insurance.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited information for comprehensive risk assessment",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Age of applicant (29-30 years) is generally favorable for life insurance",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Information Required**\n\nWhile the PAN card provides basic identity verification, it is insufficient for comprehensive life insurance underwriting. The document confirms the applicant's identity and age (29-30 years old), which is generally favorable for life insurance risk assessment. However, I recommend:\n\n1. Request medical history and current health status information\n2. Obtain details about occupation, income, and lifestyle factors\n3. Verify coverage amount requested and beneficiary information\n4. Request information about any existing insurance policies\n5. Consider standard age-appropriate medical examinations\n\nThe application cannot proceed to final underwriting decision without this additional information.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about applicant's medical conditions, medications, or health status is provided"
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "No information about applicant's occupation, income level, or employment status is available"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, dangerous activities, or other lifestyle factors"
+      },
+      {
+        "item_description": "Coverage amount and beneficiary information",
+        "notes": "No details about requested coverage amount, term length, or beneficiary designations"
+      },
+      {
+        "item_description": "Family medical history",
+        "notes": "No information about family medical history that might indicate hereditary conditions"
+      }
+    ],
+    "confidence_score": 0.7
+  }
+}

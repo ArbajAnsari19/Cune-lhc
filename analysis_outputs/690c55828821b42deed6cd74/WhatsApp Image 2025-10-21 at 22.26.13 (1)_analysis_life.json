@@ -1,0 +1,51 @@
+{
+  "source_file": "WhatsApp Image 2025-10-21 at 22.26.13 (1).json",
+  "analysis_timestamp": "2025-11-06T13:31:52.408098",
+  "insurance_type": "life",
+  "analysis": {
+    "overall_summary": "This document appears to be an identification document containing basic personal information for Hardik Agarwal, a 29-year-old male born on March 27, 1994, with Aadhaar number 592455052947. This is not a salary slip or invoice but rather an identity verification document that would typically be part of a life insurance application process. The Aadhaar card is India's biometric ID system that serves as proof of identity and residence. While this document provides basic demographic information useful for life insurance underwriting, it lacks medical history, lifestyle factors, occupation details, and financial information necessary for a comprehensive risk assessment.",
+    "identified_risks": [
+      {
+        "risk_description": "Limited demographic information with no medical or lifestyle data",
+        "severity": "Medium",
+        "page_references": [
+          "N/A"
+        ]
+      },
+      {
+        "risk_description": "Age of applicant (29 years) - generally low mortality risk but requires verification of other risk factors",
+        "severity": "Low",
+        "page_references": [
+          "N/A"
+        ]
+      }
+    ],
+    "discrepancies": [],
+    "medical_timeline": "N/A",
+    "property_assessment": "N/A",
+    "final_recommendation": "**Additional Information Required**\n\nWhile the identification document confirms the applicant's basic personal details (name, age, gender, and Aadhaar number), this information alone is insufficient for life insurance underwriting. \n\nRecommend:\n1. Obtain a completed health questionnaire and medical examination results\n2. Request income verification documents to assess premium payment capacity and appropriate coverage amount\n3. Collect occupation details to evaluate occupation-based risks\n4. Gather information on lifestyle factors (smoking, alcohol consumption, exercise habits)\n5. Request details about desired coverage amount and beneficiary information\n\nThe application cannot proceed until these critical elements are provided for proper risk assessment.",
+    "missing_information": [
+      {
+        "item_description": "Medical history and current health status",
+        "notes": "No information about pre-existing conditions, medications, or family medical history is provided"
+      },
+      {
+        "item_description": "Occupation and income details",
+        "notes": "Employment information, occupation type, and income verification are needed to assess occupation-based risks and premium payment capacity"
+      },
+      {
+        "item_description": "Lifestyle factors and risk behaviors",
+        "notes": "No information about smoking status, alcohol consumption, exercise habits, or high-risk activities"
+      },
+      {
+        "item_description": "Requested coverage amount and beneficiaries",
+        "notes": "Details about desired death benefit amount and intended beneficiaries are needed to assess coverage appropriateness"
+      },
+      {
+        "item_description": "Contact information",
+        "notes": "No address, phone number, or email provided for communication purposes"
+      }
+    ],
+    "confidence_score": 0.6
+  }
+}
